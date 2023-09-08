@@ -1,0 +1,1 @@
+import{S as e}from"./Store.f60cdf9c.js";import{_ as r}from"./index.53a73aea.js";import{r as t,o as s,k as n}from"./vendor.61f7b769.js";const a={name:"Show",components:{Store:e}};function c(p,m,_,f,i,d){const o=t("store");return s(),n(o)}var $=r(a,[["render",c]]);export{$ as default};

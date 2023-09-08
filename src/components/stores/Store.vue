@@ -1,0 +1,90 @@
+<template>
+  <div v-if="item.name" class="container-fluid">
+    <div class="store-header text-center" :style="{ backgroundImage: 'url(\'' + item.cover.path + '\')' }">
+
+    </div>
+  </div>
+  <div style="border-bottom: 0.1rem solid rgba(235, 235, 235, 0.55)">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col"></div>
+        <div class="col">
+          <div class="store-title">
+            <div style="margin-bottom: 0">
+              <img alt="logo" class="store-icon" :src="item.icon.path"/>
+              <div style="display: inline-block">
+                <h3 style="margin-bottom: 0;text-align: left">
+                  {{ item.name }}
+                </h3>
+                <span>{{ item.slogan }}</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col"></div>
+      </div>
+    </div><!-- End .container-fluid -->
+  </div>
+</template>
+
+<script setup>
+  import {useStore} from "vuex";
+  import {computed} from "vue";
+  import {useRoute} from "vue-router";
+
+  await useStore().dispatch('fetchStore', useRoute().params.store);
+
+  const item = computed(() => useStore().getters.store);
+</script>
+
+<style scoped>
+  .store-title span {
+    font-weight: normal;
+    display: inline-block;
+    font-size: 1.6rem;
+    text-align: left;
+  }
+  .store-title {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  .store-header {
+    height: 140px;
+    position: relative;
+    background-size: cover;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  .store-header:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  .store-header:after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(127, 127, 127, 0.1) radial-gradient(#333333 11%, transparent 11%);
+    background-size: 3px 3px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  .store-icon {
+    width: 64px;
+    height: 64px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px;
+  }
+</style>

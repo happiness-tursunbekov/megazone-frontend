@@ -1,0 +1,1 @@
+import{z as o,K as s,o as r,c as n,t as p}from"./vendor.61f7b769.js";import{_ as c,u as i}from"./index.53a73aea.js";const u=o({name:"Show",async setup(t,e){const{data:a}=await i().get("http://127.0.0.1:8000/api/test",{params:{id:s().params.id}});return{product:a}}});function d(t,e,a,m,f,_){return r(),n("div",null,p(t.product.id),1)}var x=c(u,[["render",d]]);export{x as default};

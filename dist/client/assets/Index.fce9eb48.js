@@ -1,0 +1,1 @@
+import{_ as e}from"./index.53a73aea.js";import{o,c as r}from"./vendor.61f7b769.js";const t={name:"Index"};function n(a,c,s,p,_,f){return o(),r("h1",null,"categories")}var i=e(t,[["render",n]]);export{i as default};
