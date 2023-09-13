@@ -66,6 +66,7 @@ import {reactive} from "vue";
 import AddressSelect from "../../components/partials/AddressSelect.vue";
 import FileSelect from "../../components/partials/FileSelect.vue";
 import {useRouter} from "vue-router";
+import {useStore} from "vuex";
 
 const lang = useLang()
 
@@ -116,6 +117,7 @@ axios.get(urls.storeCreate)
 const save = () => {
   axios.post(urls.stores, form)
       .then(res => {
+        useStore().dispatch('setStore', res.data)
         snotify.success(lang.app.createSuccessMsg)
         return router.push({
           name: 'stores.show',

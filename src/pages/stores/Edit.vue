@@ -52,7 +52,7 @@
       </div>
       <div class="mb-2">
         <button type="submit" class="btn btn-primary">{{ lang.app.save }}</button>
-        <router-link :to="{ name: 'stores.index' }" class="btn btn-light">{{ lang.app.cancel }}</router-link>
+        <router-link :to="{ name: 'stores.show', params: { store: item.slug } }" class="btn btn-light">{{ lang.app.cancel }}</router-link>
       </div>
     </form>
   </div>
