@@ -1,5 +1,5 @@
 export default {
-    home: "home",
+    home: "Home",
     stores: "Stores",
     categories: "Categories",
     selectASize: "Select size",
@@ -75,4 +75,8 @@ export default {
     addGroup: "Add Group",
     addingField: "Adding a field",
     addingGroup: "Adding a group",
+    allCategories: "All categories",
+    signOut: "Sign out",
+    editingStore: "Editing the store",
+    editStore: "Edit store"
 }

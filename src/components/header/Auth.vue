@@ -109,7 +109,7 @@
     </div>
     <div v-else>
       {{ user.name }}
-      <a href="#" @click.prevent="signOut">Выйти</a>
+      <a href="#" @click.prevent="signOut">{{ $lang.app.signOut }}</a>
     </div>
   </li>
 </template>

@@ -1,7 +1,7 @@
 <template>
   <div class="dropdown category-dropdown" data-visible="true">
     <a href="javascript:void(0)" class="dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" data-display="static" title="Browse Categories">
-      Категории
+      {{ lang.app.categories }}
     </a>
 
     <div class="dropdown-menu" :class="{ 'show': $route.name === 'home' }">
@@ -47,9 +47,11 @@
 
 <script setup>
 import { useStore } from "vuex"
+import {useLang} from "../../plugins/globals";
     const store = useStore();
     await store.dispatch('fetchCategoriesTree')
     const categoriesTree = store.getters.categoriesTree
+    const lang = useLang()
 </script>
 
 <style scoped>

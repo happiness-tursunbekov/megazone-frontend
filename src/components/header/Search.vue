@@ -5,7 +5,7 @@
       <div class="header-search-wrapper search-wrapper-wide">
         <div class="select-custom">
           <select id="cat">
-            <option value="">Все категории</option>
+            <option value="">{{ lang.app.allCategories }}</option>
             <option v-for="category in categoriesTree" :key="category.id" :value="category.id">{{ category.name }}</option>
           </select>
         </div><!-- End .select-custom -->
@@ -17,20 +17,14 @@
   </div>
 </template>
 
-<script>
+<script setup>
 import {useStore} from "vuex";
+import {useLang} from "../../plugins/globals";
 
-export default {
-  name: "Search",
-  async setup() {
-    const store = useStore();
-    await store.dispatch('fetchCategoriesTree')
-    const categoriesTree = store.getters.categoriesTree
-    return {
-      categoriesTree
-    };
-  }
-}
+const store = useStore();
+await store.dispatch('fetchCategoriesTree')
+const categoriesTree = store.getters.categoriesTree
+const lang = useLang()
 </script>
 
 <style scoped>

@@ -7,7 +7,11 @@
   <div style="border-bottom: 0.1rem solid rgba(235, 235, 235, 0.55)">
     <div class="container-fluid">
       <div class="row">
-        <div class="col"></div>
+        <div class="col">
+          <div class="social-icons social-icons-colored justify-content-start" style="height:100%; vertical-align: middle">
+            <router-link :to="{ name: 'stores.edit', params: { store: item.slug } }" class="social-icon" :title="lang.app.edit"><i class="icon-edit"></i></router-link>
+          </div>
+        </div>
         <div class="col">
           <div class="store-title">
             <div style="margin-bottom: 0">
@@ -21,7 +25,15 @@
             </div>
           </div>
         </div>
-        <div class="col"></div>
+        <div class="col">
+          <div class="social-icons social-icons-colored justify-content-end" style="height:100%; vertical-align: middle">
+            <a href="#" class="social-icon social-facebook" title="Facebook" target="_blank"><i class="icon-facebook-f"></i></a>
+            <a href="#" class="social-icon social-twitter" title="Twitter" target="_blank"><i class="icon-twitter"></i></a>
+            <a href="#" class="social-icon social-instagram" title="Instagram" target="_blank"><i class="icon-instagram"></i></a>
+            <a href="#" class="social-icon social-youtube" title="Youtube" target="_blank"><i class="icon-youtube"></i></a>
+            <a href="#" class="social-icon social-pinterest" title="Pinterest" target="_blank"><i class="icon-pinterest"></i></a>
+          </div>
+        </div>
       </div>
     </div><!-- End .container-fluid -->
   </div>
@@ -31,10 +43,13 @@
   import {useStore} from "vuex";
   import {computed} from "vue";
   import {useRoute} from "vue-router";
+  import {useLang} from "../../plugins/globals";
 
   await useStore().dispatch('fetchStore', useRoute().params.store);
 
   const item = computed(() => useStore().getters.store);
+
+  const lang = useLang()
 </script>
 
 <style scoped>

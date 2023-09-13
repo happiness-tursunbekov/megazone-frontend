@@ -15,5 +15,6 @@ export default {
     storeSettingsCategoriesEdit: 'api/stores/:storeId/settings/categories/:categoryId/edit',
     storeSettingsCategoriesFields: 'api/stores/:storeId/settings/categories/:categoryId/fields',
     fields: 'api/fields',
-    storeCreate: 'api/stores/create'
+    storeCreate: 'api/stores/create',
+    storeEdit: 'api/stores/:storeId/edit'
 }

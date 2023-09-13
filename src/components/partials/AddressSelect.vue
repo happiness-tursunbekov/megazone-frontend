@@ -56,6 +56,11 @@ export default {
   async created() {
     if (!import.meta.env.SSR) {
       const L = await import('leaflet')
+
+      this.form.lat = this.lat || null
+      this.form.lng = this.lng || null
+      this.form.fullPath = this.fullPath || ''
+
       this.map = L.map('map', {
         center: [41, 75],
         zoom: 6
@@ -68,7 +73,12 @@ export default {
 
       L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(this.map)
 
-      if (navigator.geolocation) {
+      if (this.lat && this.lng) {
+        this.map.setView([this.lat, this.lng], 12);
+        this.setMarker(this.lat, this.lng)
+      }
+
+      else if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(position => {
           const latit = position.coords.latitude;
           const longit = position.coords.longitude;
@@ -101,9 +111,10 @@ export default {
         this.marker.setLatLng([lat, lng])
       }
 
-      this.axios.get(`https://nominatim.openstreetmap.org/reverse?format=json&lat=${lat}&lon=${lng}&zoom=18&addressdetails=1&accept-language=ru`)
+      this.axios.get(`https://nominatim.openstreetmap.org/reverse?format=json&lat=${lat}&lon=${lng}&zoom=18&addressdetails=1&accept-language=${this.$lang.$current}`)
           .then(res => {
-            this.form.fullPath = res.data.display_name.replace('Киргизия', 'Кыргызстан').split(', ').reverse().filter(str => !(/^72\d+$/).test(str)).join(', ')
+            // this.form.fullPath = res.data.display_name.replace('Киргизия', 'Кыргызстан').split(', ').reverse().filter(str => !(/^72\d+$/).test(str)).join(', ')
+            this.form.fullPath = res.data.display_name
           })
     }
   }

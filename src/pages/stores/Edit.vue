@@ -1,5 +1,6 @@
 <template>
-  <headings :title="lang.app.addingStore" :breadcrumbs="breadcrumbs"/>
+  <store/>
+  <headings :title="lang.app.editingStore" :breadcrumbs="breadcrumbs"/>
   <div class="container">
     <form @submit.prevent="save">
       <div class="row">
@@ -12,7 +13,7 @@
             <label class="form-label">{{ lang.app.slug }} <span class="required">*</span></label>
             <div class="input-group">
               <div class="input-group-prepend">
-                <button class="btn btn-light" disabled>www.megazone.kg/</button>
+                <button class="btn btn-light" disabled>www.megazone.store/</button>
               </div>
               <input v-model="form.slug" type="text" class="form-control" pattern="^[a-zA-Z0-9_\.\-]*$" required>
             </div>
@@ -65,38 +66,35 @@ import {useAxios} from "../../plugins/vue-axios";
 import {reactive} from "vue";
 import AddressSelect from "../../components/partials/AddressSelect.vue";
 import FileSelect from "../../components/partials/FileSelect.vue";
-import {useRouter} from "vue-router";
+import {useRoute, useRouter} from "vue-router";
+import Store from "../../components/stores/Store.vue";
+import {useStore} from "vuex";
 
 const lang = useLang()
 
 const axios = useAxios()
 
-const urls = useUrls();
+const urls = useUrls()
 
-const router = useRouter();
+const router = useRouter()
+
+const route = useRoute()
 
 const snotify = useSnotify();
 
 const options = reactive({
-  types: []
+  types: [],
+  item: {}
 })
 
-const form = reactive({
-  name: '',
-  slug: '',
-  slogan: '',
-  storeTypeIds: [],
-  icon: '',
-  cover: '',
-  address: {
-    lat: null,
-    lng: null,
-    fullPath: ''
-  },
-  about: ''
-})
+const store = useStore()
 
-const breadcrumbs = [
+if (store.getters.store.slug !== route.params.store)
+    await store.dispatch('fetchStore', route.params.store);
+
+const item = store.getters.store
+
+let breadcrumbs = [
   {
     label: lang.app.stores,
     route: {
@@ -104,18 +102,43 @@ const breadcrumbs = [
     }
   },
   {
-    label: lang.app.addStore
+    label: item.name,
+    route: {
+      name: 'stores.show',
+      params: {
+        storeId: item.id
+      }
+    }
+  },
+  {
+    label: lang.app.editStore
   }
-]
+];
 
-axios.get(urls.storeCreate)
-.then(res => {
-  options.types = res.data.types
+const form = reactive({
+  name: item.name,
+  slug: item.slug || '',
+  slogan: item.slogan,
+  storeTypeIds: item.storeTypes ? item.storeTypes.map(type => type.id) : [],
+  icon: '',
+  cover: '',
+  address: {
+    lat: item.address ? item.address.lat : null,
+    lng: item.address ? item.address.lng : null,
+    fullPath: item.address ? item.address.fullPath : ''
+  },
+  about: item.about
 })
 
+await axios.get(urls.storeCreate)
+    .then(res => {
+      options.types = res.data.types
+    })
+
 const save = () => {
-  axios.post(urls.stores, form)
+  axios.put(urls.storeShow.replace(':slug', item.id), form)
       .then(res => {
+        store.dispatch('setStore', res.data)
         snotify.success(lang.app.createSuccessMsg)
         return router.push({
           name: 'stores.show',

@@ -76,6 +76,12 @@ export function createStore() {
                     return {}
                 }
             },
+
+            setStore({ commit, state }, data) {
+                commit('SET_STORE', data)
+                return data
+            },
+
             showAuthModal({ commit }) {
                 commit('SET_AUTH_MODAL', true)
             },

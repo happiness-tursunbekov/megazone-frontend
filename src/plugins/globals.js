@@ -3,6 +3,7 @@ import config from "~/config"
 import urls from "~/urls"
 import ru from "~/locales/ru"
 import en from "~/locales/en"
+import {useAxios} from "./vue-axios";
 
 const locales = {
     ru,
@@ -21,6 +22,7 @@ export default {
             $setLang(locale) {
                 this.$current = locale;
                 app.config.globalProperties.$cookie.setItem('lang', locale, Infinity, '/')
+                useAxios().setLocalization(locale)
                 location.reload()
             },
             app: {},

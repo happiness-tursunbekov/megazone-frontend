@@ -49,6 +49,11 @@ export function createRouter() {
         component: () => import('../pages/stores/Show.vue')
       },
       {
+        path: '/:store/edit',
+        name: 'stores.edit',
+        component: () => import('../pages/stores/Edit.vue')
+      },
+      {
         path: '/:store/categories/:id',
         name: 'stores.categories.show',
         component: () => import('../pages/stores/categories/Show.vue')

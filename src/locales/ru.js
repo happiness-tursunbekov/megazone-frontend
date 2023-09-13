@@ -75,4 +75,6 @@ export default {
     addGroup: "Добавить группу",
     addingField: "Добавление поля",
     addingGroup: "Добавление группы",
+    allCategories: "Все категории",
+    signOut: "Выйти"
 }

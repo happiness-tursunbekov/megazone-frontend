@@ -1,6 +1,6 @@
 <template>
   <li>
-    <router-link :to="{ name: 'stores.index' }" class="sf-with-ul">Магазины</router-link>
+    <router-link :to="{ name: 'stores.index' }" class="sf-with-ul">{{ lang.app.stores }}</router-link>
 
     <div class="megamenu megamenu-md">
       <div class="row no-gutters">
@@ -59,10 +59,10 @@
   </li>
 </template>
 
-<script>
-export default {
-  name: "Stores"
-}
+<script setup>
+import {useLang} from "../../../plugins/globals";
+
+const lang = useLang()
 </script>
 
 <style scoped>

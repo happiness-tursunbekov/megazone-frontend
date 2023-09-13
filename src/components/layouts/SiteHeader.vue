@@ -53,7 +53,7 @@
           </button>
 
           <router-link :to="{ name: 'home' }" class="logo">
-            <img src="../../assets/images/demos/demo-13/logo.png" alt="Molla Logo" width="105" height="25">
+            <img src="../../assets/images/logo.png" alt="Megazone Logo">
           </router-link>
         </div><!-- End .header-left -->
 
@@ -87,7 +87,7 @@
             <nav class="main-nav">
               <ul class="menu sf-arrows">
                 <li class="active">
-                  <router-link :to="{ name: 'home' }" class="sf-with">Главная</router-link>
+                  <router-link :to="{ name: 'home' }" class="sf-with">{{ lang.app.home }}</router-link>
                 </li>
                 <stores/>
               </ul><!-- End .menu -->

@@ -1,4 +1,5 @@
 import axios from "axios"
+import {useLang} from "./globals";
 
 let axiosInstance = null;
 
@@ -35,6 +36,7 @@ export default {
 
         app.config.globalProperties.axios = axios
         axiosInstance = axios
+        axiosInstance.defaults.headers.common['Localization'] = useLang().$current
     }
 }
 
@@ -84,6 +86,9 @@ export function useAxios() {
         },
         setToken(token) {
             axiosInstance.defaults.headers.common['Authorization'] = `Bearer ${token}`
+        },
+        setLocalization(lang) {
+            axiosInstance.defaults.headers.common['Localization'] = lang
         }
     }
 }
