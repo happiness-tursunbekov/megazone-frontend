@@ -10,6 +10,8 @@
         <div class="col">
           <div class="social-icons social-icons-colored justify-content-start" style="height:100%; vertical-align: middle">
             <router-link :to="{ name: 'stores.edit', params: { store: item.slug } }" class="social-icon" :title="lang.app.edit"><i class="icon-edit"></i></router-link>
+            <router-link :to="{ name: 'stores.edit', params: { store: item.slug } }" class="btn btn-outline-success" :title="lang.app.addProduct"><i class="icon-plus"></i>
+              {{ lang.app.addProduct }}</router-link>
           </div>
         </div>
         <div class="col">

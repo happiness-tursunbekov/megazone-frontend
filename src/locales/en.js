@@ -78,5 +78,7 @@ export default {
     allCategories: "All categories",
     signOut: "Sign out",
     editingStore: "Editing the store",
-    editStore: "Edit store"
+    editStore: "Edit store",
+    addProduct: "Add Product",
+    myStore: "My Store"
 }

@@ -31,7 +31,7 @@ export function createStore() {
         },
         actions: {
             setUser({ commit }, value) {
-                commit('setUser', value);
+                commit('setUser', value.user);
                 if (value.token)
                     useAxios().setToken(value.token)
             },

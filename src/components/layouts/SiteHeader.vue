@@ -13,7 +13,19 @@
               <a href="#">Links</a>
               <ul class="top-menu-ul">
                 <li>
-                    <router-link :to="{ name: 'stores.create' }"><i class="la la-plus"></i>{{ $lang.app.addStore }}</router-link>
+                  <div class="header-dropdown">
+                    <a href="#">{{ lang.app.myStore }}</a>
+                    <div class="header-menu">
+                      <ul class="top-menu-ul">
+                        <li v-for="item in user.stores" :key="item.id">
+                          <router-link :to="{ name: 'stores.show', params: { store: item.slug } }"><i class="icon icon-shopping-cart"></i> {{ item.name }}</router-link>
+                        </li>
+                        <li>
+                          <router-link :to="{ name: 'stores.create' }"><i class="la la-plus"></i>{{ $lang.app.addStore }}</router-link>
+                        </li>
+                      </ul>
+                    </div><!-- End .header-menu -->
+                  </div><!-- End .header-dropdown -->
                 </li>
                 <li>
                   <div class="header-dropdown">
@@ -105,6 +117,7 @@
 <script setup>
 import { defineAsyncComponent } from "vue";
 import {useLang} from "../../plugins/globals";
+import {useStore} from "vuex";
 
 const CategoriesMenu = defineAsyncComponent(() => import('../header/CategoriesMenu.vue'))
 const Search = defineAsyncComponent(() => import('../header/Search.vue'))
@@ -112,6 +125,8 @@ const Cart = defineAsyncComponent(() => import('../header/Cart.vue'))
 const Compare = defineAsyncComponent(() => import('../header/Compare.vue'))
 const Stores = defineAsyncComponent(() => import('../header/menu/Stores.vue'))
 const Auth = defineAsyncComponent(() => import('../header/Auth.vue'))
+
+const user = useStore().getters.user
 
 const lang = useLang()
 </script>
