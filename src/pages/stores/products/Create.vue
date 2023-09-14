@@ -9,10 +9,7 @@
         <a @click.prevent="formHelper.tab = 0" href="#" :class="{ 'active': formHelper.tab === 0 }" class="nav-link">Images</a>
       </li>
       <li class="nav-item">
-        <a @click.prevent="formHelper.tab >= 1 ? formHelper.tab = 1 : null" href="#" :class="{ 'disabled': formHelper.tab < 1, 'active': formHelper.tab === 1 }" class="nav-link">Category</a>
-      </li>
-      <li class="nav-item">
-        <a @click.prevent="formHelper.tab >= 2 ? formHelper.tab = 2 : null" href="#" :class="{ 'disabled': formHelper.tab < 2, 'active': formHelper.tab === 2 }" class="nav-link">Properties</a>
+        <a @click.prevent="formHelper.tab >= 1 ? formHelper.tab = 1 : null" href="#" :class="{ 'disabled': formHelper.tab < 1, 'active': formHelper.tab === 1 }" class="nav-link">About</a>
       </li>
     </ul>
     <div class="tab-content" id="tab-content-5">
@@ -35,14 +32,19 @@
         </form>
       </div><!-- .End .tab-pane -->
       <div :class="{ 'active show': formHelper.tab === 1 }" class="tab-pane fade">
-        <button @click="formHelper.tab = 0" type="button" class="btn btn-primary">Back</button>
-        <button @click="formHelper.tab = 2" type="button" class="btn btn-success">Next</button>
-        <p>Nobis perspiciatis natus cum, sint dolore earum rerum tempora aspernatur numquam velit tempore omnis, delectus repellat facere voluptatibus nemo non fugiat consequatur repellendus! Enim, commodi, veniam ipsa voluptates quis amet.</p>
-      </div><!-- .End .tab-pane -->
-      <div :class="{ 'active show': formHelper.tab === 2 }" class="tab-pane fade">
-        <button @click="formHelper.tab = 1" type="button" class="btn btn-primary">Back</button>
-        <button type="button" class="btn btn-success">Save</button>
-        <p>Perspiciatis quis nobis, adipisci quae aspernatur, nulla suscipit eum. Dolorum, earum. Consectetur pariatur repellat distinctio atque alias excepturi aspernatur nisi accusamus sed molestias ipsa numquam eius, iusto, aliquid, quis aut.</p>
+        <form>
+          <button @click="formHelper.tab = 0" type="button" class="btn btn-primary">Back</button>
+          <button type="button" class="btn btn-success">Save</button>
+
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group">
+                <label class="form-label">{{ $lang.app.category }}<span class="text-danger">*</span></label>
+                <store-category-select  v-model="form.categoryId"/>
+              </div>
+            </div>
+          </div>
+        </form>
       </div><!-- .End .tab-pane -->
     </div><!-- End .tab-content -->
 
@@ -56,6 +58,8 @@ import {useStore} from "vuex";
 import ImageEditor from "../../../components/partials/ImageEditor.vue";
 import ImageEditorModal from "../../../components/partials/ImageEditorModal.vue";
 import {reactive} from "vue";
+import StoreCategorySelect from "../../../components/partials/store-category-select/StoreCategorySelect.vue";
+import CategorySelect from "../../../components/partials/category-select/CategorySelect.vue";
 
 const lang = useLang()
 
@@ -92,7 +96,8 @@ const form = reactive({
 
 const formHelper = reactive({
   currentImageIndex: null,
-  tab: 0
+  tab: 0,
+  categoryId: null
 })
 const uploadFile = e => {
   const len = form.images.length

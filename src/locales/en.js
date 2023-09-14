@@ -80,5 +80,7 @@ export default {
     editingStore: "Editing the store",
     editStore: "Edit store",
     addProduct: "Add Product",
-    myStore: "My Store"
+    myStore: "My Store",
+    addon: "Addon",
+    fieldWarning: "Don't forget to click 'Save' button before close this modal, otherwise changes will not be saved"
 }

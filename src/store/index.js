@@ -10,7 +10,8 @@ export function createStore() {
                 user: {},
                 categoriesTree: [],
                 store: {
-                    slug: ''
+                    slug: '',
+                    categories: []
                 },
                 authModal: false
             };
