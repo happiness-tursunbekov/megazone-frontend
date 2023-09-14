@@ -1,5 +1,4 @@
 <template>
-  <store/>
   <headings
       :breadcrumbs="breadcrumbs"
       is-store
@@ -16,7 +15,6 @@
 </template>
 
 <script setup>
-import Store from "../../../../components/stores/Store.vue";
 import Headings from "../../../../components/header/Headings.vue";
 import {useLang} from "../../../../plugins/globals";
 import {useStore} from "vuex";

@@ -1,5 +1,4 @@
 <template>
-  <store/>
   <div class="mb-3"></div>
   <div class="container-fluid">
     <div class="row">
@@ -52,9 +51,8 @@ import {useAxios} from "../../plugins/vue-axios";
 import {useRoute} from "vue-router";
 import LargeCarousel from "../../components/partials/LargeCarousel.vue";
 import {setTitle, useUrls} from "../../plugins/globals";
-import Store from "../../components/stores/Store.vue";
 import {useStore} from "vuex";
-import {computed, reactive} from "vue";
+import {reactive} from "vue";
 import StoreCategories from "../../components/stores/StoreCategories.vue";
 import Color from "../../components/partials/filter/Color.vue";
 import CustomerRating from "../../components/partials/filter/CustomerRating.vue";

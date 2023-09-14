@@ -1,5 +1,4 @@
 <template>
-  <store/>
   <headings :title="lang.app.editingStore" :breadcrumbs="breadcrumbs"/>
   <div class="container">
     <form @submit.prevent="save">
@@ -67,7 +66,6 @@ import {reactive} from "vue";
 import AddressSelect from "../../components/partials/AddressSelect.vue";
 import FileSelect from "../../components/partials/FileSelect.vue";
 import {useRoute, useRouter} from "vue-router";
-import Store from "../../components/stores/Store.vue";
 import {useStore} from "vuex";
 
 const lang = useLang()
@@ -88,9 +86,6 @@ const options = reactive({
 })
 
 const store = useStore()
-
-if (store.getters.store.slug !== route.params.store)
-    await store.dispatch('fetchStore', route.params.store);
 
 const item = store.getters.store
 

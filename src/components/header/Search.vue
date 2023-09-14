@@ -6,6 +6,7 @@
         <div class="select-custom">
           <select id="cat">
             <option value="">{{ lang.app.allCategories }}</option>
+            <option value="stores">🛒 {{ lang.app.stores }}</option>
             <option v-for="category in categoriesTree" :key="category.id" :value="category.id">{{ category.name }}</option>
           </select>
         </div><!-- End .select-custom -->

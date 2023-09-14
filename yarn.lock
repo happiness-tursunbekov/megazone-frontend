@@ -295,6 +295,16 @@
     "@jridgewell/resolve-uri" "^3.0.3"
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
+"@pqina/pintura@^8.65.0", "@pqina/pintura@^8.x":
+  "integrity" "sha512-im0oKEJuij/V3Y89k+3paaq116KQTFWZ4VsUUFJ8GatLrQFrMCzWqehyuIM1yWxuyUP17f53YwjIKhacTirWUw=="
+  "resolved" "https://registry.npmjs.org/@pqina/pintura/-/pintura-8.65.0.tgz"
+  "version" "8.65.0"
+
+"@pqina/vue-pintura@^9.0.1":
+  "integrity" "sha512-D8qvMp0DWfjJV07y/FjfdPNOgg/ouFZhI1v7zAUAp4osNMcNfycz79WzOg8KSN50eAqiE1ybIOWZ38SiZClBIQ=="
+  "resolved" "https://registry.npmjs.org/@pqina/vue-pintura/-/vue-pintura-9.0.1.tgz"
+  "version" "9.0.1"
+
 "@rollup/pluginutils@^4.1.2":
   "integrity" "sha512-2WUyJNRkyH5p487pGnn4tWAsxhEFKN/pT8CMgHshd5H+IXkOnKvKZwsz5ZWz+YCXkleZRAU5kwbfgF8CPfDRqA=="
   "resolved" "https://registry.npmjs.org/@rollup/pluginutils/-/pluginutils-4.2.0.tgz"
@@ -1268,7 +1278,7 @@
   "resolved" "https://registry.npmjs.org/vue-zoom-on-hover/-/vue-zoom-on-hover-1.0.6.tgz"
   "version" "1.0.6"
 
-"vue@^3.*", "vue@^3.0.0", "vue@^3.0.0 || ^2.0.0", "vue@^3.0.2", "vue@^3.2.0", "vue@^3.2.13", "vue@^3.2.21", "vue@3.2.31":
+"vue@^3.*", "vue@^3.0.0", "vue@^3.0.0 || ^2.0.0", "vue@^3.0.2", "vue@^3.2.0", "vue@^3.2.13", "vue@^3.2.21", "vue@2.x - 3.x", "vue@3.2.31":
   "integrity" "sha512-odT3W2tcffTiQCy57nOT93INw1auq5lYLLYtWpPYQQYQOOdHiqFct9Xhna6GJ+pJQaF67yZABraH47oywkJgFw=="
   "resolved" "https://registry.npmjs.org/vue/-/vue-3.2.31.tgz"
   "version" "3.2.31"

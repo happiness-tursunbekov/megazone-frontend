@@ -45,39 +45,50 @@ export function createRouter() {
       },
       {
         path: '/:store',
-        name: 'stores.show',
-        component: () => import('../pages/stores/Show.vue')
+        component: () => import('../components/layouts/Store.vue'),
+        children: [
+          {
+            path: '/:store',
+            name: 'stores.show',
+            component: () => import('../pages/stores/Show.vue'),
+          },
+          {
+            path: 'edit',
+            name: 'stores.edit',
+            component: () => import('../pages/stores/Edit.vue')
+          },
+          {
+            path: 'categories/:id',
+            name: 'stores.categories.show',
+            component: () => import('../pages/stores/categories/Show.vue')
+          },
+          {
+            path: 'products/:id',
+            name: 'stores.products.show',
+            component: () => import('../pages/stores/products/Show.vue')
+          },
+          {
+            path: 'products/create',
+            name: 'stores.products.create',
+            component: () => import('../pages/stores/products/Create.vue')
+          },
+          {
+            path: 'settings',
+            name: 'stores.settings.index',
+            component: () => import('../pages/stores/settings/Index.vue')
+          },
+          {
+            path: 'settings/categories/:id',
+            name: 'stores.settings.categories.show',
+            component: () => import('../pages/stores/settings/categories/Show.vue')
+          },
+          {
+            path: 'settings/categories',
+            name: 'stores.settings.categories.index',
+            component: () => import('../pages/stores/settings/categories/Index.vue')
+          }
+        ]
       },
-      {
-        path: '/:store/edit',
-        name: 'stores.edit',
-        component: () => import('../pages/stores/Edit.vue')
-      },
-      {
-        path: '/:store/categories/:id',
-        name: 'stores.categories.show',
-        component: () => import('../pages/stores/categories/Show.vue')
-      },
-      {
-        path: '/:store/products/:id',
-        name: 'stores.products.show',
-        component: () => import('../pages/stores/products/Show.vue')
-      },
-      {
-        path: '/:store/settings',
-        name: 'stores.settings.index',
-        component: () => import('../pages/stores/settings/Index.vue')
-      },
-      {
-        path: '/:store/settings/categories/:id',
-        name: 'stores.settings.categories.show',
-        component: () => import('../pages/stores/settings/categories/Show.vue')
-      },
-      {
-        path: '/:store/settings/categories',
-        name: 'stores.settings.categories.index',
-        component: () => import('../pages/stores/settings/categories/Index.vue')
-      }
     ]
   });
 }
