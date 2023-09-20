@@ -82,5 +82,9 @@ export default {
     addProduct: "Add Product",
     myStore: "My Store",
     addon: "Addon",
-    fieldWarning: "Don't forget to click 'Save' button before close this modal, otherwise changes will not be saved"
+    fieldWarning: "Don't forget to click 'Save' button before close this modal, otherwise changes will not be saved",
+    type: "Type",
+    appearanceOnFiltering: "Appearance on filtering",
+    options: "Options",
+    isRequiredField: "Is required field"
 }

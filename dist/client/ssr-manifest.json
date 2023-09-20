@@ -1,7 +1,8 @@
 {
   "vite/modulepreload-polyfill": [
+    "/assets/logo.d5e5057a.png",
     "/assets/payments.ff17602b.png",
-    "/assets/line-awesome0176.10144157.eot",
+    "/assets/line-awesomeeb4f.10144157.eot",
     "/assets/line-awesomeeb4f.063a9529.woff2",
     "/assets/line-awesomeeb4f.20fe49b8.woff",
     "/assets/line-awesomeeb4f.09929899.ttf",
@@ -14,8 +15,9 @@
     "/assets/molla0ab2.48a618a5.svg"
   ],
   "vite/preload-helper": [
+    "/assets/logo.d5e5057a.png",
     "/assets/payments.ff17602b.png",
-    "/assets/line-awesome0176.10144157.eot",
+    "/assets/line-awesomeeb4f.10144157.eot",
     "/assets/line-awesomeeb4f.063a9529.woff2",
     "/assets/line-awesomeeb4f.20fe49b8.woff",
     "/assets/line-awesomeeb4f.09929899.ttf",
@@ -27,107 +29,10 @@
     "/assets/molla0ab2.119a78c9.ttf",
     "/assets/molla0ab2.48a618a5.svg"
   ],
-  "src/assets/images/demos/demo-13/logo.png": [
+  "src/assets/images/logo.png": [
+    "/assets/logo.d5e5057a.png",
     "/assets/payments.ff17602b.png",
-    "/assets/line-awesome0176.10144157.eot",
-    "/assets/line-awesomeeb4f.063a9529.woff2",
-    "/assets/line-awesomeeb4f.20fe49b8.woff",
-    "/assets/line-awesomeeb4f.09929899.ttf",
-    "/assets/line-awesomeeb4f.5dcd6347.svg",
-    "/assets/elements.00c918fb.png",
-    "/assets/molla0ab2.8f5d5cdd.eot",
-    "/assets/molla0ab2.c16da98b.woff2",
-    "/assets/molla0ab2.cd73d169.woff",
-    "/assets/molla0ab2.119a78c9.ttf",
-    "/assets/molla0ab2.48a618a5.svg"
-  ],
-  "src/components/layouts/SiteHeader.vue": [
-    "/assets/payments.ff17602b.png",
-    "/assets/line-awesome0176.10144157.eot",
-    "/assets/line-awesomeeb4f.063a9529.woff2",
-    "/assets/line-awesomeeb4f.20fe49b8.woff",
-    "/assets/line-awesomeeb4f.09929899.ttf",
-    "/assets/line-awesomeeb4f.5dcd6347.svg",
-    "/assets/elements.00c918fb.png",
-    "/assets/molla0ab2.8f5d5cdd.eot",
-    "/assets/molla0ab2.c16da98b.woff2",
-    "/assets/molla0ab2.cd73d169.woff",
-    "/assets/molla0ab2.119a78c9.ttf",
-    "/assets/molla0ab2.48a618a5.svg"
-  ],
-  "src/assets/images/demos/demo-13/logo-footer.png": [
-    "/assets/payments.ff17602b.png",
-    "/assets/line-awesome0176.10144157.eot",
-    "/assets/line-awesomeeb4f.063a9529.woff2",
-    "/assets/line-awesomeeb4f.20fe49b8.woff",
-    "/assets/line-awesomeeb4f.09929899.ttf",
-    "/assets/line-awesomeeb4f.5dcd6347.svg",
-    "/assets/elements.00c918fb.png",
-    "/assets/molla0ab2.8f5d5cdd.eot",
-    "/assets/molla0ab2.c16da98b.woff2",
-    "/assets/molla0ab2.cd73d169.woff",
-    "/assets/molla0ab2.119a78c9.ttf",
-    "/assets/molla0ab2.48a618a5.svg"
-  ],
-  "src/assets/images/payments.png": [
-    "/assets/payments.ff17602b.png",
-    "/assets/line-awesome0176.10144157.eot",
-    "/assets/line-awesomeeb4f.063a9529.woff2",
-    "/assets/line-awesomeeb4f.20fe49b8.woff",
-    "/assets/line-awesomeeb4f.09929899.ttf",
-    "/assets/line-awesomeeb4f.5dcd6347.svg",
-    "/assets/elements.00c918fb.png",
-    "/assets/molla0ab2.8f5d5cdd.eot",
-    "/assets/molla0ab2.c16da98b.woff2",
-    "/assets/molla0ab2.cd73d169.woff",
-    "/assets/molla0ab2.119a78c9.ttf",
-    "/assets/molla0ab2.48a618a5.svg"
-  ],
-  "plugin-vue:export-helper": [
-    "/assets/payments.ff17602b.png",
-    "/assets/line-awesome0176.10144157.eot",
-    "/assets/line-awesomeeb4f.063a9529.woff2",
-    "/assets/line-awesomeeb4f.20fe49b8.woff",
-    "/assets/line-awesomeeb4f.09929899.ttf",
-    "/assets/line-awesomeeb4f.5dcd6347.svg",
-    "/assets/elements.00c918fb.png",
-    "/assets/molla0ab2.8f5d5cdd.eot",
-    "/assets/molla0ab2.c16da98b.woff2",
-    "/assets/molla0ab2.cd73d169.woff",
-    "/assets/molla0ab2.119a78c9.ttf",
-    "/assets/molla0ab2.48a618a5.svg"
-  ],
-  "src/components/layouts/SiteFooter.vue": [
-    "/assets/payments.ff17602b.png",
-    "/assets/line-awesome0176.10144157.eot",
-    "/assets/line-awesomeeb4f.063a9529.woff2",
-    "/assets/line-awesomeeb4f.20fe49b8.woff",
-    "/assets/line-awesomeeb4f.09929899.ttf",
-    "/assets/line-awesomeeb4f.5dcd6347.svg",
-    "/assets/elements.00c918fb.png",
-    "/assets/molla0ab2.8f5d5cdd.eot",
-    "/assets/molla0ab2.c16da98b.woff2",
-    "/assets/molla0ab2.cd73d169.woff",
-    "/assets/molla0ab2.119a78c9.ttf",
-    "/assets/molla0ab2.48a618a5.svg"
-  ],
-  "src/components/partials/Pace.vue?vue&type=style&index=0&scoped=true&lang.css": [
-    "/assets/payments.ff17602b.png",
-    "/assets/line-awesome0176.10144157.eot",
-    "/assets/line-awesomeeb4f.063a9529.woff2",
-    "/assets/line-awesomeeb4f.20fe49b8.woff",
-    "/assets/line-awesomeeb4f.09929899.ttf",
-    "/assets/line-awesomeeb4f.5dcd6347.svg",
-    "/assets/elements.00c918fb.png",
-    "/assets/molla0ab2.8f5d5cdd.eot",
-    "/assets/molla0ab2.c16da98b.woff2",
-    "/assets/molla0ab2.cd73d169.woff",
-    "/assets/molla0ab2.119a78c9.ttf",
-    "/assets/molla0ab2.48a618a5.svg"
-  ],
-  "src/components/partials/Pace.vue": [
-    "/assets/payments.ff17602b.png",
-    "/assets/line-awesome0176.10144157.eot",
+    "/assets/line-awesomeeb4f.10144157.eot",
     "/assets/line-awesomeeb4f.063a9529.woff2",
     "/assets/line-awesomeeb4f.20fe49b8.woff",
     "/assets/line-awesomeeb4f.09929899.ttf",
@@ -140,8 +45,9 @@
     "/assets/molla0ab2.48a618a5.svg"
   ],
   "src/config.js": [
+    "/assets/logo.d5e5057a.png",
     "/assets/payments.ff17602b.png",
-    "/assets/line-awesome0176.10144157.eot",
+    "/assets/line-awesomeeb4f.10144157.eot",
     "/assets/line-awesomeeb4f.063a9529.woff2",
     "/assets/line-awesomeeb4f.20fe49b8.woff",
     "/assets/line-awesomeeb4f.09929899.ttf",
@@ -154,8 +60,9 @@
     "/assets/molla0ab2.48a618a5.svg"
   ],
   "src/urls.js": [
+    "/assets/logo.d5e5057a.png",
     "/assets/payments.ff17602b.png",
-    "/assets/line-awesome0176.10144157.eot",
+    "/assets/line-awesomeeb4f.10144157.eot",
     "/assets/line-awesomeeb4f.063a9529.woff2",
     "/assets/line-awesomeeb4f.20fe49b8.woff",
     "/assets/line-awesomeeb4f.09929899.ttf",
@@ -168,8 +75,9 @@
     "/assets/molla0ab2.48a618a5.svg"
   ],
   "src/locales/ru.js": [
+    "/assets/logo.d5e5057a.png",
     "/assets/payments.ff17602b.png",
-    "/assets/line-awesome0176.10144157.eot",
+    "/assets/line-awesomeeb4f.10144157.eot",
     "/assets/line-awesomeeb4f.063a9529.woff2",
     "/assets/line-awesomeeb4f.20fe49b8.woff",
     "/assets/line-awesomeeb4f.09929899.ttf",
@@ -181,65 +89,10 @@
     "/assets/molla0ab2.119a78c9.ttf",
     "/assets/molla0ab2.48a618a5.svg"
   ],
-  "src/plugins/globals.js": [
+  "src/locales/en.js": [
+    "/assets/logo.d5e5057a.png",
     "/assets/payments.ff17602b.png",
-    "/assets/line-awesome0176.10144157.eot",
-    "/assets/line-awesomeeb4f.063a9529.woff2",
-    "/assets/line-awesomeeb4f.20fe49b8.woff",
-    "/assets/line-awesomeeb4f.09929899.ttf",
-    "/assets/line-awesomeeb4f.5dcd6347.svg",
-    "/assets/elements.00c918fb.png",
-    "/assets/molla0ab2.8f5d5cdd.eot",
-    "/assets/molla0ab2.c16da98b.woff2",
-    "/assets/molla0ab2.cd73d169.woff",
-    "/assets/molla0ab2.119a78c9.ttf",
-    "/assets/molla0ab2.48a618a5.svg"
-  ],
-  "src/components/header/Headings.vue": [
-    "/assets/payments.ff17602b.png",
-    "/assets/line-awesome0176.10144157.eot",
-    "/assets/line-awesomeeb4f.063a9529.woff2",
-    "/assets/line-awesomeeb4f.20fe49b8.woff",
-    "/assets/line-awesomeeb4f.09929899.ttf",
-    "/assets/line-awesomeeb4f.5dcd6347.svg",
-    "/assets/elements.00c918fb.png",
-    "/assets/molla0ab2.8f5d5cdd.eot",
-    "/assets/molla0ab2.c16da98b.woff2",
-    "/assets/molla0ab2.cd73d169.woff",
-    "/assets/molla0ab2.119a78c9.ttf",
-    "/assets/molla0ab2.48a618a5.svg"
-  ],
-  "src/App.vue?vue&type=style&index=0&lang.css": [
-    "/assets/payments.ff17602b.png",
-    "/assets/line-awesome0176.10144157.eot",
-    "/assets/line-awesomeeb4f.063a9529.woff2",
-    "/assets/line-awesomeeb4f.20fe49b8.woff",
-    "/assets/line-awesomeeb4f.09929899.ttf",
-    "/assets/line-awesomeeb4f.5dcd6347.svg",
-    "/assets/elements.00c918fb.png",
-    "/assets/molla0ab2.8f5d5cdd.eot",
-    "/assets/molla0ab2.c16da98b.woff2",
-    "/assets/molla0ab2.cd73d169.woff",
-    "/assets/molla0ab2.119a78c9.ttf",
-    "/assets/molla0ab2.48a618a5.svg"
-  ],
-  "src/App.vue": [
-    "/assets/payments.ff17602b.png",
-    "/assets/line-awesome0176.10144157.eot",
-    "/assets/line-awesomeeb4f.063a9529.woff2",
-    "/assets/line-awesomeeb4f.20fe49b8.woff",
-    "/assets/line-awesomeeb4f.09929899.ttf",
-    "/assets/line-awesomeeb4f.5dcd6347.svg",
-    "/assets/elements.00c918fb.png",
-    "/assets/molla0ab2.8f5d5cdd.eot",
-    "/assets/molla0ab2.c16da98b.woff2",
-    "/assets/molla0ab2.cd73d169.woff",
-    "/assets/molla0ab2.119a78c9.ttf",
-    "/assets/molla0ab2.48a618a5.svg"
-  ],
-  "src/router/index.js": [
-    "/assets/payments.ff17602b.png",
-    "/assets/line-awesome0176.10144157.eot",
+    "/assets/line-awesomeeb4f.10144157.eot",
     "/assets/line-awesomeeb4f.063a9529.woff2",
     "/assets/line-awesomeeb4f.20fe49b8.woff",
     "/assets/line-awesomeeb4f.09929899.ttf",
@@ -252,8 +105,189 @@
     "/assets/molla0ab2.48a618a5.svg"
   ],
   "src/plugins/vue-axios.js": [
+    "/assets/logo.d5e5057a.png",
     "/assets/payments.ff17602b.png",
-    "/assets/line-awesome0176.10144157.eot",
+    "/assets/line-awesomeeb4f.10144157.eot",
+    "/assets/line-awesomeeb4f.063a9529.woff2",
+    "/assets/line-awesomeeb4f.20fe49b8.woff",
+    "/assets/line-awesomeeb4f.09929899.ttf",
+    "/assets/line-awesomeeb4f.5dcd6347.svg",
+    "/assets/elements.00c918fb.png",
+    "/assets/molla0ab2.8f5d5cdd.eot",
+    "/assets/molla0ab2.c16da98b.woff2",
+    "/assets/molla0ab2.cd73d169.woff",
+    "/assets/molla0ab2.119a78c9.ttf",
+    "/assets/molla0ab2.48a618a5.svg"
+  ],
+  "src/plugins/globals.js": [
+    "/assets/logo.d5e5057a.png",
+    "/assets/payments.ff17602b.png",
+    "/assets/line-awesomeeb4f.10144157.eot",
+    "/assets/line-awesomeeb4f.063a9529.woff2",
+    "/assets/line-awesomeeb4f.20fe49b8.woff",
+    "/assets/line-awesomeeb4f.09929899.ttf",
+    "/assets/line-awesomeeb4f.5dcd6347.svg",
+    "/assets/elements.00c918fb.png",
+    "/assets/molla0ab2.8f5d5cdd.eot",
+    "/assets/molla0ab2.c16da98b.woff2",
+    "/assets/molla0ab2.cd73d169.woff",
+    "/assets/molla0ab2.119a78c9.ttf",
+    "/assets/molla0ab2.48a618a5.svg"
+  ],
+  "src/components/layouts/SiteHeader.vue": [
+    "/assets/logo.d5e5057a.png",
+    "/assets/payments.ff17602b.png",
+    "/assets/line-awesomeeb4f.10144157.eot",
+    "/assets/line-awesomeeb4f.063a9529.woff2",
+    "/assets/line-awesomeeb4f.20fe49b8.woff",
+    "/assets/line-awesomeeb4f.09929899.ttf",
+    "/assets/line-awesomeeb4f.5dcd6347.svg",
+    "/assets/elements.00c918fb.png",
+    "/assets/molla0ab2.8f5d5cdd.eot",
+    "/assets/molla0ab2.c16da98b.woff2",
+    "/assets/molla0ab2.cd73d169.woff",
+    "/assets/molla0ab2.119a78c9.ttf",
+    "/assets/molla0ab2.48a618a5.svg"
+  ],
+  "src/assets/images/demos/demo-13/logo-footer.png": [
+    "/assets/logo.d5e5057a.png",
+    "/assets/payments.ff17602b.png",
+    "/assets/line-awesomeeb4f.10144157.eot",
+    "/assets/line-awesomeeb4f.063a9529.woff2",
+    "/assets/line-awesomeeb4f.20fe49b8.woff",
+    "/assets/line-awesomeeb4f.09929899.ttf",
+    "/assets/line-awesomeeb4f.5dcd6347.svg",
+    "/assets/elements.00c918fb.png",
+    "/assets/molla0ab2.8f5d5cdd.eot",
+    "/assets/molla0ab2.c16da98b.woff2",
+    "/assets/molla0ab2.cd73d169.woff",
+    "/assets/molla0ab2.119a78c9.ttf",
+    "/assets/molla0ab2.48a618a5.svg"
+  ],
+  "src/assets/images/payments.png": [
+    "/assets/logo.d5e5057a.png",
+    "/assets/payments.ff17602b.png",
+    "/assets/line-awesomeeb4f.10144157.eot",
+    "/assets/line-awesomeeb4f.063a9529.woff2",
+    "/assets/line-awesomeeb4f.20fe49b8.woff",
+    "/assets/line-awesomeeb4f.09929899.ttf",
+    "/assets/line-awesomeeb4f.5dcd6347.svg",
+    "/assets/elements.00c918fb.png",
+    "/assets/molla0ab2.8f5d5cdd.eot",
+    "/assets/molla0ab2.c16da98b.woff2",
+    "/assets/molla0ab2.cd73d169.woff",
+    "/assets/molla0ab2.119a78c9.ttf",
+    "/assets/molla0ab2.48a618a5.svg"
+  ],
+  "plugin-vue:export-helper": [
+    "/assets/logo.d5e5057a.png",
+    "/assets/payments.ff17602b.png",
+    "/assets/line-awesomeeb4f.10144157.eot",
+    "/assets/line-awesomeeb4f.063a9529.woff2",
+    "/assets/line-awesomeeb4f.20fe49b8.woff",
+    "/assets/line-awesomeeb4f.09929899.ttf",
+    "/assets/line-awesomeeb4f.5dcd6347.svg",
+    "/assets/elements.00c918fb.png",
+    "/assets/molla0ab2.8f5d5cdd.eot",
+    "/assets/molla0ab2.c16da98b.woff2",
+    "/assets/molla0ab2.cd73d169.woff",
+    "/assets/molla0ab2.119a78c9.ttf",
+    "/assets/molla0ab2.48a618a5.svg"
+  ],
+  "src/components/layouts/SiteFooter.vue": [
+    "/assets/logo.d5e5057a.png",
+    "/assets/payments.ff17602b.png",
+    "/assets/line-awesomeeb4f.10144157.eot",
+    "/assets/line-awesomeeb4f.063a9529.woff2",
+    "/assets/line-awesomeeb4f.20fe49b8.woff",
+    "/assets/line-awesomeeb4f.09929899.ttf",
+    "/assets/line-awesomeeb4f.5dcd6347.svg",
+    "/assets/elements.00c918fb.png",
+    "/assets/molla0ab2.8f5d5cdd.eot",
+    "/assets/molla0ab2.c16da98b.woff2",
+    "/assets/molla0ab2.cd73d169.woff",
+    "/assets/molla0ab2.119a78c9.ttf",
+    "/assets/molla0ab2.48a618a5.svg"
+  ],
+  "src/components/partials/Pace.vue?vue&type=style&index=0&scoped=true&lang.css": [
+    "/assets/logo.d5e5057a.png",
+    "/assets/payments.ff17602b.png",
+    "/assets/line-awesomeeb4f.10144157.eot",
+    "/assets/line-awesomeeb4f.063a9529.woff2",
+    "/assets/line-awesomeeb4f.20fe49b8.woff",
+    "/assets/line-awesomeeb4f.09929899.ttf",
+    "/assets/line-awesomeeb4f.5dcd6347.svg",
+    "/assets/elements.00c918fb.png",
+    "/assets/molla0ab2.8f5d5cdd.eot",
+    "/assets/molla0ab2.c16da98b.woff2",
+    "/assets/molla0ab2.cd73d169.woff",
+    "/assets/molla0ab2.119a78c9.ttf",
+    "/assets/molla0ab2.48a618a5.svg"
+  ],
+  "src/components/partials/Pace.vue": [
+    "/assets/logo.d5e5057a.png",
+    "/assets/payments.ff17602b.png",
+    "/assets/line-awesomeeb4f.10144157.eot",
+    "/assets/line-awesomeeb4f.063a9529.woff2",
+    "/assets/line-awesomeeb4f.20fe49b8.woff",
+    "/assets/line-awesomeeb4f.09929899.ttf",
+    "/assets/line-awesomeeb4f.5dcd6347.svg",
+    "/assets/elements.00c918fb.png",
+    "/assets/molla0ab2.8f5d5cdd.eot",
+    "/assets/molla0ab2.c16da98b.woff2",
+    "/assets/molla0ab2.cd73d169.woff",
+    "/assets/molla0ab2.119a78c9.ttf",
+    "/assets/molla0ab2.48a618a5.svg"
+  ],
+  "src/components/header/Headings.vue": [
+    "/assets/logo.d5e5057a.png",
+    "/assets/payments.ff17602b.png",
+    "/assets/line-awesomeeb4f.10144157.eot",
+    "/assets/line-awesomeeb4f.063a9529.woff2",
+    "/assets/line-awesomeeb4f.20fe49b8.woff",
+    "/assets/line-awesomeeb4f.09929899.ttf",
+    "/assets/line-awesomeeb4f.5dcd6347.svg",
+    "/assets/elements.00c918fb.png",
+    "/assets/molla0ab2.8f5d5cdd.eot",
+    "/assets/molla0ab2.c16da98b.woff2",
+    "/assets/molla0ab2.cd73d169.woff",
+    "/assets/molla0ab2.119a78c9.ttf",
+    "/assets/molla0ab2.48a618a5.svg"
+  ],
+  "src/App.vue?vue&type=style&index=0&lang.css": [
+    "/assets/logo.d5e5057a.png",
+    "/assets/payments.ff17602b.png",
+    "/assets/line-awesomeeb4f.10144157.eot",
+    "/assets/line-awesomeeb4f.063a9529.woff2",
+    "/assets/line-awesomeeb4f.20fe49b8.woff",
+    "/assets/line-awesomeeb4f.09929899.ttf",
+    "/assets/line-awesomeeb4f.5dcd6347.svg",
+    "/assets/elements.00c918fb.png",
+    "/assets/molla0ab2.8f5d5cdd.eot",
+    "/assets/molla0ab2.c16da98b.woff2",
+    "/assets/molla0ab2.cd73d169.woff",
+    "/assets/molla0ab2.119a78c9.ttf",
+    "/assets/molla0ab2.48a618a5.svg"
+  ],
+  "src/App.vue": [
+    "/assets/logo.d5e5057a.png",
+    "/assets/payments.ff17602b.png",
+    "/assets/line-awesomeeb4f.10144157.eot",
+    "/assets/line-awesomeeb4f.063a9529.woff2",
+    "/assets/line-awesomeeb4f.20fe49b8.woff",
+    "/assets/line-awesomeeb4f.09929899.ttf",
+    "/assets/line-awesomeeb4f.5dcd6347.svg",
+    "/assets/elements.00c918fb.png",
+    "/assets/molla0ab2.8f5d5cdd.eot",
+    "/assets/molla0ab2.c16da98b.woff2",
+    "/assets/molla0ab2.cd73d169.woff",
+    "/assets/molla0ab2.119a78c9.ttf",
+    "/assets/molla0ab2.48a618a5.svg"
+  ],
+  "src/router/index.js": [
+    "/assets/logo.d5e5057a.png",
+    "/assets/payments.ff17602b.png",
+    "/assets/line-awesomeeb4f.10144157.eot",
     "/assets/line-awesomeeb4f.063a9529.woff2",
     "/assets/line-awesomeeb4f.20fe49b8.woff",
     "/assets/line-awesomeeb4f.09929899.ttf",
@@ -266,8 +300,9 @@
     "/assets/molla0ab2.48a618a5.svg"
   ],
   "src/plugins/vue-cookie.js": [
+    "/assets/logo.d5e5057a.png",
     "/assets/payments.ff17602b.png",
-    "/assets/line-awesome0176.10144157.eot",
+    "/assets/line-awesomeeb4f.10144157.eot",
     "/assets/line-awesomeeb4f.063a9529.woff2",
     "/assets/line-awesomeeb4f.20fe49b8.woff",
     "/assets/line-awesomeeb4f.09929899.ttf",
@@ -280,8 +315,9 @@
     "/assets/molla0ab2.48a618a5.svg"
   ],
   "src/store/index.js": [
+    "/assets/logo.d5e5057a.png",
     "/assets/payments.ff17602b.png",
-    "/assets/line-awesome0176.10144157.eot",
+    "/assets/line-awesomeeb4f.10144157.eot",
     "/assets/line-awesomeeb4f.063a9529.woff2",
     "/assets/line-awesomeeb4f.20fe49b8.woff",
     "/assets/line-awesomeeb4f.09929899.ttf",
@@ -294,8 +330,9 @@
     "/assets/molla0ab2.48a618a5.svg"
   ],
   "src/plugins/vue-permission.js": [
+    "/assets/logo.d5e5057a.png",
     "/assets/payments.ff17602b.png",
-    "/assets/line-awesome0176.10144157.eot",
+    "/assets/line-awesomeeb4f.10144157.eot",
     "/assets/line-awesomeeb4f.063a9529.woff2",
     "/assets/line-awesomeeb4f.20fe49b8.woff",
     "/assets/line-awesomeeb4f.09929899.ttf",
@@ -308,8 +345,9 @@
     "/assets/molla0ab2.48a618a5.svg"
   ],
   "src/plugins/vue-pace.js": [
+    "/assets/logo.d5e5057a.png",
     "/assets/payments.ff17602b.png",
-    "/assets/line-awesome0176.10144157.eot",
+    "/assets/line-awesomeeb4f.10144157.eot",
     "/assets/line-awesomeeb4f.063a9529.woff2",
     "/assets/line-awesomeeb4f.20fe49b8.woff",
     "/assets/line-awesomeeb4f.09929899.ttf",
@@ -322,8 +360,9 @@
     "/assets/molla0ab2.48a618a5.svg"
   ],
   "src/main.js": [
+    "/assets/logo.d5e5057a.png",
     "/assets/payments.ff17602b.png",
-    "/assets/line-awesome0176.10144157.eot",
+    "/assets/line-awesomeeb4f.10144157.eot",
     "/assets/line-awesomeeb4f.063a9529.woff2",
     "/assets/line-awesomeeb4f.20fe49b8.woff",
     "/assets/line-awesomeeb4f.09929899.ttf",
@@ -336,8 +375,9 @@
     "/assets/molla0ab2.48a618a5.svg"
   ],
   "src/entry-client.js": [
+    "/assets/logo.d5e5057a.png",
     "/assets/payments.ff17602b.png",
-    "/assets/line-awesome0176.10144157.eot",
+    "/assets/line-awesomeeb4f.10144157.eot",
     "/assets/line-awesomeeb4f.063a9529.woff2",
     "/assets/line-awesomeeb4f.20fe49b8.woff",
     "/assets/line-awesomeeb4f.09929899.ttf",
@@ -350,8 +390,9 @@
     "/assets/molla0ab2.48a618a5.svg"
   ],
   "index.html": [
+    "/assets/logo.d5e5057a.png",
     "/assets/payments.ff17602b.png",
-    "/assets/line-awesome0176.10144157.eot",
+    "/assets/line-awesomeeb4f.10144157.eot",
     "/assets/line-awesomeeb4f.063a9529.woff2",
     "/assets/line-awesomeeb4f.20fe49b8.woff",
     "/assets/line-awesomeeb4f.09929899.ttf",
@@ -364,247 +405,247 @@
     "/assets/molla0ab2.48a618a5.svg"
   ],
   "node_modules/@vue/shared/dist/shared.esm-bundler.js": [
-    "/assets/vendor.61f7b769.js"
+    "/assets/vendor.823585a3.js"
   ],
   "node_modules/@vue/reactivity/dist/reactivity.esm-bundler.js": [
-    "/assets/vendor.61f7b769.js"
+    "/assets/vendor.823585a3.js"
   ],
   "node_modules/@vue/runtime-core/dist/runtime-core.esm-bundler.js": [
-    "/assets/vendor.61f7b769.js"
+    "/assets/vendor.823585a3.js"
   ],
   "node_modules/@vue/runtime-dom/dist/runtime-dom.esm-bundler.js": [
-    "/assets/vendor.61f7b769.js"
+    "/assets/vendor.823585a3.js"
   ],
   "node_modules/vue/dist/vue.runtime.esm-bundler.js": [
-    "/assets/vendor.61f7b769.js"
-  ],
-  "node_modules/@vue/devtools-api/lib/esm/env.js": [
-    "/assets/vendor.61f7b769.js"
-  ],
-  "node_modules/@vue/devtools-api/lib/esm/const.js": [
-    "/assets/vendor.61f7b769.js"
-  ],
-  "node_modules/@vue/devtools-api/lib/esm/time.js": [
-    "/assets/vendor.61f7b769.js"
-  ],
-  "node_modules/@vue/devtools-api/lib/esm/proxy.js": [
-    "/assets/vendor.61f7b769.js"
-  ],
-  "node_modules/@vue/devtools-api/lib/esm/api/api.js": [
-    "/assets/vendor.61f7b769.js"
-  ],
-  "node_modules/@vue/devtools-api/lib/esm/api/app.js": [
-    "/assets/vendor.61f7b769.js"
-  ],
-  "node_modules/@vue/devtools-api/lib/esm/api/component.js": [
-    "/assets/vendor.61f7b769.js"
-  ],
-  "node_modules/@vue/devtools-api/lib/esm/api/context.js": [
-    "/assets/vendor.61f7b769.js"
-  ],
-  "node_modules/@vue/devtools-api/lib/esm/api/hooks.js": [
-    "/assets/vendor.61f7b769.js"
-  ],
-  "node_modules/@vue/devtools-api/lib/esm/api/util.js": [
-    "/assets/vendor.61f7b769.js"
-  ],
-  "node_modules/@vue/devtools-api/lib/esm/api/index.js": [
-    "/assets/vendor.61f7b769.js"
-  ],
-  "node_modules/@vue/devtools-api/lib/esm/plugin.js": [
-    "/assets/vendor.61f7b769.js"
-  ],
-  "node_modules/@vue/devtools-api/lib/esm/index.js": [
-    "/assets/vendor.61f7b769.js"
-  ],
-  "node_modules/vue-router/dist/vue-router.esm-bundler.js": [
-    "/assets/vendor.61f7b769.js"
-  ],
-  "node_modules/vuex/dist/vuex.esm-bundler.js": [
-    "/assets/vendor.61f7b769.js"
+    "/assets/vendor.823585a3.js"
   ],
   "\u0000commonjsHelpers.js": [
-    "/assets/vendor.61f7b769.js"
+    "/assets/vendor.823585a3.js"
   ],
   "\u0000/home/bakyt/Desktop/megazone-frontend/node_modules/axios/lib/axios.js?commonjs-module": [
-    "/assets/vendor.61f7b769.js"
+    "/assets/vendor.823585a3.js"
   ],
   "node_modules/axios/lib/helpers/bind.js": [
-    "/assets/vendor.61f7b769.js"
+    "/assets/vendor.823585a3.js"
   ],
   "\u0000/home/bakyt/Desktop/megazone-frontend/node_modules/axios/lib/helpers/bind.js?commonjs-proxy": [
-    "/assets/vendor.61f7b769.js"
+    "/assets/vendor.823585a3.js"
   ],
   "node_modules/axios/lib/utils.js": [
-    "/assets/vendor.61f7b769.js"
+    "/assets/vendor.823585a3.js"
   ],
   "\u0000/home/bakyt/Desktop/megazone-frontend/node_modules/axios/lib/utils.js?commonjs-proxy": [
-    "/assets/vendor.61f7b769.js"
+    "/assets/vendor.823585a3.js"
   ],
   "node_modules/axios/lib/helpers/buildURL.js": [
-    "/assets/vendor.61f7b769.js"
+    "/assets/vendor.823585a3.js"
   ],
   "\u0000/home/bakyt/Desktop/megazone-frontend/node_modules/axios/lib/helpers/buildURL.js?commonjs-proxy": [
-    "/assets/vendor.61f7b769.js"
+    "/assets/vendor.823585a3.js"
   ],
   "node_modules/axios/lib/core/InterceptorManager.js": [
-    "/assets/vendor.61f7b769.js"
+    "/assets/vendor.823585a3.js"
   ],
   "\u0000/home/bakyt/Desktop/megazone-frontend/node_modules/axios/lib/core/InterceptorManager.js?commonjs-proxy": [
-    "/assets/vendor.61f7b769.js"
+    "/assets/vendor.823585a3.js"
   ],
   "node_modules/axios/lib/helpers/normalizeHeaderName.js": [
-    "/assets/vendor.61f7b769.js"
+    "/assets/vendor.823585a3.js"
   ],
   "\u0000/home/bakyt/Desktop/megazone-frontend/node_modules/axios/lib/helpers/normalizeHeaderName.js?commonjs-proxy": [
-    "/assets/vendor.61f7b769.js"
+    "/assets/vendor.823585a3.js"
   ],
   "node_modules/axios/lib/core/enhanceError.js": [
-    "/assets/vendor.61f7b769.js"
+    "/assets/vendor.823585a3.js"
   ],
   "\u0000/home/bakyt/Desktop/megazone-frontend/node_modules/axios/lib/core/enhanceError.js?commonjs-proxy": [
-    "/assets/vendor.61f7b769.js"
+    "/assets/vendor.823585a3.js"
   ],
   "node_modules/axios/lib/core/createError.js": [
-    "/assets/vendor.61f7b769.js"
+    "/assets/vendor.823585a3.js"
   ],
   "\u0000/home/bakyt/Desktop/megazone-frontend/node_modules/axios/lib/core/createError.js?commonjs-proxy": [
-    "/assets/vendor.61f7b769.js"
+    "/assets/vendor.823585a3.js"
   ],
   "node_modules/axios/lib/core/settle.js": [
-    "/assets/vendor.61f7b769.js"
+    "/assets/vendor.823585a3.js"
   ],
   "\u0000/home/bakyt/Desktop/megazone-frontend/node_modules/axios/lib/core/settle.js?commonjs-proxy": [
-    "/assets/vendor.61f7b769.js"
+    "/assets/vendor.823585a3.js"
   ],
   "node_modules/axios/lib/helpers/cookies.js": [
-    "/assets/vendor.61f7b769.js"
+    "/assets/vendor.823585a3.js"
   ],
   "\u0000/home/bakyt/Desktop/megazone-frontend/node_modules/axios/lib/helpers/cookies.js?commonjs-proxy": [
-    "/assets/vendor.61f7b769.js"
+    "/assets/vendor.823585a3.js"
   ],
   "node_modules/axios/lib/helpers/isAbsoluteURL.js": [
-    "/assets/vendor.61f7b769.js"
+    "/assets/vendor.823585a3.js"
   ],
   "\u0000/home/bakyt/Desktop/megazone-frontend/node_modules/axios/lib/helpers/isAbsoluteURL.js?commonjs-proxy": [
-    "/assets/vendor.61f7b769.js"
+    "/assets/vendor.823585a3.js"
   ],
   "node_modules/axios/lib/helpers/combineURLs.js": [
-    "/assets/vendor.61f7b769.js"
+    "/assets/vendor.823585a3.js"
   ],
   "\u0000/home/bakyt/Desktop/megazone-frontend/node_modules/axios/lib/helpers/combineURLs.js?commonjs-proxy": [
-    "/assets/vendor.61f7b769.js"
+    "/assets/vendor.823585a3.js"
   ],
   "node_modules/axios/lib/core/buildFullPath.js": [
-    "/assets/vendor.61f7b769.js"
+    "/assets/vendor.823585a3.js"
   ],
   "\u0000/home/bakyt/Desktop/megazone-frontend/node_modules/axios/lib/core/buildFullPath.js?commonjs-proxy": [
-    "/assets/vendor.61f7b769.js"
+    "/assets/vendor.823585a3.js"
   ],
   "node_modules/axios/lib/helpers/parseHeaders.js": [
-    "/assets/vendor.61f7b769.js"
+    "/assets/vendor.823585a3.js"
   ],
   "\u0000/home/bakyt/Desktop/megazone-frontend/node_modules/axios/lib/helpers/parseHeaders.js?commonjs-proxy": [
-    "/assets/vendor.61f7b769.js"
+    "/assets/vendor.823585a3.js"
   ],
   "node_modules/axios/lib/helpers/isURLSameOrigin.js": [
-    "/assets/vendor.61f7b769.js"
+    "/assets/vendor.823585a3.js"
   ],
   "\u0000/home/bakyt/Desktop/megazone-frontend/node_modules/axios/lib/helpers/isURLSameOrigin.js?commonjs-proxy": [
-    "/assets/vendor.61f7b769.js"
+    "/assets/vendor.823585a3.js"
   ],
   "node_modules/axios/lib/adapters/xhr.js": [
-    "/assets/vendor.61f7b769.js"
+    "/assets/vendor.823585a3.js"
   ],
   "\u0000/home/bakyt/Desktop/megazone-frontend/node_modules/axios/lib/adapters/xhr.js?commonjs-proxy": [
-    "/assets/vendor.61f7b769.js"
+    "/assets/vendor.823585a3.js"
   ],
   "node_modules/axios/lib/defaults.js": [
-    "/assets/vendor.61f7b769.js"
+    "/assets/vendor.823585a3.js"
   ],
   "\u0000/home/bakyt/Desktop/megazone-frontend/node_modules/axios/lib/defaults.js?commonjs-proxy": [
-    "/assets/vendor.61f7b769.js"
+    "/assets/vendor.823585a3.js"
   ],
   "node_modules/axios/lib/core/transformData.js": [
-    "/assets/vendor.61f7b769.js"
+    "/assets/vendor.823585a3.js"
   ],
   "\u0000/home/bakyt/Desktop/megazone-frontend/node_modules/axios/lib/core/transformData.js?commonjs-proxy": [
-    "/assets/vendor.61f7b769.js"
+    "/assets/vendor.823585a3.js"
   ],
   "node_modules/axios/lib/cancel/isCancel.js": [
-    "/assets/vendor.61f7b769.js"
+    "/assets/vendor.823585a3.js"
   ],
   "\u0000/home/bakyt/Desktop/megazone-frontend/node_modules/axios/lib/cancel/isCancel.js?commonjs-proxy": [
-    "/assets/vendor.61f7b769.js"
+    "/assets/vendor.823585a3.js"
   ],
   "node_modules/axios/lib/core/dispatchRequest.js": [
-    "/assets/vendor.61f7b769.js"
+    "/assets/vendor.823585a3.js"
   ],
   "\u0000/home/bakyt/Desktop/megazone-frontend/node_modules/axios/lib/core/dispatchRequest.js?commonjs-proxy": [
-    "/assets/vendor.61f7b769.js"
+    "/assets/vendor.823585a3.js"
   ],
   "node_modules/axios/lib/core/mergeConfig.js": [
-    "/assets/vendor.61f7b769.js"
+    "/assets/vendor.823585a3.js"
   ],
   "\u0000/home/bakyt/Desktop/megazone-frontend/node_modules/axios/lib/core/mergeConfig.js?commonjs-proxy": [
-    "/assets/vendor.61f7b769.js"
+    "/assets/vendor.823585a3.js"
   ],
   "node_modules/axios/package.json": [
-    "/assets/vendor.61f7b769.js"
+    "/assets/vendor.823585a3.js"
   ],
   "\u0000/home/bakyt/Desktop/megazone-frontend/node_modules/axios/package.json?commonjs-proxy": [
-    "/assets/vendor.61f7b769.js"
+    "/assets/vendor.823585a3.js"
   ],
   "node_modules/axios/lib/helpers/validator.js": [
-    "/assets/vendor.61f7b769.js"
+    "/assets/vendor.823585a3.js"
   ],
   "\u0000/home/bakyt/Desktop/megazone-frontend/node_modules/axios/lib/helpers/validator.js?commonjs-proxy": [
-    "/assets/vendor.61f7b769.js"
+    "/assets/vendor.823585a3.js"
   ],
   "node_modules/axios/lib/core/Axios.js": [
-    "/assets/vendor.61f7b769.js"
+    "/assets/vendor.823585a3.js"
   ],
   "\u0000/home/bakyt/Desktop/megazone-frontend/node_modules/axios/lib/core/Axios.js?commonjs-proxy": [
-    "/assets/vendor.61f7b769.js"
+    "/assets/vendor.823585a3.js"
   ],
   "node_modules/axios/lib/cancel/Cancel.js": [
-    "/assets/vendor.61f7b769.js"
+    "/assets/vendor.823585a3.js"
   ],
   "\u0000/home/bakyt/Desktop/megazone-frontend/node_modules/axios/lib/cancel/Cancel.js?commonjs-proxy": [
-    "/assets/vendor.61f7b769.js"
+    "/assets/vendor.823585a3.js"
   ],
   "node_modules/axios/lib/cancel/CancelToken.js": [
-    "/assets/vendor.61f7b769.js"
+    "/assets/vendor.823585a3.js"
   ],
   "\u0000/home/bakyt/Desktop/megazone-frontend/node_modules/axios/lib/cancel/CancelToken.js?commonjs-proxy": [
-    "/assets/vendor.61f7b769.js"
+    "/assets/vendor.823585a3.js"
   ],
   "node_modules/axios/lib/helpers/spread.js": [
-    "/assets/vendor.61f7b769.js"
+    "/assets/vendor.823585a3.js"
   ],
   "\u0000/home/bakyt/Desktop/megazone-frontend/node_modules/axios/lib/helpers/spread.js?commonjs-proxy": [
-    "/assets/vendor.61f7b769.js"
+    "/assets/vendor.823585a3.js"
   ],
   "node_modules/axios/lib/helpers/isAxiosError.js": [
-    "/assets/vendor.61f7b769.js"
+    "/assets/vendor.823585a3.js"
   ],
   "\u0000/home/bakyt/Desktop/megazone-frontend/node_modules/axios/lib/helpers/isAxiosError.js?commonjs-proxy": [
-    "/assets/vendor.61f7b769.js"
+    "/assets/vendor.823585a3.js"
   ],
   "node_modules/axios/lib/axios.js": [
-    "/assets/vendor.61f7b769.js"
+    "/assets/vendor.823585a3.js"
   ],
   "\u0000/home/bakyt/Desktop/megazone-frontend/node_modules/axios/lib/axios.js?commonjs-proxy": [
-    "/assets/vendor.61f7b769.js"
+    "/assets/vendor.823585a3.js"
   ],
   "node_modules/axios/index.js": [
-    "/assets/vendor.61f7b769.js"
+    "/assets/vendor.823585a3.js"
+  ],
+  "node_modules/@vue/devtools-api/lib/esm/env.js": [
+    "/assets/vendor.823585a3.js"
+  ],
+  "node_modules/@vue/devtools-api/lib/esm/const.js": [
+    "/assets/vendor.823585a3.js"
+  ],
+  "node_modules/@vue/devtools-api/lib/esm/time.js": [
+    "/assets/vendor.823585a3.js"
+  ],
+  "node_modules/@vue/devtools-api/lib/esm/proxy.js": [
+    "/assets/vendor.823585a3.js"
+  ],
+  "node_modules/@vue/devtools-api/lib/esm/api/api.js": [
+    "/assets/vendor.823585a3.js"
+  ],
+  "node_modules/@vue/devtools-api/lib/esm/api/app.js": [
+    "/assets/vendor.823585a3.js"
+  ],
+  "node_modules/@vue/devtools-api/lib/esm/api/component.js": [
+    "/assets/vendor.823585a3.js"
+  ],
+  "node_modules/@vue/devtools-api/lib/esm/api/context.js": [
+    "/assets/vendor.823585a3.js"
+  ],
+  "node_modules/@vue/devtools-api/lib/esm/api/hooks.js": [
+    "/assets/vendor.823585a3.js"
+  ],
+  "node_modules/@vue/devtools-api/lib/esm/api/util.js": [
+    "/assets/vendor.823585a3.js"
+  ],
+  "node_modules/@vue/devtools-api/lib/esm/api/index.js": [
+    "/assets/vendor.823585a3.js"
+  ],
+  "node_modules/@vue/devtools-api/lib/esm/plugin.js": [
+    "/assets/vendor.823585a3.js"
+  ],
+  "node_modules/@vue/devtools-api/lib/esm/index.js": [
+    "/assets/vendor.823585a3.js"
+  ],
+  "node_modules/vuex/dist/vuex.esm-bundler.js": [
+    "/assets/vendor.823585a3.js"
+  ],
+  "node_modules/vue-router/dist/vue-router.esm-bundler.js": [
+    "/assets/vendor.823585a3.js"
   ],
   "node_modules/vue3-snotify/dist/vue3-snotify.es.js": [
-    "/assets/vendor.61f7b769.js"
+    "/assets/vendor.823585a3.js"
   ],
   "src/assets/images/demos/demo-13/cats/1.jpg": [
-    "/assets/Home.70af7057.js",
+    "/assets/Home.89dd7870.js",
     "/assets/Home.60250371.css",
     "/assets/1.39d58735.jpg",
     "/assets/3.b8f56676.jpg",
@@ -643,7 +684,7 @@
     "/assets/post-4.92f98f9b.jpg"
   ],
   "src/assets/images/demos/demo-13/cats/2.jpg": [
-    "/assets/Home.70af7057.js",
+    "/assets/Home.89dd7870.js",
     "/assets/Home.60250371.css",
     "/assets/1.39d58735.jpg",
     "/assets/3.b8f56676.jpg",
@@ -682,7 +723,7 @@
     "/assets/post-4.92f98f9b.jpg"
   ],
   "src/assets/images/demos/demo-13/cats/3.jpg": [
-    "/assets/Home.70af7057.js",
+    "/assets/Home.89dd7870.js",
     "/assets/Home.60250371.css",
     "/assets/1.39d58735.jpg",
     "/assets/3.b8f56676.jpg",
@@ -721,7 +762,7 @@
     "/assets/post-4.92f98f9b.jpg"
   ],
   "src/assets/images/demos/demo-13/cats/4.jpg": [
-    "/assets/Home.70af7057.js",
+    "/assets/Home.89dd7870.js",
     "/assets/Home.60250371.css",
     "/assets/1.39d58735.jpg",
     "/assets/3.b8f56676.jpg",
@@ -760,7 +801,7 @@
     "/assets/post-4.92f98f9b.jpg"
   ],
   "src/assets/images/demos/demo-13/cats/5.jpg": [
-    "/assets/Home.70af7057.js",
+    "/assets/Home.89dd7870.js",
     "/assets/Home.60250371.css",
     "/assets/1.39d58735.jpg",
     "/assets/3.b8f56676.jpg",
@@ -799,7 +840,7 @@
     "/assets/post-4.92f98f9b.jpg"
   ],
   "src/assets/images/demos/demo-13/cats/6.jpg": [
-    "/assets/Home.70af7057.js",
+    "/assets/Home.89dd7870.js",
     "/assets/Home.60250371.css",
     "/assets/1.39d58735.jpg",
     "/assets/3.b8f56676.jpg",
@@ -838,7 +879,7 @@
     "/assets/post-4.92f98f9b.jpg"
   ],
   "src/assets/images/demos/demo-13/banners/banner-1.jpg": [
-    "/assets/Home.70af7057.js",
+    "/assets/Home.89dd7870.js",
     "/assets/Home.60250371.css",
     "/assets/1.39d58735.jpg",
     "/assets/3.b8f56676.jpg",
@@ -877,7 +918,7 @@
     "/assets/post-4.92f98f9b.jpg"
   ],
   "src/assets/images/demos/demo-13/banners/banner-3.jpg": [
-    "/assets/Home.70af7057.js",
+    "/assets/Home.89dd7870.js",
     "/assets/Home.60250371.css",
     "/assets/1.39d58735.jpg",
     "/assets/3.b8f56676.jpg",
@@ -916,7 +957,7 @@
     "/assets/post-4.92f98f9b.jpg"
   ],
   "src/assets/images/demos/demo-13/banners/banner-2.jpg": [
-    "/assets/Home.70af7057.js",
+    "/assets/Home.89dd7870.js",
     "/assets/Home.60250371.css",
     "/assets/1.39d58735.jpg",
     "/assets/3.b8f56676.jpg",
@@ -955,7 +996,7 @@
     "/assets/post-4.92f98f9b.jpg"
   ],
   "src/assets/images/demos/demo-13/products/product-1.jpg": [
-    "/assets/Home.70af7057.js",
+    "/assets/Home.89dd7870.js",
     "/assets/Home.60250371.css",
     "/assets/1.39d58735.jpg",
     "/assets/3.b8f56676.jpg",
@@ -994,7 +1035,7 @@
     "/assets/post-4.92f98f9b.jpg"
   ],
   "src/assets/images/demos/demo-13/products/product-2.jpg": [
-    "/assets/Home.70af7057.js",
+    "/assets/Home.89dd7870.js",
     "/assets/Home.60250371.css",
     "/assets/1.39d58735.jpg",
     "/assets/3.b8f56676.jpg",
@@ -1033,7 +1074,7 @@
     "/assets/post-4.92f98f9b.jpg"
   ],
   "src/assets/images/demos/demo-13/products/product-3.jpg": [
-    "/assets/Home.70af7057.js",
+    "/assets/Home.89dd7870.js",
     "/assets/Home.60250371.css",
     "/assets/1.39d58735.jpg",
     "/assets/3.b8f56676.jpg",
@@ -1072,7 +1113,7 @@
     "/assets/post-4.92f98f9b.jpg"
   ],
   "src/assets/images/demos/demo-13/products/product-4.jpg": [
-    "/assets/Home.70af7057.js",
+    "/assets/Home.89dd7870.js",
     "/assets/Home.60250371.css",
     "/assets/1.39d58735.jpg",
     "/assets/3.b8f56676.jpg",
@@ -1111,7 +1152,7 @@
     "/assets/post-4.92f98f9b.jpg"
   ],
   "src/assets/images/demos/demo-13/products/product-5.jpg": [
-    "/assets/Home.70af7057.js",
+    "/assets/Home.89dd7870.js",
     "/assets/Home.60250371.css",
     "/assets/1.39d58735.jpg",
     "/assets/3.b8f56676.jpg",
@@ -1150,7 +1191,7 @@
     "/assets/post-4.92f98f9b.jpg"
   ],
   "src/assets/images/demos/demo-13/products/product-6.jpg": [
-    "/assets/Home.70af7057.js",
+    "/assets/Home.89dd7870.js",
     "/assets/Home.60250371.css",
     "/assets/1.39d58735.jpg",
     "/assets/3.b8f56676.jpg",
@@ -1189,7 +1230,7 @@
     "/assets/post-4.92f98f9b.jpg"
   ],
   "src/assets/images/demos/demo-13/products/product-7.jpg": [
-    "/assets/Home.70af7057.js",
+    "/assets/Home.89dd7870.js",
     "/assets/Home.60250371.css",
     "/assets/1.39d58735.jpg",
     "/assets/3.b8f56676.jpg",
@@ -1228,7 +1269,7 @@
     "/assets/post-4.92f98f9b.jpg"
   ],
   "src/assets/images/demos/demo-13/products/product-8.jpg": [
-    "/assets/Home.70af7057.js",
+    "/assets/Home.89dd7870.js",
     "/assets/Home.60250371.css",
     "/assets/1.39d58735.jpg",
     "/assets/3.b8f56676.jpg",
@@ -1267,7 +1308,7 @@
     "/assets/post-4.92f98f9b.jpg"
   ],
   "src/assets/images/demos/demo-13/products/product-9.jpg": [
-    "/assets/Home.70af7057.js",
+    "/assets/Home.89dd7870.js",
     "/assets/Home.60250371.css",
     "/assets/1.39d58735.jpg",
     "/assets/3.b8f56676.jpg",
@@ -1306,7 +1347,7 @@
     "/assets/post-4.92f98f9b.jpg"
   ],
   "src/assets/images/demos/demo-13/products/product-10.jpg": [
-    "/assets/Home.70af7057.js",
+    "/assets/Home.89dd7870.js",
     "/assets/Home.60250371.css",
     "/assets/1.39d58735.jpg",
     "/assets/3.b8f56676.jpg",
@@ -1345,7 +1386,7 @@
     "/assets/post-4.92f98f9b.jpg"
   ],
   "src/assets/images/demos/demo-13/banners/banner-4.jpg": [
-    "/assets/Home.70af7057.js",
+    "/assets/Home.89dd7870.js",
     "/assets/Home.60250371.css",
     "/assets/1.39d58735.jpg",
     "/assets/3.b8f56676.jpg",
@@ -1384,7 +1425,7 @@
     "/assets/post-4.92f98f9b.jpg"
   ],
   "src/assets/images/demos/demo-13/banners/banner-5.png": [
-    "/assets/Home.70af7057.js",
+    "/assets/Home.89dd7870.js",
     "/assets/Home.60250371.css",
     "/assets/1.39d58735.jpg",
     "/assets/3.b8f56676.jpg",
@@ -1423,7 +1464,7 @@
     "/assets/post-4.92f98f9b.jpg"
   ],
   "src/assets/images/demos/demo-13/products/product-11.jpg": [
-    "/assets/Home.70af7057.js",
+    "/assets/Home.89dd7870.js",
     "/assets/Home.60250371.css",
     "/assets/1.39d58735.jpg",
     "/assets/3.b8f56676.jpg",
@@ -1462,7 +1503,7 @@
     "/assets/post-4.92f98f9b.jpg"
   ],
   "src/assets/images/demos/demo-13/products/product-12.jpg": [
-    "/assets/Home.70af7057.js",
+    "/assets/Home.89dd7870.js",
     "/assets/Home.60250371.css",
     "/assets/1.39d58735.jpg",
     "/assets/3.b8f56676.jpg",
@@ -1501,7 +1542,7 @@
     "/assets/post-4.92f98f9b.jpg"
   ],
   "src/assets/images/demos/demo-13/products/product-13.jpg": [
-    "/assets/Home.70af7057.js",
+    "/assets/Home.89dd7870.js",
     "/assets/Home.60250371.css",
     "/assets/1.39d58735.jpg",
     "/assets/3.b8f56676.jpg",
@@ -1540,7 +1581,7 @@
     "/assets/post-4.92f98f9b.jpg"
   ],
   "src/assets/images/demos/demo-13/products/product-14.jpg": [
-    "/assets/Home.70af7057.js",
+    "/assets/Home.89dd7870.js",
     "/assets/Home.60250371.css",
     "/assets/1.39d58735.jpg",
     "/assets/3.b8f56676.jpg",
@@ -1579,7 +1620,7 @@
     "/assets/post-4.92f98f9b.jpg"
   ],
   "src/assets/images/demos/demo-13/products/product-15.jpg": [
-    "/assets/Home.70af7057.js",
+    "/assets/Home.89dd7870.js",
     "/assets/Home.60250371.css",
     "/assets/1.39d58735.jpg",
     "/assets/3.b8f56676.jpg",
@@ -1618,7 +1659,7 @@
     "/assets/post-4.92f98f9b.jpg"
   ],
   "src/assets/images/demos/demo-13/products/product-16.jpg": [
-    "/assets/Home.70af7057.js",
+    "/assets/Home.89dd7870.js",
     "/assets/Home.60250371.css",
     "/assets/1.39d58735.jpg",
     "/assets/3.b8f56676.jpg",
@@ -1657,7 +1698,7 @@
     "/assets/post-4.92f98f9b.jpg"
   ],
   "src/assets/images/demos/demo-13/products/product-17.jpg": [
-    "/assets/Home.70af7057.js",
+    "/assets/Home.89dd7870.js",
     "/assets/Home.60250371.css",
     "/assets/1.39d58735.jpg",
     "/assets/3.b8f56676.jpg",
@@ -1696,7 +1737,7 @@
     "/assets/post-4.92f98f9b.jpg"
   ],
   "src/assets/images/demos/demo-13/products/product-18.jpg": [
-    "/assets/Home.70af7057.js",
+    "/assets/Home.89dd7870.js",
     "/assets/Home.60250371.css",
     "/assets/1.39d58735.jpg",
     "/assets/3.b8f56676.jpg",
@@ -1735,7 +1776,7 @@
     "/assets/post-4.92f98f9b.jpg"
   ],
   "src/assets/images/demos/demo-13/products/product-19.jpg": [
-    "/assets/Home.70af7057.js",
+    "/assets/Home.89dd7870.js",
     "/assets/Home.60250371.css",
     "/assets/1.39d58735.jpg",
     "/assets/3.b8f56676.jpg",
@@ -1774,7 +1815,7 @@
     "/assets/post-4.92f98f9b.jpg"
   ],
   "src/assets/images/demos/demo-13/products/product-20.jpg": [
-    "/assets/Home.70af7057.js",
+    "/assets/Home.89dd7870.js",
     "/assets/Home.60250371.css",
     "/assets/1.39d58735.jpg",
     "/assets/3.b8f56676.jpg",
@@ -1813,7 +1854,7 @@
     "/assets/post-4.92f98f9b.jpg"
   ],
   "src/assets/images/brands/1.png": [
-    "/assets/Home.70af7057.js",
+    "/assets/Home.89dd7870.js",
     "/assets/Home.60250371.css",
     "/assets/1.39d58735.jpg",
     "/assets/3.b8f56676.jpg",
@@ -1852,7 +1893,7 @@
     "/assets/post-4.92f98f9b.jpg"
   ],
   "src/assets/images/brands/2.png": [
-    "/assets/Home.70af7057.js",
+    "/assets/Home.89dd7870.js",
     "/assets/Home.60250371.css",
     "/assets/1.39d58735.jpg",
     "/assets/3.b8f56676.jpg",
@@ -1891,7 +1932,7 @@
     "/assets/post-4.92f98f9b.jpg"
   ],
   "src/assets/images/brands/3.png": [
-    "/assets/Home.70af7057.js",
+    "/assets/Home.89dd7870.js",
     "/assets/Home.60250371.css",
     "/assets/1.39d58735.jpg",
     "/assets/3.b8f56676.jpg",
@@ -1930,7 +1971,7 @@
     "/assets/post-4.92f98f9b.jpg"
   ],
   "src/assets/images/brands/4.png": [
-    "/assets/Home.70af7057.js",
+    "/assets/Home.89dd7870.js",
     "/assets/Home.60250371.css",
     "/assets/1.39d58735.jpg",
     "/assets/3.b8f56676.jpg",
@@ -1969,7 +2010,7 @@
     "/assets/post-4.92f98f9b.jpg"
   ],
   "src/assets/images/brands/5.png": [
-    "/assets/Home.70af7057.js",
+    "/assets/Home.89dd7870.js",
     "/assets/Home.60250371.css",
     "/assets/1.39d58735.jpg",
     "/assets/3.b8f56676.jpg",
@@ -2008,7 +2049,7 @@
     "/assets/post-4.92f98f9b.jpg"
   ],
   "src/assets/images/brands/6.png": [
-    "/assets/Home.70af7057.js",
+    "/assets/Home.89dd7870.js",
     "/assets/Home.60250371.css",
     "/assets/1.39d58735.jpg",
     "/assets/3.b8f56676.jpg",
@@ -2047,7 +2088,7 @@
     "/assets/post-4.92f98f9b.jpg"
   ],
   "src/assets/images/brands/7.png": [
-    "/assets/Home.70af7057.js",
+    "/assets/Home.89dd7870.js",
     "/assets/Home.60250371.css",
     "/assets/1.39d58735.jpg",
     "/assets/3.b8f56676.jpg",
@@ -2086,7 +2127,7 @@
     "/assets/post-4.92f98f9b.jpg"
   ],
   "src/assets/images/demos/demo-13/blog/post-1.jpg": [
-    "/assets/Home.70af7057.js",
+    "/assets/Home.89dd7870.js",
     "/assets/Home.60250371.css",
     "/assets/1.39d58735.jpg",
     "/assets/3.b8f56676.jpg",
@@ -2125,7 +2166,7 @@
     "/assets/post-4.92f98f9b.jpg"
   ],
   "src/assets/images/demos/demo-13/blog/post-2.jpg": [
-    "/assets/Home.70af7057.js",
+    "/assets/Home.89dd7870.js",
     "/assets/Home.60250371.css",
     "/assets/1.39d58735.jpg",
     "/assets/3.b8f56676.jpg",
@@ -2164,7 +2205,7 @@
     "/assets/post-4.92f98f9b.jpg"
   ],
   "src/assets/images/demos/demo-13/blog/post-3.jpg": [
-    "/assets/Home.70af7057.js",
+    "/assets/Home.89dd7870.js",
     "/assets/Home.60250371.css",
     "/assets/1.39d58735.jpg",
     "/assets/3.b8f56676.jpg",
@@ -2203,7 +2244,7 @@
     "/assets/post-4.92f98f9b.jpg"
   ],
   "src/assets/images/demos/demo-13/blog/post-4.jpg": [
-    "/assets/Home.70af7057.js",
+    "/assets/Home.89dd7870.js",
     "/assets/Home.60250371.css",
     "/assets/1.39d58735.jpg",
     "/assets/3.b8f56676.jpg",
@@ -2242,7 +2283,7 @@
     "/assets/post-4.92f98f9b.jpg"
   ],
   "src/pages/Home.vue?vue&type=style&index=0&scoped=true&lang.css": [
-    "/assets/Home.70af7057.js",
+    "/assets/Home.89dd7870.js",
     "/assets/Home.60250371.css",
     "/assets/1.39d58735.jpg",
     "/assets/3.b8f56676.jpg",
@@ -2281,7 +2322,7 @@
     "/assets/post-4.92f98f9b.jpg"
   ],
   "src/pages/Home.vue": [
-    "/assets/Home.70af7057.js",
+    "/assets/Home.89dd7870.js",
     "/assets/Home.60250371.css",
     "/assets/1.39d58735.jpg",
     "/assets/3.b8f56676.jpg",
@@ -2320,302 +2361,353 @@
     "/assets/post-4.92f98f9b.jpg"
   ],
   "node_modules/vue3-carousel/dist/carousel.css": [
-    "/assets/LargeCarousel.9f841096.js",
+    "/assets/LargeCarousel.07eea02c.js",
     "/assets/LargeCarousel.64c6af7a.css"
   ],
   "node_modules/vue3-carousel/dist/carousel.es.js": [
-    "/assets/LargeCarousel.9f841096.js",
+    "/assets/LargeCarousel.07eea02c.js",
     "/assets/LargeCarousel.64c6af7a.css"
   ],
   "src/components/partials/LargeCarousel.vue?vue&type=style&index=0&lang.css": [
-    "/assets/LargeCarousel.9f841096.js",
+    "/assets/LargeCarousel.07eea02c.js",
     "/assets/LargeCarousel.64c6af7a.css"
   ],
   "src/components/partials/LargeCarousel.vue": [
-    "/assets/LargeCarousel.9f841096.js",
+    "/assets/LargeCarousel.07eea02c.js",
     "/assets/LargeCarousel.64c6af7a.css"
   ],
   "src/pages/About.vue?vue&type=style&index=0&scoped=true&lang.css": [
-    "/assets/About.b17a0252.js",
+    "/assets/About.d36236d2.js",
     "/assets/About.6f70a21c.css"
   ],
   "src/pages/About.vue": [
-    "/assets/About.b17a0252.js",
+    "/assets/About.d36236d2.js",
     "/assets/About.6f70a21c.css"
   ],
   "src/pages/products/Show.vue": [
-    "/assets/Show.3d69e36a.js"
+    "/assets/Show.8b931328.js"
   ],
   "src/pages/categories/Index.vue": [
-    "/assets/Index.fce9eb48.js"
+    "/assets/Index.82d213f1.js"
   ],
   "src/pages/categories/Show.vue": [
-    "/assets/Show.c1797482.js"
+    "/assets/Show.73b1effe.js"
   ],
   "src/pages/stores/Index.vue": [
-    "/assets/Index.bcb747c7.js"
-  ],
-  "src/components/partials/Editor.vue": [
-    "/assets/Create.a8069fd5.js",
-    "/assets/Create.ad3dcab0.css"
-  ],
-  "node_modules/leaflet/dist/leaflet.css": [
-    "/assets/Create.a8069fd5.js",
-    "/assets/Create.ad3dcab0.css"
-  ],
-  "src/components/partials/AddressSelect.vue": [
-    "/assets/Create.a8069fd5.js",
-    "/assets/Create.ad3dcab0.css"
-  ],
-  "node_modules/viewerjs/dist/viewer.esm.js": [
-    "/assets/Create.a8069fd5.js",
-    "/assets/Create.ad3dcab0.css"
-  ],
-  "node_modules/viewerjs/dist/viewer.min.css": [
-    "/assets/Create.a8069fd5.js",
-    "/assets/Create.ad3dcab0.css"
-  ],
-  "src/components/partials/FileSelect.vue": [
-    "/assets/Create.a8069fd5.js",
-    "/assets/Create.ad3dcab0.css"
+    "/assets/Index.98b262bb.js"
   ],
   "src/pages/stores/Create.vue": [
-    "/assets/Create.a8069fd5.js",
-    "/assets/Create.ad3dcab0.css"
+    "/assets/Create.34d8a318.js"
+  ],
+  "src/components/partials/Editor.vue": [
+    "/assets/FileSelect.135b6d93.js",
+    "/assets/FileSelect.e2e13ff5.css"
+  ],
+  "node_modules/leaflet/dist/leaflet.css": [
+    "/assets/FileSelect.135b6d93.js",
+    "/assets/FileSelect.e2e13ff5.css"
+  ],
+  "src/components/partials/AddressSelect.vue": [
+    "/assets/FileSelect.135b6d93.js",
+    "/assets/FileSelect.e2e13ff5.css"
+  ],
+  "node_modules/viewerjs/dist/viewer.esm.js": [
+    "/assets/FileSelect.135b6d93.js",
+    "/assets/FileSelect.e2e13ff5.css"
+  ],
+  "node_modules/viewerjs/dist/viewer.min.css": [
+    "/assets/FileSelect.135b6d93.js",
+    "/assets/FileSelect.e2e13ff5.css"
+  ],
+  "src/components/partials/FileSelect.vue": [
+    "/assets/FileSelect.135b6d93.js",
+    "/assets/FileSelect.e2e13ff5.css"
+  ],
+  "src/components/layouts/Store.vue?vue&type=style&index=0&scoped=true&lang.css": [
+    "/assets/Store.f5cbd176.js",
+    "/assets/Store.fc8ce168.css"
+  ],
+  "src/components/layouts/Store.vue": [
+    "/assets/Store.f5cbd176.js",
+    "/assets/Store.fc8ce168.css"
   ],
   "src/assets/images/demos/demo-13/banners/banner-6.jpg": [
-    "/assets/Show.2dee2cbf.js",
+    "/assets/Show.f3d2a492.js",
     "/assets/banner-6.0000ea95.jpg"
   ],
   "src/components/stores/StoreCategories.vue": [
-    "/assets/Show.2dee2cbf.js",
+    "/assets/Show.f3d2a492.js",
     "/assets/banner-6.0000ea95.jpg"
   ],
   "src/components/partials/filter/Color.vue": [
-    "/assets/Show.2dee2cbf.js",
+    "/assets/Show.f3d2a492.js",
     "/assets/banner-6.0000ea95.jpg"
   ],
   "src/components/partials/filter/CustomerRating.vue": [
-    "/assets/Show.2dee2cbf.js",
+    "/assets/Show.f3d2a492.js",
     "/assets/banner-6.0000ea95.jpg"
   ],
   "src/components/partials/filter/Price.vue": [
-    "/assets/Show.2dee2cbf.js",
+    "/assets/Show.f3d2a492.js",
     "/assets/banner-6.0000ea95.jpg"
   ],
   "src/components/partials/filter/Brand.vue": [
-    "/assets/Show.2dee2cbf.js",
+    "/assets/Show.f3d2a492.js",
     "/assets/banner-6.0000ea95.jpg"
   ],
   "src/pages/stores/Show.vue": [
-    "/assets/Show.2dee2cbf.js",
+    "/assets/Show.f3d2a492.js",
     "/assets/banner-6.0000ea95.jpg"
   ],
-  "src/components/stores/Store.vue?vue&type=style&index=0&scoped=true&lang.css": [
-    "/assets/Store.f60cdf9c.js",
-    "/assets/Store.9932da3a.css"
-  ],
-  "src/components/stores/Store.vue": [
-    "/assets/Store.f60cdf9c.js",
-    "/assets/Store.9932da3a.css"
-  ],
   "src/components/stores/StoreCategoryTree.vue?vue&type=style&index=0&scoped=true&lang.css": [
-    "/assets/Product.ea47802a.js",
+    "/assets/Product.961173d2.js",
     "/assets/Product.a4c45f47.css"
   ],
   "src/components/stores/StoreCategoryTree.vue": [
-    "/assets/Product.ea47802a.js",
+    "/assets/Product.961173d2.js",
     "/assets/Product.a4c45f47.css"
   ],
   "src/components/partials/Product.vue?vue&type=style&index=0&scoped=true&lang.css": [
-    "/assets/Product.ea47802a.js",
+    "/assets/Product.961173d2.js",
     "/assets/Product.a4c45f47.css"
   ],
   "src/components/partials/Product.vue": [
-    "/assets/Product.ea47802a.js",
+    "/assets/Product.961173d2.js",
     "/assets/Product.a4c45f47.css"
   ],
+  "src/pages/stores/Edit.vue": [
+    "/assets/Edit.1f3684d4.js"
+  ],
   "src/components/partials/filter/StoreCategoryFilter.vue": [
-    "/assets/Show.b808aace.js"
+    "/assets/Show.3ee00a6c.js"
   ],
   "src/pages/stores/categories/Show.vue": [
-    "/assets/Show.b808aace.js"
+    "/assets/Show.3ee00a6c.js"
+  ],
+  "src/components/stores/Store.vue?vue&type=style&index=0&scoped=true&lang.css": [
+    "/assets/Pagination.bdb6d2a5.js",
+    "/assets/Pagination.d0622756.css"
+  ],
+  "src/components/stores/Store.vue": [
+    "/assets/Pagination.bdb6d2a5.js",
+    "/assets/Pagination.d0622756.css"
   ],
   "src/components/partials/Pagination.vue": [
-    "/assets/Pagination.72eb8319.js"
+    "/assets/Pagination.bdb6d2a5.js",
+    "/assets/Pagination.d0622756.css"
   ],
   "src/assets/images/products/single/sidebar/1.jpg": [
-    "/assets/Show.53e5ebb3.js",
+    "/assets/Show.f0577282.js",
     "/assets/1.0e62db6f.jpg",
     "/assets/2.682a4a8d.jpg",
     "/assets/3.077f04b8.jpg",
     "/assets/banner.13078450.jpg"
   ],
   "src/assets/images/products/single/sidebar/2.jpg": [
-    "/assets/Show.53e5ebb3.js",
+    "/assets/Show.f0577282.js",
     "/assets/1.0e62db6f.jpg",
     "/assets/2.682a4a8d.jpg",
     "/assets/3.077f04b8.jpg",
     "/assets/banner.13078450.jpg"
   ],
   "src/assets/images/products/single/sidebar/3.jpg": [
-    "/assets/Show.53e5ebb3.js",
+    "/assets/Show.f0577282.js",
     "/assets/1.0e62db6f.jpg",
     "/assets/2.682a4a8d.jpg",
     "/assets/3.077f04b8.jpg",
     "/assets/banner.13078450.jpg"
   ],
   "src/assets/images/products/single/sidebar/4.jpg": [
-    "/assets/Show.53e5ebb3.js",
+    "/assets/Show.f0577282.js",
     "/assets/1.0e62db6f.jpg",
     "/assets/2.682a4a8d.jpg",
     "/assets/3.077f04b8.jpg",
     "/assets/banner.13078450.jpg"
   ],
   "src/assets/images/blog/sidebar/banner.jpg": [
-    "/assets/Show.53e5ebb3.js",
+    "/assets/Show.f0577282.js",
     "/assets/1.0e62db6f.jpg",
     "/assets/2.682a4a8d.jpg",
     "/assets/3.077f04b8.jpg",
     "/assets/banner.13078450.jpg"
   ],
   "src/components/partials/ImgZoom.vue": [
-    "/assets/Show.53e5ebb3.js",
+    "/assets/Show.f0577282.js",
     "/assets/1.0e62db6f.jpg",
     "/assets/2.682a4a8d.jpg",
     "/assets/3.077f04b8.jpg",
     "/assets/banner.13078450.jpg"
   ],
   "src/pages/stores/products/Show.vue": [
-    "/assets/Show.53e5ebb3.js",
+    "/assets/Show.f0577282.js",
     "/assets/1.0e62db6f.jpg",
     "/assets/2.682a4a8d.jpg",
     "/assets/3.077f04b8.jpg",
     "/assets/banner.13078450.jpg"
   ],
   "src/components/partials/Modal.vue?vue&type=style&index=0&scoped=true&lang.css": [
-    "/assets/Modal.fddbc48a.js",
+    "/assets/Modal.5de548d1.js",
     "/assets/Modal.7c926c16.css"
   ],
   "src/components/partials/Modal.vue": [
-    "/assets/Modal.fddbc48a.js",
+    "/assets/Modal.5de548d1.js",
     "/assets/Modal.7c926c16.css"
   ],
-  "src/pages/stores/settings/Index.vue": [
-    "/assets/Index.ff3ca061.js"
+  "node_modules/@pqina/pintura/pintura.js": [
+    "/assets/Create.f587f191.js",
+    "/assets/Create.f5e66f34.css"
   ],
-  "src/pages/stores/settings/categories/Show.vue": [
-    "/assets/Show.cb97d273.js"
+  "node_modules/@pqina/vue-pintura/PinturaEditor.js": [
+    "/assets/Create.f587f191.js",
+    "/assets/Create.f5e66f34.css"
   ],
-  "src/components/stores/settings/StoreCategoryTree.vue?vue&type=style&index=0&scoped=true&lang.css": [
-    "/assets/Index.dd6fbfb9.js",
-    "/assets/Index.951dcd23.css"
+  "node_modules/@pqina/pintura/pintura.css": [
+    "/assets/Create.f587f191.js",
+    "/assets/Create.f5e66f34.css"
   ],
-  "src/components/stores/settings/StoreCategoryTree.vue": [
-    "/assets/Index.dd6fbfb9.js",
-    "/assets/Index.951dcd23.css"
+  "src/components/partials/ImageEditor.vue?vue&type=style&index=0&lang.css": [
+    "/assets/Create.f587f191.js",
+    "/assets/Create.f5e66f34.css"
+  ],
+  "src/components/partials/ImageEditorModal.vue?vue&type=style&index=0&lang.css": [
+    "/assets/Create.f587f191.js",
+    "/assets/Create.f5e66f34.css"
+  ],
+  "src/components/partials/ImageEditorModal.vue": [
+    "/assets/Create.f587f191.js",
+    "/assets/Create.f5e66f34.css"
+  ],
+  "src/components/partials/store-category-select/StoreCategorySelectModal.vue": [
+    "/assets/Create.f587f191.js",
+    "/assets/Create.f5e66f34.css"
+  ],
+  "src/components/partials/store-category-select/StoreCategorySelect.vue": [
+    "/assets/Create.f587f191.js",
+    "/assets/Create.f5e66f34.css"
+  ],
+  "src/pages/stores/products/Create.vue?vue&type=style&index=0&scoped=true&lang.css": [
+    "/assets/Create.f587f191.js",
+    "/assets/Create.f5e66f34.css"
+  ],
+  "src/pages/stores/products/Create.vue": [
+    "/assets/Create.f587f191.js",
+    "/assets/Create.f5e66f34.css"
   ],
   "src/components/partials/category-select/CategoriesTree.vue?vue&type=style&index=0&scoped=true&lang.css": [
-    "/assets/Index.dd6fbfb9.js",
-    "/assets/Index.951dcd23.css"
+    "/assets/CategoriesTree.db020ee8.js",
+    "/assets/CategoriesTree.6095f8d4.css"
   ],
   "src/components/partials/category-select/CategoriesTree.vue": [
-    "/assets/Index.dd6fbfb9.js",
-    "/assets/Index.951dcd23.css"
+    "/assets/CategoriesTree.db020ee8.js",
+    "/assets/CategoriesTree.6095f8d4.css"
+  ],
+  "src/pages/stores/settings/Index.vue": [
+    "/assets/Index.88944c46.js"
+  ],
+  "src/pages/stores/settings/categories/Show.vue": [
+    "/assets/Show.fd3959d8.js"
   ],
   "src/components/partials/category-select/CategorySelectModal.vue": [
-    "/assets/Index.dd6fbfb9.js",
-    "/assets/Index.951dcd23.css"
+    "/assets/Index.f6355842.js",
+    "/assets/Index.f2a1b874.css"
   ],
   "src/components/partials/category-select/CategorySelect.vue": [
-    "/assets/Index.dd6fbfb9.js",
-    "/assets/Index.951dcd23.css"
+    "/assets/Index.f6355842.js",
+    "/assets/Index.f2a1b874.css"
+  ],
+  "src/components/stores/settings/StoreCategoryTree.vue?vue&type=style&index=0&scoped=true&lang.css": [
+    "/assets/Index.f6355842.js",
+    "/assets/Index.f2a1b874.css"
+  ],
+  "src/components/stores/settings/StoreCategoryTree.vue": [
+    "/assets/Index.f6355842.js",
+    "/assets/Index.f2a1b874.css"
   ],
   "\u0000/home/bakyt/Desktop/megazone-frontend/node_modules/vue3-select/dist/vue-select.js?commonjs-module": [
-    "/assets/Index.dd6fbfb9.js",
-    "/assets/Index.951dcd23.css"
+    "/assets/Index.f6355842.js",
+    "/assets/Index.f2a1b874.css"
   ],
   "\u0000/home/bakyt/Desktop/megazone-frontend/node_modules/vue/dist/vue.runtime.esm-bundler.js?commonjs-proxy": [
-    "/assets/Index.dd6fbfb9.js",
-    "/assets/Index.951dcd23.css"
+    "/assets/Index.f6355842.js",
+    "/assets/Index.f2a1b874.css"
   ],
   "node_modules/vue3-select/dist/vue-select.js": [
-    "/assets/Index.dd6fbfb9.js",
-    "/assets/Index.951dcd23.css"
+    "/assets/Index.f6355842.js",
+    "/assets/Index.f2a1b874.css"
   ],
   "src/components/stores/settings/SizeSelect.vue?vue&type=style&index=0&scoped=true&lang.css": [
-    "/assets/Index.dd6fbfb9.js",
-    "/assets/Index.951dcd23.css"
+    "/assets/Index.f6355842.js",
+    "/assets/Index.f2a1b874.css"
   ],
   "src/components/stores/settings/SizeSelect.vue": [
-    "/assets/Index.dd6fbfb9.js",
-    "/assets/Index.951dcd23.css"
+    "/assets/Index.f6355842.js",
+    "/assets/Index.f2a1b874.css"
   ],
   "src/components/stores/settings/StoreCategoryModal.vue?vue&type=style&index=0&scoped=true&lang.css": [
-    "/assets/Index.dd6fbfb9.js",
-    "/assets/Index.951dcd23.css"
+    "/assets/Index.f6355842.js",
+    "/assets/Index.f2a1b874.css"
   ],
   "src/components/stores/settings/StoreCategoryModal.vue": [
-    "/assets/Index.dd6fbfb9.js",
-    "/assets/Index.951dcd23.css"
+    "/assets/Index.f6355842.js",
+    "/assets/Index.f2a1b874.css"
   ],
   "src/components/stores/settings/FieldsModal.vue": [
-    "/assets/Index.dd6fbfb9.js",
-    "/assets/Index.951dcd23.css"
+    "/assets/Index.f6355842.js",
+    "/assets/Index.f2a1b874.css"
   ],
   "src/components/stores/settings/StoreCategories.vue": [
-    "/assets/Index.dd6fbfb9.js",
-    "/assets/Index.951dcd23.css"
+    "/assets/Index.f6355842.js",
+    "/assets/Index.f2a1b874.css"
   ],
   "src/pages/stores/settings/categories/Index.vue": [
-    "/assets/Index.dd6fbfb9.js",
-    "/assets/Index.951dcd23.css"
+    "/assets/Index.f6355842.js",
+    "/assets/Index.f2a1b874.css"
   ],
   "src/assets/images/demos/demo-13/menu/banner-1.jpg": [
-    "/assets/CategoriesMenu.95743fda.js",
-    "/assets/CategoriesMenu.badea8a1.css",
+    "/assets/CategoriesMenu.7cb30897.js",
+    "/assets/CategoriesMenu.f63ebadd.css",
     "/assets/banner-1.e6174445.jpg"
   ],
   "src/components/header/CategoriesMenu.vue?vue&type=style&index=0&scoped=true&lang.css": [
-    "/assets/CategoriesMenu.95743fda.js",
-    "/assets/CategoriesMenu.badea8a1.css",
+    "/assets/CategoriesMenu.7cb30897.js",
+    "/assets/CategoriesMenu.f63ebadd.css",
     "/assets/banner-1.e6174445.jpg"
   ],
   "src/components/header/CategoriesMenu.vue": [
-    "/assets/CategoriesMenu.95743fda.js",
-    "/assets/CategoriesMenu.badea8a1.css",
+    "/assets/CategoriesMenu.7cb30897.js",
+    "/assets/CategoriesMenu.f63ebadd.css",
     "/assets/banner-1.e6174445.jpg"
   ],
   "src/components/header/Search.vue": [
-    "/assets/Search.57f595e3.js"
+    "/assets/Search.80a1c4f1.js"
   ],
   "src/assets/images/products/cart/product-1.jpg": [
-    "/assets/Cart.e60e26ba.js"
+    "/assets/Cart.31032ec1.js"
   ],
   "src/assets/images/products/cart/product-2.jpg": [
-    "/assets/Cart.e60e26ba.js"
+    "/assets/Cart.31032ec1.js"
   ],
   "src/components/header/Cart.vue": [
-    "/assets/Cart.e60e26ba.js"
+    "/assets/Cart.31032ec1.js"
   ],
   "src/components/header/Compare.vue": [
-    "/assets/Compare.3c08575a.js"
+    "/assets/Compare.b0cb09ad.js"
   ],
   "src/assets/images/menu/banner-1.jpg": [
-    "/assets/Stores.9b36b3af.js",
+    "/assets/Stores.7a2e7b57.js",
     "/assets/banner-1.29cfc9bc.jpg"
   ],
   "src/components/header/menu/Stores.vue": [
-    "/assets/Stores.9b36b3af.js",
+    "/assets/Stores.7a2e7b57.js",
     "/assets/banner-1.29cfc9bc.jpg"
   ],
   "src/components/header/Auth.vue": [
-    "/assets/Auth.916cd248.js"
+    "/assets/Auth.99cd585f.js"
   ],
   "\u0000/home/bakyt/Desktop/megazone-frontend/node_modules/leaflet/dist/leaflet-src.js?commonjs-module": [
-    "/assets/leaflet-src.f563c221.js"
+    "/assets/leaflet-src.159a9cfe.js"
   ],
   "node_modules/leaflet/dist/leaflet-src.js": [
-    "/assets/leaflet-src.f563c221.js"
+    "/assets/leaflet-src.159a9cfe.js"
   ]
 }
