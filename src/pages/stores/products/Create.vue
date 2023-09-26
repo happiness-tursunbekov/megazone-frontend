@@ -14,9 +14,9 @@
     </ul>
     <div class="tab-content" id="tab-content-5">
       <div :class="{ 'active show': formHelper.tab === 0 }" class="tab-pane fade">
-        <form>
+        <form @submit.prevent="toDetails">
           <button @click="$refs.choose.click()" type="button" class="btn btn-secondary">Choose</button>
-          <button @click="formHelper.tab = 1" type="button" class="btn btn-success">Next</button>
+          <button type="submit" class="btn btn-success">Next</button>
           <div class="row">
             <div v-for="(img, key) in form.files" :key="key" class="col-md-2 up-image">
               <a class="up-img-content" href="#" @click.prevent="editImage(key)">
@@ -40,7 +40,7 @@
             <div class="col-md-6">
               <div class="form-group">
                 <label class="form-label">{{ lang.app.category }}<span class="text-danger">*</span></label>
-                <store-category-select  v-model="form.storeCategoryId" @change="fetchFields"/>
+                <store-category-select  v-model="form.storeCategoryId" @change="fetchFields" required/>
               </div>
             </div>
             <template v-if="form.storeCategoryId">
@@ -53,6 +53,7 @@
                       :store-id="storeItem.id"
                       v-model:brand-id="form.brandId"
                       v-model:model-id="form.modelId"
+                      required
                   />
                 </div>
               </div>
@@ -103,6 +104,7 @@
               </div>
             </div>
           </template>
+          <button type="submit" class="btn btn-success">Save</button>
         </form>
       </div><!-- .End .tab-pane -->
     </div><!-- End .tab-content -->
@@ -128,6 +130,10 @@ const lang = useLang()
 const urls = useUrls()
 
 const storeItem = useStore().getters.store
+
+const snotify = useSnotify()
+
+const router = useRouter()
 
 const breadcrumbs = [
   {
@@ -221,8 +227,8 @@ const fetchFields = storeCategoryId => {
 const save = () => {
   return axios.post(urls.storeProducts.replace(':storeId', storeItem.id), form)
       .then(res => {
-        useSnotify().success(lang.app.createSuccessMsg)
-        useRouter().push({
+        snotify.success(lang.app.createSuccessMsg)
+        router.push({
           name: 'stores.products.show',
           params: {
             store: storeItem.slug,
@@ -230,6 +236,14 @@ const save = () => {
           }
         })
       })
+}
+
+const toDetails = () => {
+  if (form.files.length === 0) {
+    snotify.error(lang.app.chooseAtLeastOneFileMsg)
+    return false
+  }
+  formHelper.tab = 1
 }
 </script>
 

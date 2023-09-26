@@ -1146,9 +1146,6 @@ blockquote.text-white cite span {
     margin-bottom: -1rem;
     border-radius: 0 20px 20px 0;
 }
-.header-search .btn i {
-    margin: 0 !important;
-}
 .header-search-extended {
     margin-right: 19rem;
     width: 100%;
@@ -1580,9 +1577,6 @@ blockquote.text-white cite span {
         border-width: 0 11px 13px 11px;
         border-color: transparent transparent #ebebeb transparent;
     }
-    .header-bottom {
-        display: none;
-    }
 }
 @media screen and (max-width: 767px) {
     .header-search .search-wrapper-wide {
@@ -1619,10 +1613,7 @@ blockquote.text-white cite span {
         display: none !important;
     }
 }
-.main-nav {
-    margin-left: 2rem;
-    display: none;
-}
+
 .menu,
 .menu ul {
     margin: 0;

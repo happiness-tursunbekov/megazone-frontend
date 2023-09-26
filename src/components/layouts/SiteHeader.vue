@@ -58,18 +58,13 @@
 
     <div class="header-middle">
       <div class="container-fluid">
-        <div class="col-auto col-lg-3 col-xl-3 col-xxl-2">
-          <button class="mobile-menu-toggler">
-            <span class="sr-only">Toggle mobile menu</span>
-            <i class="icon-bars"></i>
-          </button>
-
-          <router-link :to="{ name: 'home' }" class="logo">
+        <div class="col-md-4 col-lg-3 col-xl-3 col-xxl-2">
+          <router-link :to="{ name: 'home' }" class="logo" style="max-width: 100%">
             <img src="../../assets/images/logo.png" alt="Megazone Logo">
           </router-link>
         </div><!-- End .header-left -->
 
-        <div class="col col-lg-6 col-xl-6 col-xxl-8">
+        <div class="col-md-4 col-lg-6 col-xl-6 col-xxl-8">
           <search/>
         </div>
 
@@ -89,7 +84,7 @@
       </div><!-- End .container-fluid -->
     </div><!-- End .header-middle -->
 
-    <div class="header-bottom sticky-header">
+    <div class="header-bottom">
       <div class="container-fluid">
         <div class="row w-100">
           <div class="col-auto col-lg-3 col-xl-3 col-xxl-2">
@@ -98,10 +93,12 @@
           <div class="col col-lg-6 col-xl-6 col-xxl-8 header-center">
             <nav class="main-nav">
               <ul class="menu sf-arrows">
-                <li class="active">
+                <li :class="{ active: $route.name === 'home' }">
                   <router-link :to="{ name: 'home' }" class="sf-with">{{ lang.app.home }}</router-link>
                 </li>
-                <stores/>
+                <li :class="{ active: $route.name.includes('stores.') }">
+                  <router-link :to="{ name: 'stores.index' }" class="sf-with"><i class="icon icon-shopping-cart"></i> {{ lang.app.stores }}</router-link>
+                </li>
               </ul><!-- End .menu -->
             </nav><!-- End .main-nav -->
           </div><!-- End .col-lg-9 -->

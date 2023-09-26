@@ -1,6 +1,14 @@
 <template>
   <div class="input-group">
-    <input :value="value" @click="modal = true" type="text" class="form-control" readonly>
+    <input
+        :value="value"
+        @click="modal = true"
+        type="text"
+        class="form-control"
+        @focusin="$refs.input.setAttribute('readonly', 'readonly')"
+        @focusout="$refs.input.removeAttribute('readonly')"
+        :required="required"
+    >
     <div class="input-group-append">
       <button @click="modal= true" type="button" class="btn btn-secondary">{{ $lang.app.select }}</button>
     </div>
@@ -53,7 +61,8 @@ export default {
     brandId: [Number, String],
     modelId: [Number, String],
     categoryId: Number,
-    storeId: Number
+    storeId: Number,
+    required: Boolean
   },
 
   emits: ['update:brandId', 'update:modelId'],

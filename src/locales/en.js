@@ -93,5 +93,7 @@ export default {
     brandAndModel: "Brand and Model",
     price: "Price",
     selectCurrency: "Select Currency",
-    title: "Title"
+    title: "Title",
+    selectACategory: "Select a category",
+    chooseAtLeastOneFileMsg: "Please, choose at least one file."
 }

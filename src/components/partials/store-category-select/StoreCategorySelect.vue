@@ -1,6 +1,14 @@
 <template>
   <div class="input-group">
-    <input :value="category.name" type="text" class="form-control" readonly>
+    <input
+        ref="input"
+        :value="category.name"
+        type="text" class="form-control"
+        :required="required"
+        @focusin="$refs.input.setAttribute('readonly', 'readonly')"
+        @focusout="$refs.input.removeAttribute('readonly')"
+        :placeholder="$lang.app.selectACategory"
+    >
     <div class="input-group-append">
       <button @click="modals.categoriesTree = true" type="button" class="btn btn-secondary">{{ $lang.app.select }}</button>
     </div>
@@ -15,7 +23,8 @@ export default {
   components: {StoreCategorySelectModal},
   props: {
     modelValue: [Number, String],
-    matchCategory: Object
+    matchCategory: Object,
+    required: Boolean
   },
 
   emits: ['change', 'update:modelValue'],
