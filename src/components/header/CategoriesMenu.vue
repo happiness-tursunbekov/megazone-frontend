@@ -7,7 +7,7 @@
     <div class="dropdown-menu" :class="{ 'show': $route.name === 'home' }">
       <nav class="side-nav">
         <ul class="menu-vertical sf-arrows">
-          <li v-for="category in categoriesTree" :key="category.id" class="megamenu-container-fluid">
+          <li v-for="category in store.getters.categoriesTree" :key="category.id" class="megamenu-container-fluid">
             <router-link class="sf-with-ul" :to="{ name: 'categories.show', params: { id: category.id } }">{{ category.name }}</router-link>
 
             <div class="megamenu">
@@ -50,7 +50,6 @@ import { useStore } from "vuex"
 import {useLang} from "../../plugins/globals";
     const store = useStore();
     await store.dispatch('fetchCategoriesTree')
-    const categoriesTree = store.getters.categoriesTree
     const lang = useLang()
 </script>
 

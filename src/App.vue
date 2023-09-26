@@ -32,6 +32,11 @@ export default {
           document.getElementsByClassName('body')[0].scrollTo(0, 0);
         })
       }
+    },
+    '$lang.$current' () {
+      this.$store.dispatch('fetchCategoriesTree', true)
+      if (this.$route.name.includes('stores.'))
+        this.$store.dispatch('fetchStore')
     }
   }
 }

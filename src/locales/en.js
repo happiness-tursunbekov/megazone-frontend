@@ -86,5 +86,12 @@ export default {
     type: "Type",
     appearanceOnFiltering: "Appearance on filtering",
     options: "Options",
-    isRequiredField: "Is required field"
+    isRequiredField: "Is required field",
+    brand: "Brand",
+    seriesOrModel: "Series or Model",
+    model: "Model",
+    brandAndModel: "Brand and Model",
+    price: "Price",
+    selectCurrency: "Select Currency",
+    title: "Title"
 }

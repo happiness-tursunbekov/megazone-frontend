@@ -1,4 +1,4 @@
-import { reactive } from "vue"
+import {reactive, watch} from "vue"
 import config from "~/config"
 import urls from "~/urls"
 import ru from "~/locales/ru"
@@ -20,10 +20,10 @@ export default {
         lang = reactive({
             $current: app.config.globalProperties.$cookie.getItem('lang') || config.lang,
             $setLang(locale) {
-                this.$current = locale;
                 app.config.globalProperties.$cookie.setItem('lang', locale, Infinity, '/')
                 useAxios().setLocalization(locale)
-                location.reload()
+                this.app = locales[locale] || locales.ru
+                this.$current = locale;
             },
             app: {},
             list: Object.keys(locales)

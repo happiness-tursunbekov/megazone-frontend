@@ -43,6 +43,7 @@
         <select v-model="fieldForm.type" class="form-control" required>
           <option value="" disabled>{{ $lang.app.select }}</option>
           <option value="number">NUMBER</option>
+          <option value="float">FLOAT/DOUBLE</option>
           <option value="text">TEXT</option>
           <option value="select">SELECTION/LIST</option>
           <option value="boolean">YES/NO</option>

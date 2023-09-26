@@ -1273,12 +1273,17 @@
   dependencies:
     "@vue/devtools-api" "^6.0.0"
 
+"vue-select@^4.0.0-beta.6":
+  "integrity" "sha512-K+zrNBSpwMPhAxYLTCl56gaMrWZGgayoWCLqe5rWwkB8aUbAUh7u6sXjIR7v4ckp2WKC7zEEUY27g6h1MRsIHw=="
+  "resolved" "https://registry.npmjs.org/vue-select/-/vue-select-4.0.0-beta.6.tgz"
+  "version" "4.0.0-beta.6"
+
 "vue-zoom-on-hover@^1.0.6":
   "integrity" "sha512-EfWiHSjnTpaj2slxXu2eVRRfCRlPmw+rXzF225PopsTxISx8VLxolZ2pYt+UUuDO/iggZuhB1MEyoIYSzc0jWg=="
   "resolved" "https://registry.npmjs.org/vue-zoom-on-hover/-/vue-zoom-on-hover-1.0.6.tgz"
   "version" "1.0.6"
 
-"vue@^3.*", "vue@^3.0.0", "vue@^3.0.0 || ^2.0.0", "vue@^3.0.2", "vue@^3.2.0", "vue@^3.2.13", "vue@^3.2.21", "vue@2.x - 3.x", "vue@3.2.31":
+"vue@^3.*", "vue@^3.0.0", "vue@^3.0.0 || ^2.0.0", "vue@^3.0.2", "vue@^3.2.0", "vue@^3.2.13", "vue@^3.2.21", "vue@2.x - 3.x", "vue@3.2.31", "vue@3.x":
   "integrity" "sha512-odT3W2tcffTiQCy57nOT93INw1auq5lYLLYtWpPYQQYQOOdHiqFct9Xhna6GJ+pJQaF67yZABraH47oywkJgFw=="
   "resolved" "https://registry.npmjs.org/vue/-/vue-3.2.31.tgz"
   "version" "3.2.31"

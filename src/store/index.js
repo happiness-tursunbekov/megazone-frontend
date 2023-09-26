@@ -54,9 +54,9 @@ export function createStore() {
             resetUser({ commit }) {
                 commit('setUser', {})
             },
-            async fetchCategoriesTree({ commit, state }) {
+            async fetchCategoriesTree({ commit, state }, force) {
                 try {
-                    if (state.categoriesTree.length === 0) {
+                    if (state.categoriesTree.length === 0 || force) {
                         const { data } = await useAxios().get(useUrls().categoriesTree)
                         commit('SET_CATEGORIES_TREE', data)
                     }
@@ -66,8 +66,8 @@ export function createStore() {
             },
             async fetchStore({ commit, state }, slug) {
                 try {
-                    if (state.store.slug !== slug) {
-                        const { data } = await useAxios().get(useUrls().storeShow.replace(':slug', slug))
+                    if (state.store.slug !== slug || !slug) {
+                        const { data } = await useAxios().get(useUrls().storeShow.replace(':slug', slug || state.store.slug))
                         commit('SET_STORE', data)
                         return data;
                     } else

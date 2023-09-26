@@ -39,22 +39,24 @@
       </div>
     </div><!-- End .container-fluid -->
   </div>
-  <router-view :key="route.name + '.' + (route.params.id || '')"/>
+  <router-view :key="route.name + '.' + (route.params.id || '') + '.' + lang.$current"/>
 </template>
 
 <script setup>
 import {useStore} from "vuex";
-import {computed} from "vue";
+import {computed, watch} from "vue";
 import {useRoute} from "vue-router";
 import {useLang} from "../../plugins/globals";
 
-await useStore().dispatch('fetchStore', useRoute().params.store);
-
-const item = computed(() => useStore().getters.store);
+const store = useStore()
 
 const lang = useLang()
 
 const route = useRoute()
+
+await store.dispatch('fetchStore', useRoute().params.store);
+
+const item = computed(() => store.getters.store);
 </script>
 
 <style scoped>

@@ -18,6 +18,8 @@ export default {
     matchCategory: Object
   },
 
+  emits: ['change', 'update:modelValue'],
+
   data() {
     return {
       modals: {
@@ -31,6 +33,7 @@ export default {
   watch: {
     category(cat) {
       this.$emit('update:modelValue', cat.id)
+      this.$emit('change', cat.id)
     },
     matchCategory(cat) {
       this.category = cat
