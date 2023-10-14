@@ -124,27 +124,22 @@
                       <div class="card-header" id="product-info-heading">
                         <h2 class="card-title">
                           <a :class="{ collapsed: !helper.accordion.properties }" @click="showAccordion('properties')" role="button" data-toggle="collapse" href="#product-accordion-info" aria-expanded="false" aria-controls="product-accordion-info">
-                            {{ lang.app.properties }}
+                            {{ lang.app.details }}
                           </a>
                         </h2>
                       </div><!-- End .card-header -->
                       <div class="collapse" :class="{ show: helper.accordion.properties }" aria-labelledby="product-info-heading" data-parent="#product-accordion">
                         <div class="card-body">
                           <div class="product-desc-content">
-                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna viverra non, semper suscipit, posuere a, pede. Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. </p>
-
-                            <h3>Fabric & care</h3>
-                            <ul>
-                              <li>100% Polyester</li>
-                              <li>Do not iron</li>
-                              <li>Do not wash</li>
-                              <li>Do not bleach</li>
-                              <li>Do not tumble dry</li>
-                              <li>Professional dry clean only</li>
-                            </ul>
-
-                            <h3>Size</h3>
-                            <p>S, M, L, XL</p>
+                            <table class="table table-striped">
+                              <tbody>
+                              <tr v-for="(propField, key) in product.fields" :key="key">
+                                <td>{{ propField.field.name }}</td>
+                                <td>{{ propField.value }}</td>
+                                <td>{{ propField.field.addon }}</td>
+                              </tr>
+                              </tbody>
+                            </table>
                           </div><!-- End .product-desc-content -->
                         </div><!-- End .card-body -->
                       </div><!-- End .collapse -->

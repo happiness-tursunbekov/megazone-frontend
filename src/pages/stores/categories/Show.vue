@@ -1,5 +1,4 @@
 <template>
-  <store/>
   <headings
       :breadcrumbs="breadcrumbs"
       :title="category.name"

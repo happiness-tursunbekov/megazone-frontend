@@ -95,5 +95,6 @@ export default {
     selectCurrency: "Select Currency",
     title: "Title",
     selectACategory: "Select a category",
-    chooseAtLeastOneFileMsg: "Please, choose at least one file."
+    chooseAtLeastOneFileMsg: "Please, choose at least one file.",
+    details: "Details"
 }

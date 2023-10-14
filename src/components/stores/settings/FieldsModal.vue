@@ -4,7 +4,7 @@
     :modal-title="category.name + ': ' + $lang.app.fieldsSettings"
   >
     <div class="p-3">
-      <button @click="modals.group = true" type="button" class="btn btn-primary"><i class="la la-plus"></i> {{ $lang.app.addGroup }}</button>
+<!--      <button @click="modals.group = true" type="button" class="btn btn-primary"><i class="la la-plus"></i> {{ $lang.app.addGroup }}</button>-->
       <button @click="fieldForm.groupIndex = null; modals.field = true" type="button" class="btn btn-success"><i class="la la-plus"></i> {{ $lang.app.addField }}</button>
       <div class="font-weight-bold" v-if="groups.length > 0">Groups</div>
       <div class="list-group mt-1">
