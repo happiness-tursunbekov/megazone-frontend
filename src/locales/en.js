@@ -96,5 +96,8 @@ export default {
     title: "Title",
     selectACategory: "Select a category",
     chooseAtLeastOneFileMsg: "Please, choose at least one file.",
-    details: "Details"
+    details: "Details",
+    addedToCartSuccessfullyMsg: "Product successfully added to cart!",
+    cart: "Shopping cart",
+    checkout: "Checkout"
 }

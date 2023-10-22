@@ -19,6 +19,16 @@ export function createRouter() {
         component: () => import('../pages/About.vue')
       },
       {
+        path: '/!cart',
+        name: 'cart.index',
+        component: () => import('../pages/cart/Index.vue')
+      },
+      {
+        path: '/!cart/checkout',
+        name: 'cart.checkout',
+        component: () => import('../pages/cart/Checkout.vue')
+      },
+      {
         path: '/!products/:id',
         name: 'products.show',
         component: () => import('../pages/products/Show.vue')

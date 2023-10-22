@@ -53,22 +53,25 @@
 
                   <a v-if="product.description" @click="showAccordion('description')" href="#product-accordion-desc" class="product-content product-description-ellipsis" v-html="product.description"></a><!-- End .product-content -->
 
-                  <form>
+                  <form @submit.prevent="cart.addItem(item, product, helper.qty, helper.size, helper.color)">
                     <div v-if="product.colors.length > 0" class="details-filter-row details-row-size">
                       <label>{{ lang.app.color }}:</label>
 
                       <div class="product-nav product-nav-thumbs">
-                        <a v-for="color in product.colors" :key="color.id" @click.prevent="helper.colorId = color.id" href="#" :class="{ active: color.id === helper.colorId }" :style="{ backgroundColor: color.addition }"></a>
+                        <a v-for="color in product.colors" :key="color.id" @click.prevent="helper.color = color" href="#" :class="{ active: helper.color && color.id === helper.color.id }" :style="{ backgroundColor: color.addition }"></a>
                       </div><!-- End .product-nav -->
                     </div><!-- End .details-filter-row -->
 
                     <div v-if="product.sizes.length > 0" class="details-filter-row details-row-size">
                       <label>{{ lang.app.size }}:</label>
                       <div class="select-custom">
-                        <select v-model="helper.sizeId" class="form-control" required>
-                          <option value="" selected="selected">{{ lang.app.selectASize }}</option>
-                          <option v-for="size in product.sizes" :key="size.id" :value="size.id">{{ size.title }}</option>
-                        </select>
+                        <v-select
+                            v-model="helper.size"
+                            class="form-control"
+                            required
+                            :optoins="product.sizes"
+                            label="title"
+                        />
                       </div><!-- End .select-custom -->
                     </div><!-- End .details-filter-row -->
 
@@ -319,7 +322,7 @@
 <script setup>
 import Headings from "../../../components/header/Headings.vue";
 import {useAxios} from "../../../plugins/vue-axios";
-import {useLang, useUrls} from "../../../plugins/globals";
+import {useCart, useLang, useUrls} from "../../../plugins/globals";
 import Store from "../../../components/stores/Store.vue";
 import {useRoute} from "vue-router";
 import {useStore} from "vuex";
@@ -327,6 +330,7 @@ import {reactive, watch} from "vue";
 import ImgZoom from "../../../components/partials/ImgZoom.vue";
 import Pagination from "../../../components/partials/Pagination.vue";
 import Modal from "../../../components/partials/Modal.vue";
+import VSelect from "../../../components/partials/VSelect.vue";
 
 const urls = useUrls()
 
@@ -334,7 +338,9 @@ const route = useRoute()
 
 const lang = useLang()
 
-const store = useStore();
+const store = useStore()
+
+const cart = useCart()
 
 const item = await store.dispatch('fetchStore', route.params.store)
 
@@ -344,8 +350,8 @@ const product = (await useAxios().get(
 ).data
 
 const helper = reactive({
-  colorId: product.colors.length > 0 ? product.colors[0].id : '',
-  sizeId: '',
+  color: product.colors.length > 0 ? product.colors[0] : null,
+  size: null,
   qty: 1,
   files: product.colors.length > 0 ? product.files.filter(file => file.colorId === product.colors[0].id) : product.files,
   file: '',
