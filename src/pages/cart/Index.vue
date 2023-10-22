@@ -59,39 +59,19 @@
                 <td>&nbsp;</td>
               </tr>
 
-              <tr class="summary-shipping-row">
+              <tr v-for="(val,key) in cart.shippingTypes" :key="key" class="summary-shipping-row">
                 <td>
                   <div class="custom-control custom-radio">
-                    <input v-model="cart.shippingType" value="free" type="radio" id="free-shipping" name="shipping" class="custom-control-input">
-                    <label class="custom-control-label" for="free-shipping">Free Shipping</label>
+                    <input v-model="cart.shippingType" :value="key" type="radio" :id="key" name="shipping" class="custom-control-input">
+                    <label class="custom-control-label" :for="key">{{ $lang.app[key] }}</label>
                   </div><!-- End .custom-control -->
                 </td>
-                <td>$0.00</td>
-              </tr><!-- End .summary-shipping-row -->
-
-              <tr class="summary-shipping-row">
-                <td>
-                  <div class="custom-control custom-radio">
-                    <input v-model="cart.shippingType" value="standard" type="radio" id="standart-shipping" name="shipping" class="custom-control-input">
-                    <label class="custom-control-label" for="standart-shipping">Standart:</label>
-                  </div><!-- End .custom-control -->
-                </td>
-                <td>$10.00</td>
-              </tr><!-- End .summary-shipping-row -->
-
-              <tr class="summary-shipping-row">
-                <td>
-                  <div class="custom-control custom-radio">
-                    <input v-model="cart.shippingType" value="express" type="radio" id="express-shipping" name="shipping" class="custom-control-input">
-                    <label class="custom-control-label" for="express-shipping">Express:</label>
-                  </div><!-- End .custom-control -->
-                </td>
-                <td>$20.00</td>
+                <td>${{ val }}</td>
               </tr><!-- End .summary-shipping-row -->
 
               <tr class="summary-total">
                 <td>Total:</td>
-                <td>${{ cart.subtotalPrice + shippingTypes[cart.shippingType] }}</td>
+                <td>${{ cart.subtotalPrice + cart.shippingTypes[cart.shippingType] }}</td>
               </tr><!-- End .summary-total -->
               </tbody>
             </table><!-- End .table table-summary -->
@@ -110,16 +90,6 @@ import Headings from "../../components/header/Headings.vue";
 export default {
   name: "Index",
   components: {Headings},
-
-  data() {
-    return {
-      shippingTypes: {
-        free: 0,
-        standard: 10,
-        express: 20
-      },
-    }
-  },
 
   computed: {
     cart() {

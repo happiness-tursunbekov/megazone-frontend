@@ -81,26 +81,22 @@
                 </thead>
 
                 <tbody>
-                <tr>
-                  <td><a href="#">Beige knitted elastic runner shoes</a></td>
-                  <td>$84.00</td>
+                <tr v-for="(item, key) in cart.items" :key="key">
+                  <td><router-link :to="{ name: 'stores.products.show', params: { store: item.store.slug, id: item.product.id } }">{{ item.qty }} x {{ item.product.title }}</router-link></td>
+                  <td>${{ item.qty * item.price }}</td>
                 </tr>
 
-                <tr>
-                  <td><a href="#">Blue utility pinafore denimdress</a></td>
-                  <td>$76,00</td>
-                </tr>
                 <tr class="summary-subtotal">
                   <td>Subtotal:</td>
-                  <td>$160.00</td>
+                  <td>${{ cart.subtotalPrice }}</td>
                 </tr><!-- End .summary-subtotal -->
                 <tr>
                   <td>Shipping:</td>
-                  <td>Free shipping</td>
+                  <td>{{ $lang.app[cart.shippingType] }}(${{ cart.shippingTypes[cart.shippingType] }})</td>
                 </tr>
                 <tr class="summary-total">
                   <td>Total:</td>
-                  <td>$160.00</td>
+                  <td>${{ cart.subtotalPrice + cart.shippingTypes[cart.shippingType] }}</td>
                 </tr><!-- End .summary-total -->
                 </tbody>
               </table><!-- End .table table-summary -->
@@ -198,7 +194,13 @@ import Headings from "../../components/header/Headings.vue";
 
 export default {
   name: "Checkout",
-  components: {Headings}
+  components: {Headings},
+
+  computed: {
+    cart() {
+      return this.$cart
+    }
+  }
 }
 </script>
 

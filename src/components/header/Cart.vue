@@ -27,14 +27,27 @@
       </div><!-- End .cart-product -->
 
       <div class="dropdown-cart-total">
-        <span>Total</span>
+        <span>Subtotal</span>
 
         <span class="cart-total-price">${{ $cart.subtotalPrice }}</span>
       </div><!-- End .dropdown-cart-total -->
 
+      <div>
+        <div class="summary-shipping">
+          Shipping:
+        </div>
+
+        <div v-for="(val,key) in $cart.shippingTypes" :key="key">
+            <div class="custom-control custom-radio">
+              <input v-model="$cart.shippingType" :value="key" type="radio" :id="key + 'widget'" name="shipping-widget" class="custom-control-input">
+              <label class="custom-control-label" :for="key + 'widget'">{{ $lang.app[key] }}(${{ val }})</label>
+            </div>
+        </div><!-- End .summary-shipping-row -->
+      </div>
+
       <div class="dropdown-cart-action">
         <router-link :to="{ name: 'cart.index' }" class="btn btn-primary">View Cart</router-link>
-        <a href="checkout.html" class="btn btn-outline-primary-2"><span>Checkout</span><i class="icon-long-arrow-right"></i></a>
+        <router-link :to="{ name: 'cart.checkout' }" class="btn btn-outline-primary-2"><span>Checkout</span><i class="icon-long-arrow-right"></i></router-link>
       </div><!-- End .dropdown-cart-total -->
     </div><!-- End .dropdown-menu -->
   </div>
@@ -47,9 +60,10 @@ export default {
     if (!import.meta.env.SSR) {
       const cartData = window.localStorage.getItem('cart')
       if (cartData) {
-        const items = JSON.parse(cartData)
-        if (items.length > 0) {
-          this.$cart.items = items
+        const cartDataObj = JSON.parse(cartData)
+        if (cartDataObj.items && cartDataObj.items.length > 0) {
+          this.$cart.items = cartDataObj.items
+          this.$cart.shippingType = cartDataObj.shippingType
           this.$cart.updateTotal()
         }
       }

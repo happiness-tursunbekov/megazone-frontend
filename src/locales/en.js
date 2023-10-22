@@ -99,5 +99,8 @@ export default {
     details: "Details",
     addedToCartSuccessfullyMsg: "Product successfully added to cart!",
     cart: "Shopping cart",
-    checkout: "Checkout"
+    checkout: "Checkout",
+    freeShipping: "Free Shipping",
+    standard: "Standard",
+    express: "Express"
 }

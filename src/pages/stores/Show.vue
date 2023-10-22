@@ -78,7 +78,6 @@ const fetchProducts = async () => {
   const res = await axios.get(useUrls().storeProducts.replace(':storeId', item.id))
   products.data = res.data.data
   products.meta = res.data.meta
-  console.log(res)
 }
 
 setTitle(item.name)

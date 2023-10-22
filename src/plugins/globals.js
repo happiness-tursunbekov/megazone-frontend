@@ -46,8 +46,14 @@ export default {
             subtotalPrice: 0,
             items: [],
             totalQty: 0,
-            shippingType: 'free',
+            shippingType: 'freeShipping',
+            shippingTypes: {
+                freeShipping: 0,
+                standard: 10,
+                express: 20
+            },
             addItem(store, product, qty, size, color) {
+                qty = qty || 1
                 const item = this.items.filter(it => it.product.id === product.id);
                 if (this.items.length === 0 || item.length === 0)
                     this.items.push({
@@ -61,7 +67,7 @@ export default {
                             name: store.name,
                             slug: store.slug
                         },
-                        qty: qty || 1,
+                        qty: qty,
                         size: size || null,
                         color: color || null,
                         price: product.price,
@@ -80,7 +86,7 @@ export default {
                 try {
                     this.totalQty = this.items.reduce((partialSum, a) => partialSum + a.qty, 0)
                     this.subtotalPrice = this.items.reduce((partialSum, a) => partialSum + (a.price * a.qty), 0)
-                    window.localStorage.setItem('cart', JSON.stringify(this.items))
+                    this.saveToLocalStorage()
                 } catch (e) {
                     this.clear()
                 }
@@ -88,9 +94,16 @@ export default {
             clear() {
                 this.items = []
                 this.totalQty = 0
-                this.totalPrice = 0
+                this.subtotalPrice = 0
                 window.localStorage.removeItem('cart')
+            },
+            saveToLocalStorage() {
+                window.localStorage.setItem('cart', JSON.stringify({ shippingType: this.shippingType, items: this.items }))
             }
+        })
+
+        watch(() => cart.shippingType, () => {
+            cart.saveToLocalStorage()
         })
 
         app.config.globalProperties.$title = title
