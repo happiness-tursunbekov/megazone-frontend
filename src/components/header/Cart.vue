@@ -58,7 +58,13 @@ export default {
   name: "Cart",
   mounted() {
     if (!import.meta.env.SSR) {
+      const wishlistData = window.localStorage.getItem('wishlist')
       const cartData = window.localStorage.getItem('cart')
+
+      if (wishlistData) {
+        this.$cart.wishlist = JSON.parse(wishlistData)
+      }
+
       if (cartData) {
         const cartDataObj = JSON.parse(cartData)
         if (cartDataObj.items && cartDataObj.items.length > 0) {

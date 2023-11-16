@@ -72,11 +72,11 @@
           <div class="header-dropdown-link">
             <compare/>
 
-            <a href="wishlist.html" class="wishlist-link">
+            <router-link :to="{ name: 'cart.wishlist' }" class="wishlist-link">
               <i class="icon-heart-o"></i>
-              <span class="wishlist-count">3</span>
+              <span class="wishlist-count">{{ $cart.wishlist.length }}</span>
               <span class="wishlist-txt">Wishlist</span>
-            </a>
+            </router-link>
 
             <cart/>
           </div>
@@ -112,7 +112,7 @@
 </template>
 
 <script setup>
-import { defineAsyncComponent } from "vue";
+import {defineAsyncComponent, onMounted} from "vue";
 import {useLang} from "../../plugins/globals";
 import {useStore} from "vuex";
 
@@ -126,6 +126,7 @@ const Auth = defineAsyncComponent(() => import('../header/Auth.vue'))
 const user = useStore().getters.user
 
 const lang = useLang()
+
 </script>
 
 <style scoped>

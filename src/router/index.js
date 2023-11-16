@@ -29,6 +29,11 @@ export function createRouter() {
         component: () => import('../pages/cart/Checkout.vue')
       },
       {
+        path: '/!cart/wishlist',
+        name: 'cart.wishlist',
+        component: () => import('../pages/cart/Wishlist.vue')
+      },
+      {
         path: '/!products/:id',
         name: 'products.show',
         component: () => import('../pages/products/Show.vue')

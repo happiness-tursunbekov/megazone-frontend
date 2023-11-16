@@ -86,7 +86,7 @@
                       <button type="submit" class="btn-product btn-cart"><span>{{ lang.app.addToCart }}</span></button>
 
                       <div class="details-action-wrapper">
-                        <a href="#" class="btn-product btn-wishlist" title="Wishlist"><span>{{ lang.app.addToWishlist }}</span></a>
+                        <a @click.prevent="cart.addToWishlist(product, item)" href="#" class="btn-product btn-wishlist" title="Wishlist"><span>{{ lang.app.addToWishlist }}</span></a>
                         <a href="#" class="btn-product btn-compare" title="Compare"><span>{{ lang.app.addToCompare }}</span></a>
                       </div><!-- End .details-action-wrapper -->
                     </div><!-- End .product-details-action -->
@@ -97,14 +97,6 @@
                       <span>{{ lang.app.category }}:</span>
                       <router-link v-for="(category,key) in product.categories" :key="key" :to="{ name: 'stores.categories.show', params: { id: category.id } }"><span v-if="key">, </span>{{ category.name }}</router-link>
                     </div><!-- End .product-cat -->
-
-                    <div class="social-icons social-icons-sm">
-                      <span class="social-label">{{ lang.app.share }}:</span>
-                      <a href="#" class="social-icon" title="Facebook" target="_blank"><i class="icon-facebook-f"></i></a>
-                      <a href="#" class="social-icon" title="Twitter" target="_blank"><i class="icon-twitter"></i></a>
-                      <a href="#" class="social-icon" title="Instagram" target="_blank"><i class="icon-instagram"></i></a>
-                      <a href="#" class="social-icon" title="Pinterest" target="_blank"><i class="icon-pinterest"></i></a>
-                    </div>
                   </div><!-- End .product-details-footer -->
 
                   <div class="accordion accordion-plus product-details-accordion" id="product-accordion">
@@ -331,6 +323,7 @@ import ImgZoom from "../../../components/partials/ImgZoom.vue";
 import Pagination from "../../../components/partials/Pagination.vue";
 import Modal from "../../../components/partials/Modal.vue";
 import VSelect from "../../../components/partials/VSelect.vue";
+import Share from "../../../components/partials/Share.vue";
 
 const urls = useUrls()
 

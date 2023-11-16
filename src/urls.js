@@ -19,5 +19,6 @@ export default {
     storeSettingsCategoriesGroups: 'api/stores/:storeId/settings/categories/:categoryId/groups',
     fields: 'api/fields',
     storeCreate: 'api/stores/create',
-    storeEdit: 'api/stores/:storeId/edit'
+    storeEdit: 'api/stores/:storeId/edit',
+    storeSocialMedia: 'api/stores/:storeId/social-media',
 }

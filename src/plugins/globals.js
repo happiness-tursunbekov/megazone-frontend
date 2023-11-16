@@ -43,6 +43,7 @@ export default {
         })
 
         cart = reactive({
+            wishlist: [],
             subtotalPrice: 0,
             items: [],
             totalQty: 0,
@@ -99,6 +100,17 @@ export default {
             },
             saveToLocalStorage() {
                 window.localStorage.setItem('cart', JSON.stringify({ shippingType: this.shippingType, items: this.items }))
+            },
+            addToWishlist(product, storeItem) {
+                if (this.wishlist.filter(item => item.product.id === product.id).length === 0) {
+                    this.wishlist.push({product, store: storeItem})
+                    window.localStorage.setItem('wishlist', JSON.stringify(this.wishlist))
+                }
+                app.config.globalProperties.$snotify.success(lang.app.addedToWishlistSuccessfullyMsg)
+            },
+            removeFromWishlist(key) {
+                this.wishlist.splice(key, 1)
+                window.localStorage.setItem('wishlist', JSON.stringify(this.wishlist))
             }
         })
 

@@ -98,9 +98,16 @@ export default {
     chooseAtLeastOneFileMsg: "Please, choose at least one file.",
     details: "Details",
     addedToCartSuccessfullyMsg: "Product successfully added to cart!",
+    addedToWishlistSuccessfullyMsg: "Product added to wishlist!",
     cart: "Shopping cart",
     checkout: "Checkout",
     freeShipping: "Free Shipping",
     standard: "Standard",
-    express: "Express"
+    express: "Express",
+    wishlist: "Wishlist",
+    editSocialMediaLinks: "Edit social media links",
+    linkToYourWebsite: "Link to your website",
+    linkToYourFacebookPage: "Link to your page on Facebook",
+    yourInstagramAccountUsername: "Your account username on Instagram",
+    linkToYourTwitterPage: "Link to your page on Twitter"
 }
