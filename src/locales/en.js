@@ -109,5 +109,8 @@ export default {
     linkToYourWebsite: "Link to your website",
     linkToYourFacebookPage: "Link to your page on Facebook",
     yourInstagramAccountUsername: "Your account username on Instagram",
-    linkToYourTwitterPage: "Link to your page on Twitter"
+    linkToYourTwitterPage: "Link to your page on Twitter",
+    filter: "Filter",
+    clear: "Clear",
+    clean: "Clean"
 }

@@ -91,7 +91,7 @@ const items = reactive({
 })
 
 const fetchItems = async (query) => {
-  items.query = { ...query }
+  items.query = { ...items.query, ...query }
   const res = (await useAxios().get(useUrls().storeProducts.replace(':storeId', item.id), {
     params: items.query
   }))

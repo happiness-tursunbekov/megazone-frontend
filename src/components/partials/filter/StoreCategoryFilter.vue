@@ -1,5 +1,5 @@
 <template>
-  <div class="sidebar sidebar-shop">
+  <form @submit.prevent="filter" class="sidebar sidebar-shop">
     <div class="widget widget-clean">
       <label>Filters:</label>
       <a href="#" class="sidebar-filter-clear">Clean All</a>
@@ -91,22 +91,26 @@
             <div class="row">
               <div class="col">
                 <div class="form-group">
-                  <label class="form-label">С</label>
-                  <input type="number" class="form-control" min="0">
+                  <label class="form-label">From</label>
+                  <input v-model="filterForm.priceFrom" type="number" class="form-control" min="0">
                 </div>
               </div>
               <div class="col">
                 <div class="form-group">
-                  <label class="form-label">До</label>
-                  <input type="number" class="form-control" min="1">
+                  <label class="form-label">To</label>
+                  <input v-model="filterForm.priceTo" type="number" class="form-control" min="1">
                 </div>
               </div>
             </div>
           </div><!-- End .filter-price -->
+          <div class="text-right w-100">
+            <button type="submit" class="btn btn-primary"><i class="icon icon-search"></i> {{ $lang.app.filter }}</button>
+            <button type="button" class="btn btn-light">{{ $lang.app.clean }}</button>
+          </div>
         </div><!-- End .widget-body -->
       </div><!-- End .collapse -->
     </div><!-- End .widget -->
-  </div>
+  </form>
 </template>
 <script setup>
 
@@ -122,7 +126,9 @@ const emit = defineEmits(['change'])
 
 const filterForm = reactive(props.query)
 
-watch(() => filterForm, () => emit('change', filterForm))
+const filter = () => {
+  emit('change', filterForm)
+}
 
 </script>
 
