@@ -2,6 +2,8 @@ export default {
     storeShow: 'api/stores/:slug',
     stores: 'api/stores',
     categoriesTree: 'api/categories/tree',
+    category: 'api/categories/:id',
+    products: 'api/products',
     authUser: 'api/auth/user',
     storeCategory: 'api/stores/:storeId/categories/:categoryId',
     storeCategoryBrandModels: 'api/stores/:storeId/categories/:categoryId/brand-models',

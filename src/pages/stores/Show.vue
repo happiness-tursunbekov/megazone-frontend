@@ -58,7 +58,7 @@ import Color from "../../components/partials/filter/Color.vue";
 import CustomerRating from "../../components/partials/filter/CustomerRating.vue";
 import Price from "../../components/partials/filter/Price.vue";
 import Brand from "../../components/partials/filter/Brand.vue";
-import Product from "../../components/partials/Product.vue";
+import Product from "../../components/stores/Product.vue";
 
 const axios = useAxios();
 const route = useRoute();

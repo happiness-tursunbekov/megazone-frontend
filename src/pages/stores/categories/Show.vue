@@ -26,14 +26,13 @@
 </template>
 
 <script setup>
-import Store from "../../../components/stores/Store.vue";
 import {useLang, useUrls} from "../../../plugins/globals";
 import {useStore} from "vuex";
 import {useRoute, useRouter} from "vue-router";
 import {useAxios} from "../../../plugins/vue-axios";
 import StoreCategoryFilter from "../../../components/partials/filter/StoreCategoryFilter.vue";
 import Pagination from "../../../components/partials/Pagination.vue";
-import Product from "../../../components/partials/Product.vue";
+import Product from "../../../components/stores/Product.vue";
 import {getCurrentInstance, reactive, watch} from "vue";
 import Headings from "../../../components/header/Headings.vue";
 
