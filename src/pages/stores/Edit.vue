@@ -134,7 +134,7 @@ const save = () => {
   axios.put(urls.storeShow.replace(':slug', item.id), form)
       .then(res => {
         store.dispatch('setStore', res.data)
-        snotify.success(lang.app.createSuccessMsg)
+        snotify.success(lang.app.saveSuccessMsg)
         return router.push({
           name: 'stores.show',
           params: {
