@@ -154,32 +154,24 @@
 
 <script>
 import LargeCarousel from "../components/partials/LargeCarousel.vue";
-import {setTitle} from "../plugins/globals";
+import {setTitle, useUrls} from "../plugins/globals";
 import Product from "../components/partials/Product.vue";
+import {useAxios} from "../plugins/vue-axios";
 export default {
   components: {Product, LargeCarousel},
 
-  data() {
+  async setup() {
+    const res = await useAxios().get(useUrls().home)
+
     return {
-      popularCategories: [],
-      newProducts: [],
-      categoryNewProducts: []
+      popularCategories: res.data.popularCategories,
+      newProducts: res.data.newProducts,
+      categoryNewProducts: res.data.categoryNewProducts
     }
   },
 
   created() {
     setTitle(this.$config.slogan)
-    this.fetchData()
-  },
-
-  methods: {
-    fetchData() {
-      return this.axios.get(this.$urls.home).then(res => {
-        this.popularCategories = res.data.popularCategories
-        this.newProducts = res.data.newProducts
-        this.categoryNewProducts = res.data.categoryNewProducts
-      })
-    }
   }
 }
 </script>
