@@ -3,7 +3,7 @@
     <div class="header-top">
       <div class="container-fluid">
         <div class="header-left">
-          <a href="tel:#"><i class="icon-phone"></i>Call: +0123 456 789</a>
+          <a href="tel:+1 (646) 239 5971"><i class="icon-phone"></i>Call: +1 (646) 239 5971</a>
         </div><!-- End .header-left -->
 
         <div class="header-right">
@@ -23,17 +23,6 @@
                         <li>
                           <router-link :to="{ name: 'stores.create' }"><i class="la la-plus"></i>{{ $lang.app.addStore }}</router-link>
                         </li>
-                      </ul>
-                    </div><!-- End .header-menu -->
-                  </div><!-- End .header-dropdown -->
-                </li>
-                <li>
-                  <div class="header-dropdown">
-                    <a href="#">USD</a>
-                    <div class="header-menu">
-                      <ul class="top-menu-ul">
-                        <li><a href="#">Eur</a></li>
-                        <li><a href="#">Usd</a></li>
                       </ul>
                     </div><!-- End .header-menu -->
                   </div><!-- End .header-dropdown -->

@@ -23,5 +23,6 @@ export default {
     storeCreate: 'api/stores/create',
     storeEdit: 'api/stores/:storeId/edit',
     storeSocialMedia: 'api/stores/:storeId/social-media',
-    home: 'api/home'
+    home: 'api/home',
+    search: 'api/search'
 }

@@ -112,5 +112,7 @@ export default {
     linkToYourTwitterPage: "Link to your page on Twitter",
     filter: "Filter",
     clear: "Clear",
-    clean: "Clean"
+    clean: "Clean",
+    location: "Location",
+    everywhere: "Everywhere"
 }

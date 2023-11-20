@@ -23,14 +23,6 @@
         <div class="sidebar sidebar-shop">
           <store-categories/>
 
-          <brand/>
-
-          <price/>
-
-          <customer-rating/>
-
-          <color/>
-
           <div class="widget widget-banner-sidebar">
             <div class="banner-sidebar-title">ad banner 218 x 430px</div><!-- End .ad-title -->
 

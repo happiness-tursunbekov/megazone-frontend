@@ -13,13 +13,7 @@
     <div class="cat-blocks-container-fluid">
       <div class="row">
         <div v-for="(cat,key) in popularCategories" :key="key" class="col-6 col-sm-4 col-lg-2">
-          <router-link :to="{ name: 'categories.show', params: { id: cat.id } }" class="cat-block">
-            <figure>
-              <span><img :src="cat.icon.path" alt="Category image" style="max-width: 100%;max-height: 100px"></span>
-            </figure>
-
-            <h3 class="cat-block-title">{{ cat.name }}</h3><!-- End .cat-block-title -->
-          </router-link>
+          <category :item="cat"/>
         </div><!-- End .col-sm-4 col-lg-2 -->
       </div><!-- End .row -->
     </div><!-- End .cat-blocks-container-fluid -->
@@ -157,8 +151,9 @@ import LargeCarousel from "../components/partials/LargeCarousel.vue";
 import {setTitle, useUrls} from "../plugins/globals";
 import Product from "../components/partials/Product.vue";
 import {useAxios} from "../plugins/vue-axios";
+import Category from "../components/partials/Category.vue";
 export default {
-  components: {Product, LargeCarousel},
+  components: {Category, Product, LargeCarousel},
 
   async setup() {
     const res = await useAxios().get(useUrls().home)

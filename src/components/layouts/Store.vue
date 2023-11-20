@@ -1,17 +1,15 @@
 <template>
   <div v-if="item.name" class="container-fluid">
-    <div class="store-header text-center" :style="{ backgroundImage: 'url(\'' + item.cover.path + '\')' }">
-
-    </div>
+    <div class="store-header text-center" :style="{ backgroundImage: 'url(\'' + item.cover.path + '\')' }"></div>
   </div>
   <div style="border-bottom: 0.1rem solid rgba(235, 235, 235, 0.55)">
     <div class="container-fluid">
       <div class="row">
         <div class="col">
-          <div class="social-icons social-icons-colored justify-content-start" style="height:100%; vertical-align: middle">
-            <router-link :to="{ name: 'stores.edit', params: { store: item.slug } }" class="social-icon" :title="lang.app.edit"><i class="icon-edit"></i></router-link>
-            <router-link :to="{ name: 'stores.products.create', params: { store: item.slug } }" class="btn btn-outline-success" :title="lang.app.addProduct"><i class="icon-plus"></i>
-              {{ lang.app.addProduct }}</router-link>
+          <div class="social-icons justify-content-start" style="height:100%; vertical-align: middle">
+            <a href="#" @click.prevent="modals.address=true" class="social-icon" :title="$lang.app.location"><i class="icon-map-marker"></i></a>
+            <router-link :to="{ name: 'stores.products.create', params: { store: item.slug } }" class="btn btn-outline-success" :title="lang.app.addProduct"><i class="icon-plus"></i>{{ lang.app.addProduct }}</router-link>
+            <router-link :to="{ name: 'stores.edit', params: { store: item.slug } }" class="btn btn-outline-primary" :title="lang.app.edit"><i class="icon-edit"></i> Edit store</router-link>
           </div>
         </div>
         <div class="col">
@@ -33,15 +31,21 @@
       </div>
     </div><!-- End .container-fluid -->
   </div>
+  <modal v-model="modals.address">
+    <div class="p-3">
+      {{ item.address.fullPath }}
+    </div>
+  </modal>
   <router-view :key="route.name + '.' + (route.params.id || '') + '.' + lang.$current"/>
 </template>
 
 <script setup>
 import {useStore} from "vuex";
-import {computed, watch} from "vue";
+import {computed, reactive, watch} from "vue";
 import {useRoute} from "vue-router";
 import {useLang} from "../../plugins/globals";
 import SocialMedia from "../stores/SocialMedia.vue";
+import Modal from "../partials/Modal.vue";
 
 const store = useStore()
 
@@ -52,6 +56,10 @@ const route = useRoute()
 await store.dispatch('fetchStore', useRoute().params.store);
 
 const item = computed(() => store.getters.store);
+
+const modals = reactive({
+  address: false
+})
 </script>
 
 <style scoped>

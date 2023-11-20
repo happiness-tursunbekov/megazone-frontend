@@ -19,6 +19,11 @@ export function createRouter() {
         component: () => import('../pages/About.vue')
       },
       {
+        path: '/!search/:type/:query',
+        name: 'search',
+        component: () => import('../pages/Search.vue')
+      },
+      {
         path: '/!cart',
         name: 'cart.index',
         component: () => import('../pages/cart/Index.vue')

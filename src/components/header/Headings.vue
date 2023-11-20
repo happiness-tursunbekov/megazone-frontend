@@ -18,6 +18,7 @@
 
 <script setup>
 import {setTitle} from "../../plugins/globals";
+import {watch} from "vue";
 
 const props = defineProps({
   title: String,
@@ -28,6 +29,10 @@ const props = defineProps({
 if (props.title) {
   setTitle(props.title)
 }
+
+watch(() => props.title, val => {
+  setTitle(val)
+})
 </script>
 
 <style scoped>
