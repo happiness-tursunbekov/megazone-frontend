@@ -34,6 +34,8 @@ export default {
       return this.axios.post(this.$urls.authGoogle, {
         token
       }).then(res => {
+        this.$cookie.setItem('token', res.data.token, Infinity)
+        this.$store.dispatch('setUser', res.data)
         console.log(res)
       })
     }
