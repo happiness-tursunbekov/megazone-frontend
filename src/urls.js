@@ -24,5 +24,7 @@ export default {
     storeEdit: 'api/stores/:storeId/edit',
     storeSocialMedia: 'api/stores/:storeId/social-media',
     home: 'api/home',
-    search: 'api/search'
+    search: 'api/search',
+    authGoogle: 'api/auth/google',
+    authLogin: 'api/auth/login'
 }

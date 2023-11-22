@@ -46,7 +46,7 @@
                   <p class="text-center">or sign in with</p>
                   <div class="row">
                     <div class="col-sm-6">
-                      <a href="#" class="btn btn-login btn-g">
+                      <a href="https://accounts.google.com/o/oauth2/v2/auth?scope=https://www.googleapis.com/auth/userinfo.profile https://www.googleapis.com/auth/userinfo.email&include_granted_scopes=true&response_type=token&state=megazone&redirect_uri=http://localhost:3000/!auth/google&client_id=398378570637-lh7e6hep1ld04ac86f6vder9mgvfqdb4.apps.googleusercontent.com" class="btn btn-login btn-g">
                         <i class="icon-google"></i>
                         Login With Google
                       </a>
@@ -168,7 +168,7 @@ export default {
     },
 
     signIn() {
-      this.axios.post('api/auth/login', this.tabs.signIn.form)
+      this.axios.post(this.$urls.authLogin, this.tabs.signIn.form)
           .then(res => {
             this.$cookie.setItem('token', res.data.token, Infinity)
             this.$store.dispatch('setUser', res.data)

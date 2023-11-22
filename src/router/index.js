@@ -19,6 +19,11 @@ export function createRouter() {
         component: () => import('../pages/About.vue')
       },
       {
+        path: '/!auth/google',
+        name: 'auth.google',
+        component: () => import('../pages/auth/Google.vue')
+      },
+      {
         path: '/!search/:type/:query',
         name: 'search',
         component: () => import('../pages/Search.vue')
