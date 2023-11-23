@@ -14,8 +14,8 @@
             <slot></slot>
           </div>
           <div v-if="cancelButtonLabel || okButtonLabel" class="modal-footer">
-            <button v-if="cancelButtonLabel" @click="close" type="button" class="btn  btn--info-outline">{{ cancelButtonLabel }}</button>
-            <button v-if="okButtonLabel" @click="$emit('ok-button-click');$emit('okButtonClick')" type="button" class="btn  btn--info">{{ okButtonLabel }}</button>
+            <button v-if="okButtonLabel" @click="$emit('ok-button-click');$emit('okButtonClick')" type="button" class="btn  btn-primary">{{ okButtonLabel }}</button>
+            <button v-if="cancelButtonLabel" @click="close" type="button" class="btn  btn-outline-primary">{{ cancelButtonLabel }}</button>
           </div>
         </div>
       </div>

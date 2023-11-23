@@ -7,6 +7,7 @@ export default {
                 return options.cookie ? decodeURIComponent(options.cookie.replace(new RegExp("(?:(?:^|.*;)\\s*" + encodeURIComponent(sKey).replace(/[\-\.\+\*]/g, "\\$&") + "\\s*\\=\\s*([^;]*).*$)|^.*$"), "$1")) || null : null;
             },
             setItem: function (sKey, sValue, vEnd, sPath, sDomain, bSecure) {
+                sPath = sPath || "/"
                 if (!sKey || /^(?:expires|max\-age|path|domain|secure)$/i.test(sKey)) { return false; }
                 let sExpires = "";
                 if (vEnd) {
@@ -22,7 +23,7 @@ export default {
                             break;
                     }
                 }
-                document.cookie = encodeURIComponent(sKey) + "=" + encodeURIComponent(sValue) + sExpires + (sDomain ? "; domain=" + sDomain : "") + (sPath ? "; path=" + sPath : "") + (bSecure ? "; secure" : "") + '; SameSite=Lax';
+                document.cookie = encodeURIComponent(sKey) + "=" + encodeURIComponent(sValue) + sExpires + (sDomain ? "; domain=" + sDomain : "") + (sPath ? "; path=" + sPath || '/' : "") + (bSecure ? "; secure" : "") + '; SameSite=Lax';
                 return true;
             },
             removeItem: function (sKey, sPath, sDomain) {

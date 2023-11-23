@@ -101,7 +101,7 @@
 </template>
 
 <script setup>
-import {defineAsyncComponent, onMounted} from "vue";
+import {computed, defineAsyncComponent, onMounted} from "vue";
 import {useLang} from "../../plugins/globals";
 import {useStore} from "vuex";
 
@@ -112,7 +112,7 @@ const Compare = defineAsyncComponent(() => import('../header/Compare.vue'))
 const Stores = defineAsyncComponent(() => import('../header/menu/Stores.vue'))
 const Auth = defineAsyncComponent(() => import('../header/Auth.vue'))
 
-const user = useStore().getters.user
+const user = computed(() => useStore().getters.user)
 
 const lang = useLang()
 

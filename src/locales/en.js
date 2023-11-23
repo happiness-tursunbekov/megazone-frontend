@@ -114,5 +114,8 @@ export default {
     clear: "Clear",
     clean: "Clean",
     location: "Location",
-    everywhere: "Everywhere"
+    everywhere: "Everywhere",
+    userNotFound: "User not found",
+    userNotFoundMsg: "User with email <b>:email</b> not found in the system. Do you want to signup?"
+
 }
