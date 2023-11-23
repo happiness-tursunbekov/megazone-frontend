@@ -19,7 +19,7 @@
               <div :class="{ 'active show': tabs.signIn.active }" class="tab-pane fade" id="signin" role="tabpanel" aria-labelledby="signin-tab">
                 <form @submit.prevent="signIn">
                   <div class="form-group">
-                    <label for="singin-email">Username or email address *</label>
+                    <label for="singin-email">Email *</label>
                     <input v-model="tabs.signIn.form.username" type="text" class="form-control" id="singin-email" name="singin-email" required="">
                   </div><!-- End .form-group -->
 
@@ -45,16 +45,10 @@
                 <div class="form-choice">
                   <p class="text-center">or sign in with</p>
                   <div class="row">
-                    <div class="col-sm-6">
-                      <a href="https://accounts.google.com/o/oauth2/v2/auth?scope=https://www.googleapis.com/auth/userinfo.profile https://www.googleapis.com/auth/userinfo.email&include_granted_scopes=true&response_type=token&state=megazone&redirect_uri=http://localhost:3000/!auth/google&client_id=398378570637-lh7e6hep1ld04ac86f6vder9mgvfqdb4.apps.googleusercontent.com" class="btn btn-login btn-g">
+                    <div class="col-sm-12">
+                      <a @click.prevent="signInWithGoogle" href="#" class="btn btn-login btn-g">
                         <i class="icon-google"></i>
-                        Login With Google
-                      </a>
-                    </div><!-- End .col-6 -->
-                    <div class="col-sm-6">
-                      <a href="#" class="btn btn-login btn-f">
-                        <i class="icon-facebook-f"></i>
-                        Login With Facebook
+                        Google account
                       </a>
                     </div><!-- End .col-6 -->
                   </div><!-- End .row -->
@@ -85,18 +79,12 @@
                   </div><!-- End .form-footer -->
                 </form>
                 <div class="form-choice">
-                  <p class="text-center">or sign in with</p>
+                  <p class="text-center">or sign up with</p>
                   <div class="row">
-                    <div class="col-sm-6">
+                    <div class="col-sm-12">
                       <a href="#" class="btn btn-login btn-g">
                         <i class="icon-google"></i>
-                        Login With Google
-                      </a>
-                    </div><!-- End .col-6 -->
-                    <div class="col-sm-6">
-                      <a href="#" class="btn btn-login  btn-f">
-                        <i class="icon-facebook-f"></i>
-                        Login With Facebook
+                        Google account
                       </a>
                     </div><!-- End .col-6 -->
                   </div><!-- End .row -->
@@ -179,6 +167,12 @@ export default {
       this.axios.get('api/auth/logout')
       this.$cookie.removeItem('token')
       this.$store.dispatch('resetUser')
+    },
+
+    signInWithGoogle() {
+      return this.axios.get(this.$urls.authGoogle).then(res => {
+        location.href = res.data
+      })
     }
   }
 }
