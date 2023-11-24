@@ -26,5 +26,6 @@ export default {
     home: 'api/home',
     search: 'api/search',
     authGoogle: 'api/auth/google',
-    authLogin: 'api/auth/login'
+    authLogin: 'api/auth/login',
+    authRegister: 'api/auth/register'
 }

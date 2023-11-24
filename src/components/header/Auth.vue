@@ -46,7 +46,7 @@
                   <p class="text-center">or sign in with</p>
                   <div class="row">
                     <div class="col-sm-12">
-                      <a @click.prevent="signInWithGoogle" href="#" class="btn btn-login btn-g">
+                      <a @click.prevent="signInWithGoogle()" href="#" class="btn btn-login btn-g">
                         <i class="icon-google"></i>
                         Google account
                       </a>
@@ -55,15 +55,30 @@
                 </div><!-- End .form-choice -->
               </div><!-- .End .tab-pane -->
               <div :class="{ 'active show': tabs.signUp.active }" class="tab-pane fade" id="register" role="tabpanel" aria-labelledby="register-tab">
-                <form action="#">
+                <form @submit.prevent="signUp" action="#">
                   <div class="form-group">
-                    <label for="register-email">Your email address *</label>
-                    <input type="email" class="form-control" id="register-email" name="register-email" required="">
+                    <label for="register-name">First name *</label>
+                    <input v-model="tabs.signUp.form.name" type="text" class="form-control" id="register-name" name="register-name" required="">
+                  </div><!-- End .form-group -->
+
+                  <div class="form-group">
+                    <label for="register-surname">Last name *</label>
+                    <input v-model="tabs.signUp.form.lastName" type="text" class="form-control" id="register-surname" name="register-surname" required="">
+                  </div><!-- End .form-group -->
+
+                  <div class="form-group">
+                    <label for="register-email">Email *</label>
+                    <input v-model="tabs.signUp.form.username" type="email" class="form-control" id="register-email" name="register-email" required="">
                   </div><!-- End .form-group -->
 
                   <div class="form-group">
                     <label for="register-password">Password *</label>
-                    <input type="password" class="form-control" id="register-password" name="register-password" required="">
+                    <input v-model="tabs.signUp.form.password" type="password" class="form-control" id="register-password" name="register-password" required="">
+                  </div><!-- End .form-group -->
+
+                  <div class="form-group">
+                    <label for="register-confirm-password">Confirm password *</label>
+                    <input v-model="tabs.signUp.form.confirmPassword" type="password" class="form-control" id="register-confirm-password" name="register-confirm-password" required="">
                   </div><!-- End .form-group -->
 
                   <div class="form-footer">
@@ -82,7 +97,7 @@
                   <p class="text-center">or sign up with</p>
                   <div class="row">
                     <div class="col-sm-12">
-                      <a href="#" class="btn btn-login btn-g">
+                      <a @click.prevent="signInWithGoogle(true)" href="#" class="btn btn-login btn-g">
                         <i class="icon-google"></i>
                         Google account
                       </a>
@@ -96,7 +111,7 @@
       </modal>
     </div>
     <div v-else>
-      {{ user.name }}
+      <i class="icon-user"></i>{{ user.name }} |
       <a href="#" @click.prevent="signOut">{{ $lang.app.signOut }}</a>
     </div>
   </li>
@@ -124,7 +139,9 @@ export default {
           form: {
             username: '',
             password: '',
-            name: ''
+            name: '',
+            lastName: '',
+            confirmPassword: ''
           }
         }
       }
@@ -169,9 +186,21 @@ export default {
       this.$store.dispatch('resetUser')
     },
 
-    signInWithGoogle() {
+    signInWithGoogle(up) {
       return this.axios.get(this.$urls.authGoogle).then(res => {
-        location.href = res.data
+        location.href = res.data + '&state=' + (up ? 'up' : 'in')
+      })
+    },
+
+    signUp() {
+      if (this.tabs.signUp.form.password !== this.tabs.signUp.form.confirmPassword) {
+        this.$snotify.error(this.$lang.app.passwordsDidntMatchMsg)
+        return false
+      }
+
+      return this.axios.post(this.$urls.authRegister, this.tabs.signUp.form).then(res => {
+        this.$cookie.setItem('token', res.data.token, Infinity)
+        this.$store.dispatch('setUser', res.data)
       })
     }
   }

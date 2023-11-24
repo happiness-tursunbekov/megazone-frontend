@@ -32,7 +32,7 @@ export default {
     this.info = this.parseQuery(this.$route.fullPath.split('#')[1]);
 
     if (this.info.access_token)
-      this.signIn(this.info.access_token)
+      this.signIn(this.info.access_token, this.info.state === 'up')
   },
 
   methods: {

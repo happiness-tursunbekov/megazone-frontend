@@ -116,6 +116,7 @@ export default {
     location: "Location",
     everywhere: "Everywhere",
     userNotFound: "User not found",
-    userNotFoundMsg: "User with email <b>:email</b> not found in the system. Do you want to signup?"
+    userNotFoundMsg: "User with email <b>:email</b> not found in the system. Do you want to signup?",
+    passwordsDidntMatchMsg: "Passwords didn't match!"
 
 }
