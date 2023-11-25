@@ -10,6 +10,7 @@ export default {
     storeProducts: 'api/stores/:storeId/products',
     storeProductCreate: 'api/stores/:storeId/products/create',
     storeProduct: 'api/stores/:storeId/products/:productId',
+    storeProductRelated: 'api/stores/:storeId/products/:productId/related',
     storeProductReviews: 'api/stores/:storeId/products/:productId/reviews',
     storeProductReview: 'api/stores/:storeId/products/:productId/reviews/:reviewId',
     storeProductReviewReaction: 'api/stores/:storeId/products/:productId/reviews/:reviewId/reaction',

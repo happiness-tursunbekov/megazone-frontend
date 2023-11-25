@@ -195,69 +195,27 @@
               <h4 class="widget-title">Related Product</h4><!-- End .widget-title -->
 
               <div class="products">
-                <div class="product product-sm">
+                <div v-for="(relatedProduct, key) in related.products" :key="key" class="product product-sm">
                   <figure class="product-media">
-                    <a href="product.html">
-                      <img src="../../../assets/images/products/single/sidebar/1.jpg" alt="Product image" class="product-image">
-                    </a>
+                    <router-link :to="{ name: 'stores.products.show', params: { storeId: item.id, id: relatedProduct.id } }">
+                      <img :src="relatedProduct.files[0].path" alt="Product image" class="product-image">
+                    </router-link>
                   </figure>
 
                   <div class="product-body">
-                    <h5 class="product-title"><a href="product.html">Light brown studded <br>Wide fit wedges</a></h5><!-- End .product-title -->
+                    <h5 class="product-title">
+                      <router-link :to="{ name: 'stores.products.show', params: { storeId: item.id, id: relatedProduct.id } }">
+                        {{ relatedProduct.title }}
+                      </router-link>
+                    </h5><!-- End .product-title -->
                     <div class="product-price">
-                      <span class="new-price">$50.00</span>
-                      <span class="old-price">$110.00</span>
-                    </div><!-- End .product-price -->
-                  </div><!-- End .product-body -->
-                </div><!-- End .product product-sm -->
-
-                <div class="product product-sm">
-                  <figure class="product-media">
-                    <a href="product.html">
-                      <img src="../../../assets/images/products/single/sidebar/2.jpg" alt="Product image" class="product-image">
-                    </a>
-                  </figure>
-
-                  <div class="product-body">
-                    <h5 class="product-title"><a href="product.html">Yellow button front tea top</a></h5><!-- End .product-title -->
-                    <div class="product-price">
-                      $56.00
-                    </div><!-- End .product-price -->
-                  </div><!-- End .product-body -->
-                </div><!-- End .product product-sm -->
-
-                <div class="product product-sm">
-                  <figure class="product-media">
-                    <a href="product.html">
-                      <img src="../../../assets/images/products/single/sidebar/3.jpg" alt="Product image" class="product-image">
-                    </a>
-                  </figure>
-
-                  <div class="product-body">
-                    <h5 class="product-title"><a href="product.html">Beige metal hoop tote bag</a></h5><!-- End .product-title -->
-                    <div class="product-price">
-                      $50.00
-                    </div><!-- End .product-price -->
-                  </div><!-- End .product-body -->
-                </div><!-- End .product product-sm -->
-
-                <div class="product product-sm">
-                  <figure class="product-media">
-                    <a href="product.html">
-                      <img src="../../../assets/images/products/single/sidebar/4.jpg" alt="Product image" class="product-image">
-                    </a>
-                  </figure>
-
-                  <div class="product-body">
-                    <h5 class="product-title"><a href="product.html">Black soft RI weekend <br>travel bag</a></h5><!-- End .product-title -->
-                    <div class="product-price">
-                      $75.00
+                      <span class="new-price">${{ relatedProduct.price }}</span>
                     </div><!-- End .product-price -->
                   </div><!-- End .product-body -->
                 </div><!-- End .product product-sm -->
               </div><!-- End .products -->
 
-              <a href="category.html" class="btn btn-outline-dark-3"><span>View More Products</span><i class="icon-long-arrow-right"></i></a>
+              <router-link :to="{ name: 'stores.categories.show', params: { storeId: item.id, id: product.category.id } }" class="btn btn-outline-dark-3"><span>View More Products</span><i class="icon-long-arrow-right"></i></router-link>
             </div><!-- End .widget widget-products -->
 
             <div class="widget widget-banner-sidebar">
@@ -318,7 +276,7 @@ import {useCart, useLang, useUrls} from "../../../plugins/globals";
 import Store from "../../../components/stores/Store.vue";
 import {useRoute} from "vue-router";
 import {useStore} from "vuex";
-import {reactive, watch} from "vue";
+import {onMounted, reactive, watch} from "vue";
 import ImgZoom from "../../../components/partials/ImgZoom.vue";
 import Pagination from "../../../components/partials/Pagination.vue";
 import Modal from "../../../components/partials/Modal.vue";
@@ -372,6 +330,10 @@ const modals = reactive({
   addReview: false
 })
 
+const related = reactive({
+  products: []
+})
+
 helper.file = helper.files[0]
 
 watch(() => helper.colorId, (first) => {
@@ -387,6 +349,15 @@ watch(() => helper.accordion.reviews, (status) => {
 function showAccordion(name) {
   for (let key in helper.accordion)
     helper.accordion[key] = name === key;
+}
+
+function fetchRelated() {
+  useAxios().get(
+      urls.storeProductRelated.replace(':storeId', route.params.store)
+          .replace(':productId', route.params.id)
+  ).then(res => {
+    related.products = res.data
+  })
 }
 
 function fetchReviews() {
@@ -425,6 +396,10 @@ function addReaction(reviewKey, status) {
     reviews.data[reviewKey].unhelpful = res.data.unhelpful;
   })
 }
+
+onMounted(() => {
+  fetchRelated()
+})
 
 const breadcrumbs = [
   {
