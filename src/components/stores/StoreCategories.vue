@@ -2,7 +2,7 @@
   <div class="widget widget-categories">
     <h3 class="widget-title">
       {{ $lang.app.categories }}
-      <router-link :to="{ name: 'stores.settings.categories.index', params: { store: slug } }" :title="$lang.app.settings"><i class="icon-cog"></i></router-link>
+      <router-link v-if="$store.getters.isStoreAdmin" :to="{ name: 'stores.settings.categories.index', params: { store: slug } }" :title="$lang.app.settings"><i class="icon-cog"></i></router-link>
     </h3><!-- End .widget-title -->
 
     <div class="widget-body">

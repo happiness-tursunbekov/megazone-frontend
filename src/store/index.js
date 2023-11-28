@@ -94,7 +94,8 @@ export function createStore() {
             user: state => state.user,
             categoriesTree: state => state.categoriesTree,
             store: state => state.store,
-            authModal: state => state.authModal
+            authModal: state => state.authModal,
+            isStoreAdmin: state => state.store.id && state.user.stores && state.user.stores.length > 0 && state.user.stores.filter(item => item.id === state.store.id).length > 0
         }
     })
 }

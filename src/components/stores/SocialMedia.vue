@@ -52,7 +52,7 @@
         </div>
       </form>
     </modal>
-    <a href="#" @click.prevent="modal=true" class="social-icon" :title="$lang.app.edit"><i class="icon-edit"></i></a>
+    <a v-if="$store.getters.isStoreAdmin" href="#" @click.prevent="modal=true" class="social-icon" :title="$lang.app.edit"><i class="icon-edit"></i></a>
     <a v-if="storeItem.website" :href="storeItem.website" class="social-icon" title="Website" target="_blank">🌐</a>
     <a v-if="storeItem.instagram" :href="'https://www.instagram.com/' + storeItem.instagram" class="social-icon social-instagram" title="Instagram" target="_blank"><i class="icon-instagram"></i></a>
     <a v-if="storeItem.facebook" :href="storeItem.facebook" class="social-icon social-facebook" title="Facebook" target="_blank"><i class="icon-facebook-f"></i></a>

@@ -57,8 +57,6 @@ const route = useRoute();
 
 const store = useStore();
 
-
-
 const item = await useStore().dispatch('fetchStore', useRoute().params.store)
 
 const products = reactive({

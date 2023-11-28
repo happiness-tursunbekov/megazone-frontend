@@ -59,7 +59,6 @@
 
         <div class="header-right">
           <div class="header-dropdown-link">
-            <compare/>
 
             <router-link :to="{ name: 'cart.wishlist' }" class="wishlist-link">
               <i class="icon-heart-o"></i>

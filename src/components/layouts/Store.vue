@@ -8,8 +8,10 @@
         <div class="col">
           <div class="social-icons justify-content-start" style="height:100%; vertical-align: middle">
             <a href="#" @click.prevent="modals.address=true" class="social-icon" :title="$lang.app.location"><i class="icon-map-marker"></i></a>
-            <router-link :to="{ name: 'stores.products.create', params: { store: item.slug } }" class="btn btn-outline-success" :title="lang.app.addProduct"><i class="icon-plus"></i>{{ lang.app.addProduct }}</router-link>
-            <router-link :to="{ name: 'stores.edit', params: { store: item.slug } }" class="btn btn-outline-primary" :title="lang.app.edit"><i class="icon-edit"></i> Edit store</router-link>
+            <template v-if="store.getters.isStoreAdmin">
+              <router-link :to="{ name: 'stores.products.create', params: { store: item.slug } }" class="btn btn-outline-success" :title="lang.app.addProduct"><i class="icon-plus"></i>{{ lang.app.addProduct }}</router-link>
+              <router-link :to="{ name: 'stores.edit', params: { store: item.slug } }" class="btn btn-outline-primary" :title="lang.app.edit"><i class="icon-edit"></i> Edit store</router-link>
+            </template>
           </div>
         </div>
         <div class="col">

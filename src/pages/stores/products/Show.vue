@@ -20,10 +20,6 @@
                         :img-zoom="helper.file.path"
                         :scale="1.5"
                     />
-
-                    <a href="#" id="btn-product-gallery" class="btn-product-gallery">
-                      <i class="icon-arrows"></i>
-                    </a>
                   </figure><!-- End .product-main-image -->
 
                   <div id="product-zoom-gallery" class="product-image-gallery max-col-6">
@@ -87,7 +83,6 @@
 
                       <div class="details-action-wrapper">
                         <a @click.prevent="cart.addToWishlist(product, item)" href="#" class="btn-product btn-wishlist" title="Wishlist"><span>{{ lang.app.addToWishlist }}</span></a>
-                        <a href="#" class="btn-product btn-compare" title="Compare"><span>{{ lang.app.addToCompare }}</span></a>
                       </div><!-- End .details-action-wrapper -->
                     </div><!-- End .product-details-action -->
                   </form>

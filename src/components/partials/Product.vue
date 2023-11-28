@@ -9,7 +9,6 @@
 
       <div class="product-action-vertical">
         <a @click.prevent="$cart.addToWishlist(item, item.store)" href="#" class="btn-product-icon btn-wishlist btn-expandable"><span>add to wishlist</span></a>
-        <a href="#" class="btn-product-icon btn-compare" title="Compare"><span>Compare</span></a>
       </div><!-- End .product-action-vertical -->
 
       <div class="product-action">
