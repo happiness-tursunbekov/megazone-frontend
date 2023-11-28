@@ -12,7 +12,7 @@
             <li>
               <a href="#">Links</a>
               <ul class="top-menu-ul">
-                <li>
+                <li v-if="$store.getters.user.id">
                   <div class="header-dropdown">
                     <a href="#">{{ lang.app.myStore }}</a>
                     <div class="header-menu">
