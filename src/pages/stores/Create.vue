@@ -68,6 +68,8 @@ import FileSelect from "../../components/partials/FileSelect.vue";
 import {useRouter} from "vue-router";
 import {useStore} from "vuex";
 
+const store = useStore()
+
 const lang = useLang()
 
 const axios = useAxios()
@@ -117,7 +119,7 @@ axios.get(urls.storeCreate)
 const save = () => {
   axios.post(urls.stores, form)
       .then(res => {
-        useStore().dispatch('setStore', res.data)
+        store.dispatch('setStore', res.data)
         snotify.success(lang.app.createSuccessMsg)
         return router.push({
           name: 'stores.show',

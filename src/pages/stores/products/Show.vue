@@ -105,7 +105,7 @@
                       </div><!-- End .card-header -->
                       <div class="collapse" :class="{ show: helper.accordion.description }" aria-labelledby="product-desc-heading" data-parent="#product-accordion">
                         <div class="card-body">
-                          <div class="product-desc-content" v-html="product.description"></div><!-- End .product-desc-content -->
+                          <div class="product-desc-content" style="white-space: pre-wrap" v-html="product.description"></div><!-- End .product-desc-content -->
                         </div><!-- End .card-body -->
                       </div><!-- End .collapse -->
                     </div><!-- End .card -->

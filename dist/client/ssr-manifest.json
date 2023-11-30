@@ -149,21 +149,6 @@
     "/assets/molla0ab2.119a78c9.ttf",
     "/assets/molla0ab2.48a618a5.svg"
   ],
-  "src/assets/images/demos/demo-13/logo-footer.png": [
-    "/assets/logo.d5e5057a.png",
-    "/assets/payments.ff17602b.png",
-    "/assets/line-awesomeeb4f.10144157.eot",
-    "/assets/line-awesomeeb4f.063a9529.woff2",
-    "/assets/line-awesomeeb4f.20fe49b8.woff",
-    "/assets/line-awesomeeb4f.09929899.ttf",
-    "/assets/line-awesomeeb4f.5dcd6347.svg",
-    "/assets/elements.00c918fb.png",
-    "/assets/molla0ab2.8f5d5cdd.eot",
-    "/assets/molla0ab2.c16da98b.woff2",
-    "/assets/molla0ab2.cd73d169.woff",
-    "/assets/molla0ab2.119a78c9.ttf",
-    "/assets/molla0ab2.48a618a5.svg"
-  ],
   "src/assets/images/payments.png": [
     "/assets/logo.d5e5057a.png",
     "/assets/payments.ff17602b.png",
@@ -405,2309 +390,632 @@
     "/assets/molla0ab2.48a618a5.svg"
   ],
   "node_modules/@vue/shared/dist/shared.esm-bundler.js": [
-    "/assets/vendor.823585a3.js"
+    "/assets/vendor.cf5c3b0f.js"
   ],
   "node_modules/@vue/reactivity/dist/reactivity.esm-bundler.js": [
-    "/assets/vendor.823585a3.js"
+    "/assets/vendor.cf5c3b0f.js"
   ],
   "node_modules/@vue/runtime-core/dist/runtime-core.esm-bundler.js": [
-    "/assets/vendor.823585a3.js"
+    "/assets/vendor.cf5c3b0f.js"
   ],
   "node_modules/@vue/runtime-dom/dist/runtime-dom.esm-bundler.js": [
-    "/assets/vendor.823585a3.js"
+    "/assets/vendor.cf5c3b0f.js"
   ],
   "node_modules/vue/dist/vue.runtime.esm-bundler.js": [
-    "/assets/vendor.823585a3.js"
+    "/assets/vendor.cf5c3b0f.js"
   ],
   "\u0000commonjsHelpers.js": [
-    "/assets/vendor.823585a3.js"
+    "/assets/vendor.cf5c3b0f.js"
   ],
   "\u0000/home/bakyt/Desktop/megazone-frontend/node_modules/axios/lib/axios.js?commonjs-module": [
-    "/assets/vendor.823585a3.js"
+    "/assets/vendor.cf5c3b0f.js"
   ],
   "node_modules/axios/lib/helpers/bind.js": [
-    "/assets/vendor.823585a3.js"
+    "/assets/vendor.cf5c3b0f.js"
   ],
   "\u0000/home/bakyt/Desktop/megazone-frontend/node_modules/axios/lib/helpers/bind.js?commonjs-proxy": [
-    "/assets/vendor.823585a3.js"
+    "/assets/vendor.cf5c3b0f.js"
   ],
   "node_modules/axios/lib/utils.js": [
-    "/assets/vendor.823585a3.js"
+    "/assets/vendor.cf5c3b0f.js"
   ],
   "\u0000/home/bakyt/Desktop/megazone-frontend/node_modules/axios/lib/utils.js?commonjs-proxy": [
-    "/assets/vendor.823585a3.js"
+    "/assets/vendor.cf5c3b0f.js"
   ],
   "node_modules/axios/lib/helpers/buildURL.js": [
-    "/assets/vendor.823585a3.js"
+    "/assets/vendor.cf5c3b0f.js"
   ],
   "\u0000/home/bakyt/Desktop/megazone-frontend/node_modules/axios/lib/helpers/buildURL.js?commonjs-proxy": [
-    "/assets/vendor.823585a3.js"
+    "/assets/vendor.cf5c3b0f.js"
   ],
   "node_modules/axios/lib/core/InterceptorManager.js": [
-    "/assets/vendor.823585a3.js"
+    "/assets/vendor.cf5c3b0f.js"
   ],
   "\u0000/home/bakyt/Desktop/megazone-frontend/node_modules/axios/lib/core/InterceptorManager.js?commonjs-proxy": [
-    "/assets/vendor.823585a3.js"
+    "/assets/vendor.cf5c3b0f.js"
   ],
   "node_modules/axios/lib/helpers/normalizeHeaderName.js": [
-    "/assets/vendor.823585a3.js"
+    "/assets/vendor.cf5c3b0f.js"
   ],
   "\u0000/home/bakyt/Desktop/megazone-frontend/node_modules/axios/lib/helpers/normalizeHeaderName.js?commonjs-proxy": [
-    "/assets/vendor.823585a3.js"
+    "/assets/vendor.cf5c3b0f.js"
   ],
   "node_modules/axios/lib/core/enhanceError.js": [
-    "/assets/vendor.823585a3.js"
+    "/assets/vendor.cf5c3b0f.js"
   ],
   "\u0000/home/bakyt/Desktop/megazone-frontend/node_modules/axios/lib/core/enhanceError.js?commonjs-proxy": [
-    "/assets/vendor.823585a3.js"
+    "/assets/vendor.cf5c3b0f.js"
   ],
   "node_modules/axios/lib/core/createError.js": [
-    "/assets/vendor.823585a3.js"
+    "/assets/vendor.cf5c3b0f.js"
   ],
   "\u0000/home/bakyt/Desktop/megazone-frontend/node_modules/axios/lib/core/createError.js?commonjs-proxy": [
-    "/assets/vendor.823585a3.js"
+    "/assets/vendor.cf5c3b0f.js"
   ],
   "node_modules/axios/lib/core/settle.js": [
-    "/assets/vendor.823585a3.js"
+    "/assets/vendor.cf5c3b0f.js"
   ],
   "\u0000/home/bakyt/Desktop/megazone-frontend/node_modules/axios/lib/core/settle.js?commonjs-proxy": [
-    "/assets/vendor.823585a3.js"
+    "/assets/vendor.cf5c3b0f.js"
   ],
   "node_modules/axios/lib/helpers/cookies.js": [
-    "/assets/vendor.823585a3.js"
+    "/assets/vendor.cf5c3b0f.js"
   ],
   "\u0000/home/bakyt/Desktop/megazone-frontend/node_modules/axios/lib/helpers/cookies.js?commonjs-proxy": [
-    "/assets/vendor.823585a3.js"
+    "/assets/vendor.cf5c3b0f.js"
   ],
   "node_modules/axios/lib/helpers/isAbsoluteURL.js": [
-    "/assets/vendor.823585a3.js"
+    "/assets/vendor.cf5c3b0f.js"
   ],
   "\u0000/home/bakyt/Desktop/megazone-frontend/node_modules/axios/lib/helpers/isAbsoluteURL.js?commonjs-proxy": [
-    "/assets/vendor.823585a3.js"
+    "/assets/vendor.cf5c3b0f.js"
   ],
   "node_modules/axios/lib/helpers/combineURLs.js": [
-    "/assets/vendor.823585a3.js"
+    "/assets/vendor.cf5c3b0f.js"
   ],
   "\u0000/home/bakyt/Desktop/megazone-frontend/node_modules/axios/lib/helpers/combineURLs.js?commonjs-proxy": [
-    "/assets/vendor.823585a3.js"
+    "/assets/vendor.cf5c3b0f.js"
   ],
   "node_modules/axios/lib/core/buildFullPath.js": [
-    "/assets/vendor.823585a3.js"
+    "/assets/vendor.cf5c3b0f.js"
   ],
   "\u0000/home/bakyt/Desktop/megazone-frontend/node_modules/axios/lib/core/buildFullPath.js?commonjs-proxy": [
-    "/assets/vendor.823585a3.js"
+    "/assets/vendor.cf5c3b0f.js"
   ],
   "node_modules/axios/lib/helpers/parseHeaders.js": [
-    "/assets/vendor.823585a3.js"
+    "/assets/vendor.cf5c3b0f.js"
   ],
   "\u0000/home/bakyt/Desktop/megazone-frontend/node_modules/axios/lib/helpers/parseHeaders.js?commonjs-proxy": [
-    "/assets/vendor.823585a3.js"
+    "/assets/vendor.cf5c3b0f.js"
   ],
   "node_modules/axios/lib/helpers/isURLSameOrigin.js": [
-    "/assets/vendor.823585a3.js"
+    "/assets/vendor.cf5c3b0f.js"
   ],
   "\u0000/home/bakyt/Desktop/megazone-frontend/node_modules/axios/lib/helpers/isURLSameOrigin.js?commonjs-proxy": [
-    "/assets/vendor.823585a3.js"
+    "/assets/vendor.cf5c3b0f.js"
   ],
   "node_modules/axios/lib/adapters/xhr.js": [
-    "/assets/vendor.823585a3.js"
+    "/assets/vendor.cf5c3b0f.js"
   ],
   "\u0000/home/bakyt/Desktop/megazone-frontend/node_modules/axios/lib/adapters/xhr.js?commonjs-proxy": [
-    "/assets/vendor.823585a3.js"
+    "/assets/vendor.cf5c3b0f.js"
   ],
   "node_modules/axios/lib/defaults.js": [
-    "/assets/vendor.823585a3.js"
+    "/assets/vendor.cf5c3b0f.js"
   ],
   "\u0000/home/bakyt/Desktop/megazone-frontend/node_modules/axios/lib/defaults.js?commonjs-proxy": [
-    "/assets/vendor.823585a3.js"
+    "/assets/vendor.cf5c3b0f.js"
   ],
   "node_modules/axios/lib/core/transformData.js": [
-    "/assets/vendor.823585a3.js"
+    "/assets/vendor.cf5c3b0f.js"
   ],
   "\u0000/home/bakyt/Desktop/megazone-frontend/node_modules/axios/lib/core/transformData.js?commonjs-proxy": [
-    "/assets/vendor.823585a3.js"
+    "/assets/vendor.cf5c3b0f.js"
   ],
   "node_modules/axios/lib/cancel/isCancel.js": [
-    "/assets/vendor.823585a3.js"
+    "/assets/vendor.cf5c3b0f.js"
   ],
   "\u0000/home/bakyt/Desktop/megazone-frontend/node_modules/axios/lib/cancel/isCancel.js?commonjs-proxy": [
-    "/assets/vendor.823585a3.js"
+    "/assets/vendor.cf5c3b0f.js"
   ],
   "node_modules/axios/lib/core/dispatchRequest.js": [
-    "/assets/vendor.823585a3.js"
+    "/assets/vendor.cf5c3b0f.js"
   ],
   "\u0000/home/bakyt/Desktop/megazone-frontend/node_modules/axios/lib/core/dispatchRequest.js?commonjs-proxy": [
-    "/assets/vendor.823585a3.js"
+    "/assets/vendor.cf5c3b0f.js"
   ],
   "node_modules/axios/lib/core/mergeConfig.js": [
-    "/assets/vendor.823585a3.js"
+    "/assets/vendor.cf5c3b0f.js"
   ],
   "\u0000/home/bakyt/Desktop/megazone-frontend/node_modules/axios/lib/core/mergeConfig.js?commonjs-proxy": [
-    "/assets/vendor.823585a3.js"
+    "/assets/vendor.cf5c3b0f.js"
   ],
   "node_modules/axios/package.json": [
-    "/assets/vendor.823585a3.js"
+    "/assets/vendor.cf5c3b0f.js"
   ],
   "\u0000/home/bakyt/Desktop/megazone-frontend/node_modules/axios/package.json?commonjs-proxy": [
-    "/assets/vendor.823585a3.js"
+    "/assets/vendor.cf5c3b0f.js"
   ],
   "node_modules/axios/lib/helpers/validator.js": [
-    "/assets/vendor.823585a3.js"
+    "/assets/vendor.cf5c3b0f.js"
   ],
   "\u0000/home/bakyt/Desktop/megazone-frontend/node_modules/axios/lib/helpers/validator.js?commonjs-proxy": [
-    "/assets/vendor.823585a3.js"
+    "/assets/vendor.cf5c3b0f.js"
   ],
   "node_modules/axios/lib/core/Axios.js": [
-    "/assets/vendor.823585a3.js"
+    "/assets/vendor.cf5c3b0f.js"
   ],
   "\u0000/home/bakyt/Desktop/megazone-frontend/node_modules/axios/lib/core/Axios.js?commonjs-proxy": [
-    "/assets/vendor.823585a3.js"
+    "/assets/vendor.cf5c3b0f.js"
   ],
   "node_modules/axios/lib/cancel/Cancel.js": [
-    "/assets/vendor.823585a3.js"
+    "/assets/vendor.cf5c3b0f.js"
   ],
   "\u0000/home/bakyt/Desktop/megazone-frontend/node_modules/axios/lib/cancel/Cancel.js?commonjs-proxy": [
-    "/assets/vendor.823585a3.js"
+    "/assets/vendor.cf5c3b0f.js"
   ],
   "node_modules/axios/lib/cancel/CancelToken.js": [
-    "/assets/vendor.823585a3.js"
+    "/assets/vendor.cf5c3b0f.js"
   ],
   "\u0000/home/bakyt/Desktop/megazone-frontend/node_modules/axios/lib/cancel/CancelToken.js?commonjs-proxy": [
-    "/assets/vendor.823585a3.js"
+    "/assets/vendor.cf5c3b0f.js"
   ],
   "node_modules/axios/lib/helpers/spread.js": [
-    "/assets/vendor.823585a3.js"
+    "/assets/vendor.cf5c3b0f.js"
   ],
   "\u0000/home/bakyt/Desktop/megazone-frontend/node_modules/axios/lib/helpers/spread.js?commonjs-proxy": [
-    "/assets/vendor.823585a3.js"
+    "/assets/vendor.cf5c3b0f.js"
   ],
   "node_modules/axios/lib/helpers/isAxiosError.js": [
-    "/assets/vendor.823585a3.js"
+    "/assets/vendor.cf5c3b0f.js"
   ],
   "\u0000/home/bakyt/Desktop/megazone-frontend/node_modules/axios/lib/helpers/isAxiosError.js?commonjs-proxy": [
-    "/assets/vendor.823585a3.js"
+    "/assets/vendor.cf5c3b0f.js"
   ],
   "node_modules/axios/lib/axios.js": [
-    "/assets/vendor.823585a3.js"
+    "/assets/vendor.cf5c3b0f.js"
   ],
   "\u0000/home/bakyt/Desktop/megazone-frontend/node_modules/axios/lib/axios.js?commonjs-proxy": [
-    "/assets/vendor.823585a3.js"
+    "/assets/vendor.cf5c3b0f.js"
   ],
   "node_modules/axios/index.js": [
-    "/assets/vendor.823585a3.js"
+    "/assets/vendor.cf5c3b0f.js"
   ],
   "node_modules/@vue/devtools-api/lib/esm/env.js": [
-    "/assets/vendor.823585a3.js"
+    "/assets/vendor.cf5c3b0f.js"
   ],
   "node_modules/@vue/devtools-api/lib/esm/const.js": [
-    "/assets/vendor.823585a3.js"
+    "/assets/vendor.cf5c3b0f.js"
   ],
   "node_modules/@vue/devtools-api/lib/esm/time.js": [
-    "/assets/vendor.823585a3.js"
+    "/assets/vendor.cf5c3b0f.js"
   ],
   "node_modules/@vue/devtools-api/lib/esm/proxy.js": [
-    "/assets/vendor.823585a3.js"
+    "/assets/vendor.cf5c3b0f.js"
   ],
   "node_modules/@vue/devtools-api/lib/esm/api/api.js": [
-    "/assets/vendor.823585a3.js"
+    "/assets/vendor.cf5c3b0f.js"
   ],
   "node_modules/@vue/devtools-api/lib/esm/api/app.js": [
-    "/assets/vendor.823585a3.js"
+    "/assets/vendor.cf5c3b0f.js"
   ],
   "node_modules/@vue/devtools-api/lib/esm/api/component.js": [
-    "/assets/vendor.823585a3.js"
+    "/assets/vendor.cf5c3b0f.js"
   ],
   "node_modules/@vue/devtools-api/lib/esm/api/context.js": [
-    "/assets/vendor.823585a3.js"
+    "/assets/vendor.cf5c3b0f.js"
   ],
   "node_modules/@vue/devtools-api/lib/esm/api/hooks.js": [
-    "/assets/vendor.823585a3.js"
+    "/assets/vendor.cf5c3b0f.js"
   ],
   "node_modules/@vue/devtools-api/lib/esm/api/util.js": [
-    "/assets/vendor.823585a3.js"
+    "/assets/vendor.cf5c3b0f.js"
   ],
   "node_modules/@vue/devtools-api/lib/esm/api/index.js": [
-    "/assets/vendor.823585a3.js"
+    "/assets/vendor.cf5c3b0f.js"
   ],
   "node_modules/@vue/devtools-api/lib/esm/plugin.js": [
-    "/assets/vendor.823585a3.js"
+    "/assets/vendor.cf5c3b0f.js"
   ],
   "node_modules/@vue/devtools-api/lib/esm/index.js": [
-    "/assets/vendor.823585a3.js"
+    "/assets/vendor.cf5c3b0f.js"
   ],
   "node_modules/vuex/dist/vuex.esm-bundler.js": [
-    "/assets/vendor.823585a3.js"
+    "/assets/vendor.cf5c3b0f.js"
   ],
   "node_modules/vue-router/dist/vue-router.esm-bundler.js": [
-    "/assets/vendor.823585a3.js"
+    "/assets/vendor.cf5c3b0f.js"
   ],
   "node_modules/vue3-snotify/dist/vue3-snotify.es.js": [
-    "/assets/vendor.823585a3.js"
-  ],
-  "src/assets/images/demos/demo-13/cats/1.jpg": [
-    "/assets/Home.89dd7870.js",
-    "/assets/Home.60250371.css",
-    "/assets/1.39d58735.jpg",
-    "/assets/3.b8f56676.jpg",
-    "/assets/4.7f098d18.jpg",
-    "/assets/5.8f6dcbe1.jpg",
-    "/assets/6.3ce9bc04.jpg",
-    "/assets/banner-1.bb1eb290.jpg",
-    "/assets/banner-3.d7829625.jpg",
-    "/assets/banner-2.1ba698f1.jpg",
-    "/assets/product-1.d56484c8.jpg",
-    "/assets/product-2.e72cbe6d.jpg",
-    "/assets/product-3.398e69fe.jpg",
-    "/assets/product-4.dfe2bc25.jpg",
-    "/assets/product-5.95cdaf9f.jpg",
-    "/assets/product-6.de4478ea.jpg",
-    "/assets/product-7.484abf26.jpg",
-    "/assets/product-8.fa88cc3e.jpg",
-    "/assets/product-9.5d93f10b.jpg",
-    "/assets/product-10.7985de54.jpg",
-    "/assets/banner-4.f76b5538.jpg",
-    "/assets/banner-5.9dda8293.png",
-    "/assets/product-11.64379736.jpg",
-    "/assets/product-12.97ab2162.jpg",
-    "/assets/product-13.e0fd076c.jpg",
-    "/assets/product-14.87912399.jpg",
-    "/assets/product-15.62ec7372.jpg",
-    "/assets/product-16.ba4d533b.jpg",
-    "/assets/product-17.c6f449e8.jpg",
-    "/assets/product-18.edd0ccfe.jpg",
-    "/assets/product-19.10f974b4.jpg",
-    "/assets/product-20.10f45280.jpg",
-    "/assets/2.cb66cf0f.png",
-    "/assets/post-1.603604fb.jpg",
-    "/assets/post-2.63efc324.jpg",
-    "/assets/post-3.38a1c60b.jpg",
-    "/assets/post-4.92f98f9b.jpg"
-  ],
-  "src/assets/images/demos/demo-13/cats/2.jpg": [
-    "/assets/Home.89dd7870.js",
-    "/assets/Home.60250371.css",
-    "/assets/1.39d58735.jpg",
-    "/assets/3.b8f56676.jpg",
-    "/assets/4.7f098d18.jpg",
-    "/assets/5.8f6dcbe1.jpg",
-    "/assets/6.3ce9bc04.jpg",
-    "/assets/banner-1.bb1eb290.jpg",
-    "/assets/banner-3.d7829625.jpg",
-    "/assets/banner-2.1ba698f1.jpg",
-    "/assets/product-1.d56484c8.jpg",
-    "/assets/product-2.e72cbe6d.jpg",
-    "/assets/product-3.398e69fe.jpg",
-    "/assets/product-4.dfe2bc25.jpg",
-    "/assets/product-5.95cdaf9f.jpg",
-    "/assets/product-6.de4478ea.jpg",
-    "/assets/product-7.484abf26.jpg",
-    "/assets/product-8.fa88cc3e.jpg",
-    "/assets/product-9.5d93f10b.jpg",
-    "/assets/product-10.7985de54.jpg",
-    "/assets/banner-4.f76b5538.jpg",
-    "/assets/banner-5.9dda8293.png",
-    "/assets/product-11.64379736.jpg",
-    "/assets/product-12.97ab2162.jpg",
-    "/assets/product-13.e0fd076c.jpg",
-    "/assets/product-14.87912399.jpg",
-    "/assets/product-15.62ec7372.jpg",
-    "/assets/product-16.ba4d533b.jpg",
-    "/assets/product-17.c6f449e8.jpg",
-    "/assets/product-18.edd0ccfe.jpg",
-    "/assets/product-19.10f974b4.jpg",
-    "/assets/product-20.10f45280.jpg",
-    "/assets/2.cb66cf0f.png",
-    "/assets/post-1.603604fb.jpg",
-    "/assets/post-2.63efc324.jpg",
-    "/assets/post-3.38a1c60b.jpg",
-    "/assets/post-4.92f98f9b.jpg"
-  ],
-  "src/assets/images/demos/demo-13/cats/3.jpg": [
-    "/assets/Home.89dd7870.js",
-    "/assets/Home.60250371.css",
-    "/assets/1.39d58735.jpg",
-    "/assets/3.b8f56676.jpg",
-    "/assets/4.7f098d18.jpg",
-    "/assets/5.8f6dcbe1.jpg",
-    "/assets/6.3ce9bc04.jpg",
-    "/assets/banner-1.bb1eb290.jpg",
-    "/assets/banner-3.d7829625.jpg",
-    "/assets/banner-2.1ba698f1.jpg",
-    "/assets/product-1.d56484c8.jpg",
-    "/assets/product-2.e72cbe6d.jpg",
-    "/assets/product-3.398e69fe.jpg",
-    "/assets/product-4.dfe2bc25.jpg",
-    "/assets/product-5.95cdaf9f.jpg",
-    "/assets/product-6.de4478ea.jpg",
-    "/assets/product-7.484abf26.jpg",
-    "/assets/product-8.fa88cc3e.jpg",
-    "/assets/product-9.5d93f10b.jpg",
-    "/assets/product-10.7985de54.jpg",
-    "/assets/banner-4.f76b5538.jpg",
-    "/assets/banner-5.9dda8293.png",
-    "/assets/product-11.64379736.jpg",
-    "/assets/product-12.97ab2162.jpg",
-    "/assets/product-13.e0fd076c.jpg",
-    "/assets/product-14.87912399.jpg",
-    "/assets/product-15.62ec7372.jpg",
-    "/assets/product-16.ba4d533b.jpg",
-    "/assets/product-17.c6f449e8.jpg",
-    "/assets/product-18.edd0ccfe.jpg",
-    "/assets/product-19.10f974b4.jpg",
-    "/assets/product-20.10f45280.jpg",
-    "/assets/2.cb66cf0f.png",
-    "/assets/post-1.603604fb.jpg",
-    "/assets/post-2.63efc324.jpg",
-    "/assets/post-3.38a1c60b.jpg",
-    "/assets/post-4.92f98f9b.jpg"
-  ],
-  "src/assets/images/demos/demo-13/cats/4.jpg": [
-    "/assets/Home.89dd7870.js",
-    "/assets/Home.60250371.css",
-    "/assets/1.39d58735.jpg",
-    "/assets/3.b8f56676.jpg",
-    "/assets/4.7f098d18.jpg",
-    "/assets/5.8f6dcbe1.jpg",
-    "/assets/6.3ce9bc04.jpg",
-    "/assets/banner-1.bb1eb290.jpg",
-    "/assets/banner-3.d7829625.jpg",
-    "/assets/banner-2.1ba698f1.jpg",
-    "/assets/product-1.d56484c8.jpg",
-    "/assets/product-2.e72cbe6d.jpg",
-    "/assets/product-3.398e69fe.jpg",
-    "/assets/product-4.dfe2bc25.jpg",
-    "/assets/product-5.95cdaf9f.jpg",
-    "/assets/product-6.de4478ea.jpg",
-    "/assets/product-7.484abf26.jpg",
-    "/assets/product-8.fa88cc3e.jpg",
-    "/assets/product-9.5d93f10b.jpg",
-    "/assets/product-10.7985de54.jpg",
-    "/assets/banner-4.f76b5538.jpg",
-    "/assets/banner-5.9dda8293.png",
-    "/assets/product-11.64379736.jpg",
-    "/assets/product-12.97ab2162.jpg",
-    "/assets/product-13.e0fd076c.jpg",
-    "/assets/product-14.87912399.jpg",
-    "/assets/product-15.62ec7372.jpg",
-    "/assets/product-16.ba4d533b.jpg",
-    "/assets/product-17.c6f449e8.jpg",
-    "/assets/product-18.edd0ccfe.jpg",
-    "/assets/product-19.10f974b4.jpg",
-    "/assets/product-20.10f45280.jpg",
-    "/assets/2.cb66cf0f.png",
-    "/assets/post-1.603604fb.jpg",
-    "/assets/post-2.63efc324.jpg",
-    "/assets/post-3.38a1c60b.jpg",
-    "/assets/post-4.92f98f9b.jpg"
-  ],
-  "src/assets/images/demos/demo-13/cats/5.jpg": [
-    "/assets/Home.89dd7870.js",
-    "/assets/Home.60250371.css",
-    "/assets/1.39d58735.jpg",
-    "/assets/3.b8f56676.jpg",
-    "/assets/4.7f098d18.jpg",
-    "/assets/5.8f6dcbe1.jpg",
-    "/assets/6.3ce9bc04.jpg",
-    "/assets/banner-1.bb1eb290.jpg",
-    "/assets/banner-3.d7829625.jpg",
-    "/assets/banner-2.1ba698f1.jpg",
-    "/assets/product-1.d56484c8.jpg",
-    "/assets/product-2.e72cbe6d.jpg",
-    "/assets/product-3.398e69fe.jpg",
-    "/assets/product-4.dfe2bc25.jpg",
-    "/assets/product-5.95cdaf9f.jpg",
-    "/assets/product-6.de4478ea.jpg",
-    "/assets/product-7.484abf26.jpg",
-    "/assets/product-8.fa88cc3e.jpg",
-    "/assets/product-9.5d93f10b.jpg",
-    "/assets/product-10.7985de54.jpg",
-    "/assets/banner-4.f76b5538.jpg",
-    "/assets/banner-5.9dda8293.png",
-    "/assets/product-11.64379736.jpg",
-    "/assets/product-12.97ab2162.jpg",
-    "/assets/product-13.e0fd076c.jpg",
-    "/assets/product-14.87912399.jpg",
-    "/assets/product-15.62ec7372.jpg",
-    "/assets/product-16.ba4d533b.jpg",
-    "/assets/product-17.c6f449e8.jpg",
-    "/assets/product-18.edd0ccfe.jpg",
-    "/assets/product-19.10f974b4.jpg",
-    "/assets/product-20.10f45280.jpg",
-    "/assets/2.cb66cf0f.png",
-    "/assets/post-1.603604fb.jpg",
-    "/assets/post-2.63efc324.jpg",
-    "/assets/post-3.38a1c60b.jpg",
-    "/assets/post-4.92f98f9b.jpg"
-  ],
-  "src/assets/images/demos/demo-13/cats/6.jpg": [
-    "/assets/Home.89dd7870.js",
-    "/assets/Home.60250371.css",
-    "/assets/1.39d58735.jpg",
-    "/assets/3.b8f56676.jpg",
-    "/assets/4.7f098d18.jpg",
-    "/assets/5.8f6dcbe1.jpg",
-    "/assets/6.3ce9bc04.jpg",
-    "/assets/banner-1.bb1eb290.jpg",
-    "/assets/banner-3.d7829625.jpg",
-    "/assets/banner-2.1ba698f1.jpg",
-    "/assets/product-1.d56484c8.jpg",
-    "/assets/product-2.e72cbe6d.jpg",
-    "/assets/product-3.398e69fe.jpg",
-    "/assets/product-4.dfe2bc25.jpg",
-    "/assets/product-5.95cdaf9f.jpg",
-    "/assets/product-6.de4478ea.jpg",
-    "/assets/product-7.484abf26.jpg",
-    "/assets/product-8.fa88cc3e.jpg",
-    "/assets/product-9.5d93f10b.jpg",
-    "/assets/product-10.7985de54.jpg",
-    "/assets/banner-4.f76b5538.jpg",
-    "/assets/banner-5.9dda8293.png",
-    "/assets/product-11.64379736.jpg",
-    "/assets/product-12.97ab2162.jpg",
-    "/assets/product-13.e0fd076c.jpg",
-    "/assets/product-14.87912399.jpg",
-    "/assets/product-15.62ec7372.jpg",
-    "/assets/product-16.ba4d533b.jpg",
-    "/assets/product-17.c6f449e8.jpg",
-    "/assets/product-18.edd0ccfe.jpg",
-    "/assets/product-19.10f974b4.jpg",
-    "/assets/product-20.10f45280.jpg",
-    "/assets/2.cb66cf0f.png",
-    "/assets/post-1.603604fb.jpg",
-    "/assets/post-2.63efc324.jpg",
-    "/assets/post-3.38a1c60b.jpg",
-    "/assets/post-4.92f98f9b.jpg"
+    "/assets/vendor.cf5c3b0f.js"
   ],
   "src/assets/images/demos/demo-13/banners/banner-1.jpg": [
-    "/assets/Home.89dd7870.js",
-    "/assets/Home.60250371.css",
-    "/assets/1.39d58735.jpg",
-    "/assets/3.b8f56676.jpg",
-    "/assets/4.7f098d18.jpg",
-    "/assets/5.8f6dcbe1.jpg",
-    "/assets/6.3ce9bc04.jpg",
+    "/assets/Home.51e3f8a7.js",
+    "/assets/Home.cce71adf.css",
     "/assets/banner-1.bb1eb290.jpg",
     "/assets/banner-3.d7829625.jpg",
     "/assets/banner-2.1ba698f1.jpg",
-    "/assets/product-1.d56484c8.jpg",
-    "/assets/product-2.e72cbe6d.jpg",
-    "/assets/product-3.398e69fe.jpg",
-    "/assets/product-4.dfe2bc25.jpg",
-    "/assets/product-5.95cdaf9f.jpg",
-    "/assets/product-6.de4478ea.jpg",
-    "/assets/product-7.484abf26.jpg",
-    "/assets/product-8.fa88cc3e.jpg",
-    "/assets/product-9.5d93f10b.jpg",
-    "/assets/product-10.7985de54.jpg",
     "/assets/banner-4.f76b5538.jpg",
-    "/assets/banner-5.9dda8293.png",
-    "/assets/product-11.64379736.jpg",
-    "/assets/product-12.97ab2162.jpg",
-    "/assets/product-13.e0fd076c.jpg",
-    "/assets/product-14.87912399.jpg",
-    "/assets/product-15.62ec7372.jpg",
-    "/assets/product-16.ba4d533b.jpg",
-    "/assets/product-17.c6f449e8.jpg",
-    "/assets/product-18.edd0ccfe.jpg",
-    "/assets/product-19.10f974b4.jpg",
-    "/assets/product-20.10f45280.jpg",
-    "/assets/2.cb66cf0f.png",
-    "/assets/post-1.603604fb.jpg",
-    "/assets/post-2.63efc324.jpg",
-    "/assets/post-3.38a1c60b.jpg",
-    "/assets/post-4.92f98f9b.jpg"
+    "/assets/banner-5.9dda8293.png"
   ],
   "src/assets/images/demos/demo-13/banners/banner-3.jpg": [
-    "/assets/Home.89dd7870.js",
-    "/assets/Home.60250371.css",
-    "/assets/1.39d58735.jpg",
-    "/assets/3.b8f56676.jpg",
-    "/assets/4.7f098d18.jpg",
-    "/assets/5.8f6dcbe1.jpg",
-    "/assets/6.3ce9bc04.jpg",
+    "/assets/Home.51e3f8a7.js",
+    "/assets/Home.cce71adf.css",
     "/assets/banner-1.bb1eb290.jpg",
     "/assets/banner-3.d7829625.jpg",
     "/assets/banner-2.1ba698f1.jpg",
-    "/assets/product-1.d56484c8.jpg",
-    "/assets/product-2.e72cbe6d.jpg",
-    "/assets/product-3.398e69fe.jpg",
-    "/assets/product-4.dfe2bc25.jpg",
-    "/assets/product-5.95cdaf9f.jpg",
-    "/assets/product-6.de4478ea.jpg",
-    "/assets/product-7.484abf26.jpg",
-    "/assets/product-8.fa88cc3e.jpg",
-    "/assets/product-9.5d93f10b.jpg",
-    "/assets/product-10.7985de54.jpg",
     "/assets/banner-4.f76b5538.jpg",
-    "/assets/banner-5.9dda8293.png",
-    "/assets/product-11.64379736.jpg",
-    "/assets/product-12.97ab2162.jpg",
-    "/assets/product-13.e0fd076c.jpg",
-    "/assets/product-14.87912399.jpg",
-    "/assets/product-15.62ec7372.jpg",
-    "/assets/product-16.ba4d533b.jpg",
-    "/assets/product-17.c6f449e8.jpg",
-    "/assets/product-18.edd0ccfe.jpg",
-    "/assets/product-19.10f974b4.jpg",
-    "/assets/product-20.10f45280.jpg",
-    "/assets/2.cb66cf0f.png",
-    "/assets/post-1.603604fb.jpg",
-    "/assets/post-2.63efc324.jpg",
-    "/assets/post-3.38a1c60b.jpg",
-    "/assets/post-4.92f98f9b.jpg"
+    "/assets/banner-5.9dda8293.png"
   ],
   "src/assets/images/demos/demo-13/banners/banner-2.jpg": [
-    "/assets/Home.89dd7870.js",
-    "/assets/Home.60250371.css",
-    "/assets/1.39d58735.jpg",
-    "/assets/3.b8f56676.jpg",
-    "/assets/4.7f098d18.jpg",
-    "/assets/5.8f6dcbe1.jpg",
-    "/assets/6.3ce9bc04.jpg",
+    "/assets/Home.51e3f8a7.js",
+    "/assets/Home.cce71adf.css",
     "/assets/banner-1.bb1eb290.jpg",
     "/assets/banner-3.d7829625.jpg",
     "/assets/banner-2.1ba698f1.jpg",
-    "/assets/product-1.d56484c8.jpg",
-    "/assets/product-2.e72cbe6d.jpg",
-    "/assets/product-3.398e69fe.jpg",
-    "/assets/product-4.dfe2bc25.jpg",
-    "/assets/product-5.95cdaf9f.jpg",
-    "/assets/product-6.de4478ea.jpg",
-    "/assets/product-7.484abf26.jpg",
-    "/assets/product-8.fa88cc3e.jpg",
-    "/assets/product-9.5d93f10b.jpg",
-    "/assets/product-10.7985de54.jpg",
     "/assets/banner-4.f76b5538.jpg",
-    "/assets/banner-5.9dda8293.png",
-    "/assets/product-11.64379736.jpg",
-    "/assets/product-12.97ab2162.jpg",
-    "/assets/product-13.e0fd076c.jpg",
-    "/assets/product-14.87912399.jpg",
-    "/assets/product-15.62ec7372.jpg",
-    "/assets/product-16.ba4d533b.jpg",
-    "/assets/product-17.c6f449e8.jpg",
-    "/assets/product-18.edd0ccfe.jpg",
-    "/assets/product-19.10f974b4.jpg",
-    "/assets/product-20.10f45280.jpg",
-    "/assets/2.cb66cf0f.png",
-    "/assets/post-1.603604fb.jpg",
-    "/assets/post-2.63efc324.jpg",
-    "/assets/post-3.38a1c60b.jpg",
-    "/assets/post-4.92f98f9b.jpg"
-  ],
-  "src/assets/images/demos/demo-13/products/product-1.jpg": [
-    "/assets/Home.89dd7870.js",
-    "/assets/Home.60250371.css",
-    "/assets/1.39d58735.jpg",
-    "/assets/3.b8f56676.jpg",
-    "/assets/4.7f098d18.jpg",
-    "/assets/5.8f6dcbe1.jpg",
-    "/assets/6.3ce9bc04.jpg",
-    "/assets/banner-1.bb1eb290.jpg",
-    "/assets/banner-3.d7829625.jpg",
-    "/assets/banner-2.1ba698f1.jpg",
-    "/assets/product-1.d56484c8.jpg",
-    "/assets/product-2.e72cbe6d.jpg",
-    "/assets/product-3.398e69fe.jpg",
-    "/assets/product-4.dfe2bc25.jpg",
-    "/assets/product-5.95cdaf9f.jpg",
-    "/assets/product-6.de4478ea.jpg",
-    "/assets/product-7.484abf26.jpg",
-    "/assets/product-8.fa88cc3e.jpg",
-    "/assets/product-9.5d93f10b.jpg",
-    "/assets/product-10.7985de54.jpg",
-    "/assets/banner-4.f76b5538.jpg",
-    "/assets/banner-5.9dda8293.png",
-    "/assets/product-11.64379736.jpg",
-    "/assets/product-12.97ab2162.jpg",
-    "/assets/product-13.e0fd076c.jpg",
-    "/assets/product-14.87912399.jpg",
-    "/assets/product-15.62ec7372.jpg",
-    "/assets/product-16.ba4d533b.jpg",
-    "/assets/product-17.c6f449e8.jpg",
-    "/assets/product-18.edd0ccfe.jpg",
-    "/assets/product-19.10f974b4.jpg",
-    "/assets/product-20.10f45280.jpg",
-    "/assets/2.cb66cf0f.png",
-    "/assets/post-1.603604fb.jpg",
-    "/assets/post-2.63efc324.jpg",
-    "/assets/post-3.38a1c60b.jpg",
-    "/assets/post-4.92f98f9b.jpg"
-  ],
-  "src/assets/images/demos/demo-13/products/product-2.jpg": [
-    "/assets/Home.89dd7870.js",
-    "/assets/Home.60250371.css",
-    "/assets/1.39d58735.jpg",
-    "/assets/3.b8f56676.jpg",
-    "/assets/4.7f098d18.jpg",
-    "/assets/5.8f6dcbe1.jpg",
-    "/assets/6.3ce9bc04.jpg",
-    "/assets/banner-1.bb1eb290.jpg",
-    "/assets/banner-3.d7829625.jpg",
-    "/assets/banner-2.1ba698f1.jpg",
-    "/assets/product-1.d56484c8.jpg",
-    "/assets/product-2.e72cbe6d.jpg",
-    "/assets/product-3.398e69fe.jpg",
-    "/assets/product-4.dfe2bc25.jpg",
-    "/assets/product-5.95cdaf9f.jpg",
-    "/assets/product-6.de4478ea.jpg",
-    "/assets/product-7.484abf26.jpg",
-    "/assets/product-8.fa88cc3e.jpg",
-    "/assets/product-9.5d93f10b.jpg",
-    "/assets/product-10.7985de54.jpg",
-    "/assets/banner-4.f76b5538.jpg",
-    "/assets/banner-5.9dda8293.png",
-    "/assets/product-11.64379736.jpg",
-    "/assets/product-12.97ab2162.jpg",
-    "/assets/product-13.e0fd076c.jpg",
-    "/assets/product-14.87912399.jpg",
-    "/assets/product-15.62ec7372.jpg",
-    "/assets/product-16.ba4d533b.jpg",
-    "/assets/product-17.c6f449e8.jpg",
-    "/assets/product-18.edd0ccfe.jpg",
-    "/assets/product-19.10f974b4.jpg",
-    "/assets/product-20.10f45280.jpg",
-    "/assets/2.cb66cf0f.png",
-    "/assets/post-1.603604fb.jpg",
-    "/assets/post-2.63efc324.jpg",
-    "/assets/post-3.38a1c60b.jpg",
-    "/assets/post-4.92f98f9b.jpg"
-  ],
-  "src/assets/images/demos/demo-13/products/product-3.jpg": [
-    "/assets/Home.89dd7870.js",
-    "/assets/Home.60250371.css",
-    "/assets/1.39d58735.jpg",
-    "/assets/3.b8f56676.jpg",
-    "/assets/4.7f098d18.jpg",
-    "/assets/5.8f6dcbe1.jpg",
-    "/assets/6.3ce9bc04.jpg",
-    "/assets/banner-1.bb1eb290.jpg",
-    "/assets/banner-3.d7829625.jpg",
-    "/assets/banner-2.1ba698f1.jpg",
-    "/assets/product-1.d56484c8.jpg",
-    "/assets/product-2.e72cbe6d.jpg",
-    "/assets/product-3.398e69fe.jpg",
-    "/assets/product-4.dfe2bc25.jpg",
-    "/assets/product-5.95cdaf9f.jpg",
-    "/assets/product-6.de4478ea.jpg",
-    "/assets/product-7.484abf26.jpg",
-    "/assets/product-8.fa88cc3e.jpg",
-    "/assets/product-9.5d93f10b.jpg",
-    "/assets/product-10.7985de54.jpg",
-    "/assets/banner-4.f76b5538.jpg",
-    "/assets/banner-5.9dda8293.png",
-    "/assets/product-11.64379736.jpg",
-    "/assets/product-12.97ab2162.jpg",
-    "/assets/product-13.e0fd076c.jpg",
-    "/assets/product-14.87912399.jpg",
-    "/assets/product-15.62ec7372.jpg",
-    "/assets/product-16.ba4d533b.jpg",
-    "/assets/product-17.c6f449e8.jpg",
-    "/assets/product-18.edd0ccfe.jpg",
-    "/assets/product-19.10f974b4.jpg",
-    "/assets/product-20.10f45280.jpg",
-    "/assets/2.cb66cf0f.png",
-    "/assets/post-1.603604fb.jpg",
-    "/assets/post-2.63efc324.jpg",
-    "/assets/post-3.38a1c60b.jpg",
-    "/assets/post-4.92f98f9b.jpg"
-  ],
-  "src/assets/images/demos/demo-13/products/product-4.jpg": [
-    "/assets/Home.89dd7870.js",
-    "/assets/Home.60250371.css",
-    "/assets/1.39d58735.jpg",
-    "/assets/3.b8f56676.jpg",
-    "/assets/4.7f098d18.jpg",
-    "/assets/5.8f6dcbe1.jpg",
-    "/assets/6.3ce9bc04.jpg",
-    "/assets/banner-1.bb1eb290.jpg",
-    "/assets/banner-3.d7829625.jpg",
-    "/assets/banner-2.1ba698f1.jpg",
-    "/assets/product-1.d56484c8.jpg",
-    "/assets/product-2.e72cbe6d.jpg",
-    "/assets/product-3.398e69fe.jpg",
-    "/assets/product-4.dfe2bc25.jpg",
-    "/assets/product-5.95cdaf9f.jpg",
-    "/assets/product-6.de4478ea.jpg",
-    "/assets/product-7.484abf26.jpg",
-    "/assets/product-8.fa88cc3e.jpg",
-    "/assets/product-9.5d93f10b.jpg",
-    "/assets/product-10.7985de54.jpg",
-    "/assets/banner-4.f76b5538.jpg",
-    "/assets/banner-5.9dda8293.png",
-    "/assets/product-11.64379736.jpg",
-    "/assets/product-12.97ab2162.jpg",
-    "/assets/product-13.e0fd076c.jpg",
-    "/assets/product-14.87912399.jpg",
-    "/assets/product-15.62ec7372.jpg",
-    "/assets/product-16.ba4d533b.jpg",
-    "/assets/product-17.c6f449e8.jpg",
-    "/assets/product-18.edd0ccfe.jpg",
-    "/assets/product-19.10f974b4.jpg",
-    "/assets/product-20.10f45280.jpg",
-    "/assets/2.cb66cf0f.png",
-    "/assets/post-1.603604fb.jpg",
-    "/assets/post-2.63efc324.jpg",
-    "/assets/post-3.38a1c60b.jpg",
-    "/assets/post-4.92f98f9b.jpg"
-  ],
-  "src/assets/images/demos/demo-13/products/product-5.jpg": [
-    "/assets/Home.89dd7870.js",
-    "/assets/Home.60250371.css",
-    "/assets/1.39d58735.jpg",
-    "/assets/3.b8f56676.jpg",
-    "/assets/4.7f098d18.jpg",
-    "/assets/5.8f6dcbe1.jpg",
-    "/assets/6.3ce9bc04.jpg",
-    "/assets/banner-1.bb1eb290.jpg",
-    "/assets/banner-3.d7829625.jpg",
-    "/assets/banner-2.1ba698f1.jpg",
-    "/assets/product-1.d56484c8.jpg",
-    "/assets/product-2.e72cbe6d.jpg",
-    "/assets/product-3.398e69fe.jpg",
-    "/assets/product-4.dfe2bc25.jpg",
-    "/assets/product-5.95cdaf9f.jpg",
-    "/assets/product-6.de4478ea.jpg",
-    "/assets/product-7.484abf26.jpg",
-    "/assets/product-8.fa88cc3e.jpg",
-    "/assets/product-9.5d93f10b.jpg",
-    "/assets/product-10.7985de54.jpg",
-    "/assets/banner-4.f76b5538.jpg",
-    "/assets/banner-5.9dda8293.png",
-    "/assets/product-11.64379736.jpg",
-    "/assets/product-12.97ab2162.jpg",
-    "/assets/product-13.e0fd076c.jpg",
-    "/assets/product-14.87912399.jpg",
-    "/assets/product-15.62ec7372.jpg",
-    "/assets/product-16.ba4d533b.jpg",
-    "/assets/product-17.c6f449e8.jpg",
-    "/assets/product-18.edd0ccfe.jpg",
-    "/assets/product-19.10f974b4.jpg",
-    "/assets/product-20.10f45280.jpg",
-    "/assets/2.cb66cf0f.png",
-    "/assets/post-1.603604fb.jpg",
-    "/assets/post-2.63efc324.jpg",
-    "/assets/post-3.38a1c60b.jpg",
-    "/assets/post-4.92f98f9b.jpg"
-  ],
-  "src/assets/images/demos/demo-13/products/product-6.jpg": [
-    "/assets/Home.89dd7870.js",
-    "/assets/Home.60250371.css",
-    "/assets/1.39d58735.jpg",
-    "/assets/3.b8f56676.jpg",
-    "/assets/4.7f098d18.jpg",
-    "/assets/5.8f6dcbe1.jpg",
-    "/assets/6.3ce9bc04.jpg",
-    "/assets/banner-1.bb1eb290.jpg",
-    "/assets/banner-3.d7829625.jpg",
-    "/assets/banner-2.1ba698f1.jpg",
-    "/assets/product-1.d56484c8.jpg",
-    "/assets/product-2.e72cbe6d.jpg",
-    "/assets/product-3.398e69fe.jpg",
-    "/assets/product-4.dfe2bc25.jpg",
-    "/assets/product-5.95cdaf9f.jpg",
-    "/assets/product-6.de4478ea.jpg",
-    "/assets/product-7.484abf26.jpg",
-    "/assets/product-8.fa88cc3e.jpg",
-    "/assets/product-9.5d93f10b.jpg",
-    "/assets/product-10.7985de54.jpg",
-    "/assets/banner-4.f76b5538.jpg",
-    "/assets/banner-5.9dda8293.png",
-    "/assets/product-11.64379736.jpg",
-    "/assets/product-12.97ab2162.jpg",
-    "/assets/product-13.e0fd076c.jpg",
-    "/assets/product-14.87912399.jpg",
-    "/assets/product-15.62ec7372.jpg",
-    "/assets/product-16.ba4d533b.jpg",
-    "/assets/product-17.c6f449e8.jpg",
-    "/assets/product-18.edd0ccfe.jpg",
-    "/assets/product-19.10f974b4.jpg",
-    "/assets/product-20.10f45280.jpg",
-    "/assets/2.cb66cf0f.png",
-    "/assets/post-1.603604fb.jpg",
-    "/assets/post-2.63efc324.jpg",
-    "/assets/post-3.38a1c60b.jpg",
-    "/assets/post-4.92f98f9b.jpg"
-  ],
-  "src/assets/images/demos/demo-13/products/product-7.jpg": [
-    "/assets/Home.89dd7870.js",
-    "/assets/Home.60250371.css",
-    "/assets/1.39d58735.jpg",
-    "/assets/3.b8f56676.jpg",
-    "/assets/4.7f098d18.jpg",
-    "/assets/5.8f6dcbe1.jpg",
-    "/assets/6.3ce9bc04.jpg",
-    "/assets/banner-1.bb1eb290.jpg",
-    "/assets/banner-3.d7829625.jpg",
-    "/assets/banner-2.1ba698f1.jpg",
-    "/assets/product-1.d56484c8.jpg",
-    "/assets/product-2.e72cbe6d.jpg",
-    "/assets/product-3.398e69fe.jpg",
-    "/assets/product-4.dfe2bc25.jpg",
-    "/assets/product-5.95cdaf9f.jpg",
-    "/assets/product-6.de4478ea.jpg",
-    "/assets/product-7.484abf26.jpg",
-    "/assets/product-8.fa88cc3e.jpg",
-    "/assets/product-9.5d93f10b.jpg",
-    "/assets/product-10.7985de54.jpg",
-    "/assets/banner-4.f76b5538.jpg",
-    "/assets/banner-5.9dda8293.png",
-    "/assets/product-11.64379736.jpg",
-    "/assets/product-12.97ab2162.jpg",
-    "/assets/product-13.e0fd076c.jpg",
-    "/assets/product-14.87912399.jpg",
-    "/assets/product-15.62ec7372.jpg",
-    "/assets/product-16.ba4d533b.jpg",
-    "/assets/product-17.c6f449e8.jpg",
-    "/assets/product-18.edd0ccfe.jpg",
-    "/assets/product-19.10f974b4.jpg",
-    "/assets/product-20.10f45280.jpg",
-    "/assets/2.cb66cf0f.png",
-    "/assets/post-1.603604fb.jpg",
-    "/assets/post-2.63efc324.jpg",
-    "/assets/post-3.38a1c60b.jpg",
-    "/assets/post-4.92f98f9b.jpg"
-  ],
-  "src/assets/images/demos/demo-13/products/product-8.jpg": [
-    "/assets/Home.89dd7870.js",
-    "/assets/Home.60250371.css",
-    "/assets/1.39d58735.jpg",
-    "/assets/3.b8f56676.jpg",
-    "/assets/4.7f098d18.jpg",
-    "/assets/5.8f6dcbe1.jpg",
-    "/assets/6.3ce9bc04.jpg",
-    "/assets/banner-1.bb1eb290.jpg",
-    "/assets/banner-3.d7829625.jpg",
-    "/assets/banner-2.1ba698f1.jpg",
-    "/assets/product-1.d56484c8.jpg",
-    "/assets/product-2.e72cbe6d.jpg",
-    "/assets/product-3.398e69fe.jpg",
-    "/assets/product-4.dfe2bc25.jpg",
-    "/assets/product-5.95cdaf9f.jpg",
-    "/assets/product-6.de4478ea.jpg",
-    "/assets/product-7.484abf26.jpg",
-    "/assets/product-8.fa88cc3e.jpg",
-    "/assets/product-9.5d93f10b.jpg",
-    "/assets/product-10.7985de54.jpg",
-    "/assets/banner-4.f76b5538.jpg",
-    "/assets/banner-5.9dda8293.png",
-    "/assets/product-11.64379736.jpg",
-    "/assets/product-12.97ab2162.jpg",
-    "/assets/product-13.e0fd076c.jpg",
-    "/assets/product-14.87912399.jpg",
-    "/assets/product-15.62ec7372.jpg",
-    "/assets/product-16.ba4d533b.jpg",
-    "/assets/product-17.c6f449e8.jpg",
-    "/assets/product-18.edd0ccfe.jpg",
-    "/assets/product-19.10f974b4.jpg",
-    "/assets/product-20.10f45280.jpg",
-    "/assets/2.cb66cf0f.png",
-    "/assets/post-1.603604fb.jpg",
-    "/assets/post-2.63efc324.jpg",
-    "/assets/post-3.38a1c60b.jpg",
-    "/assets/post-4.92f98f9b.jpg"
-  ],
-  "src/assets/images/demos/demo-13/products/product-9.jpg": [
-    "/assets/Home.89dd7870.js",
-    "/assets/Home.60250371.css",
-    "/assets/1.39d58735.jpg",
-    "/assets/3.b8f56676.jpg",
-    "/assets/4.7f098d18.jpg",
-    "/assets/5.8f6dcbe1.jpg",
-    "/assets/6.3ce9bc04.jpg",
-    "/assets/banner-1.bb1eb290.jpg",
-    "/assets/banner-3.d7829625.jpg",
-    "/assets/banner-2.1ba698f1.jpg",
-    "/assets/product-1.d56484c8.jpg",
-    "/assets/product-2.e72cbe6d.jpg",
-    "/assets/product-3.398e69fe.jpg",
-    "/assets/product-4.dfe2bc25.jpg",
-    "/assets/product-5.95cdaf9f.jpg",
-    "/assets/product-6.de4478ea.jpg",
-    "/assets/product-7.484abf26.jpg",
-    "/assets/product-8.fa88cc3e.jpg",
-    "/assets/product-9.5d93f10b.jpg",
-    "/assets/product-10.7985de54.jpg",
-    "/assets/banner-4.f76b5538.jpg",
-    "/assets/banner-5.9dda8293.png",
-    "/assets/product-11.64379736.jpg",
-    "/assets/product-12.97ab2162.jpg",
-    "/assets/product-13.e0fd076c.jpg",
-    "/assets/product-14.87912399.jpg",
-    "/assets/product-15.62ec7372.jpg",
-    "/assets/product-16.ba4d533b.jpg",
-    "/assets/product-17.c6f449e8.jpg",
-    "/assets/product-18.edd0ccfe.jpg",
-    "/assets/product-19.10f974b4.jpg",
-    "/assets/product-20.10f45280.jpg",
-    "/assets/2.cb66cf0f.png",
-    "/assets/post-1.603604fb.jpg",
-    "/assets/post-2.63efc324.jpg",
-    "/assets/post-3.38a1c60b.jpg",
-    "/assets/post-4.92f98f9b.jpg"
-  ],
-  "src/assets/images/demos/demo-13/products/product-10.jpg": [
-    "/assets/Home.89dd7870.js",
-    "/assets/Home.60250371.css",
-    "/assets/1.39d58735.jpg",
-    "/assets/3.b8f56676.jpg",
-    "/assets/4.7f098d18.jpg",
-    "/assets/5.8f6dcbe1.jpg",
-    "/assets/6.3ce9bc04.jpg",
-    "/assets/banner-1.bb1eb290.jpg",
-    "/assets/banner-3.d7829625.jpg",
-    "/assets/banner-2.1ba698f1.jpg",
-    "/assets/product-1.d56484c8.jpg",
-    "/assets/product-2.e72cbe6d.jpg",
-    "/assets/product-3.398e69fe.jpg",
-    "/assets/product-4.dfe2bc25.jpg",
-    "/assets/product-5.95cdaf9f.jpg",
-    "/assets/product-6.de4478ea.jpg",
-    "/assets/product-7.484abf26.jpg",
-    "/assets/product-8.fa88cc3e.jpg",
-    "/assets/product-9.5d93f10b.jpg",
-    "/assets/product-10.7985de54.jpg",
-    "/assets/banner-4.f76b5538.jpg",
-    "/assets/banner-5.9dda8293.png",
-    "/assets/product-11.64379736.jpg",
-    "/assets/product-12.97ab2162.jpg",
-    "/assets/product-13.e0fd076c.jpg",
-    "/assets/product-14.87912399.jpg",
-    "/assets/product-15.62ec7372.jpg",
-    "/assets/product-16.ba4d533b.jpg",
-    "/assets/product-17.c6f449e8.jpg",
-    "/assets/product-18.edd0ccfe.jpg",
-    "/assets/product-19.10f974b4.jpg",
-    "/assets/product-20.10f45280.jpg",
-    "/assets/2.cb66cf0f.png",
-    "/assets/post-1.603604fb.jpg",
-    "/assets/post-2.63efc324.jpg",
-    "/assets/post-3.38a1c60b.jpg",
-    "/assets/post-4.92f98f9b.jpg"
+    "/assets/banner-5.9dda8293.png"
   ],
   "src/assets/images/demos/demo-13/banners/banner-4.jpg": [
-    "/assets/Home.89dd7870.js",
-    "/assets/Home.60250371.css",
-    "/assets/1.39d58735.jpg",
-    "/assets/3.b8f56676.jpg",
-    "/assets/4.7f098d18.jpg",
-    "/assets/5.8f6dcbe1.jpg",
-    "/assets/6.3ce9bc04.jpg",
+    "/assets/Home.51e3f8a7.js",
+    "/assets/Home.cce71adf.css",
     "/assets/banner-1.bb1eb290.jpg",
     "/assets/banner-3.d7829625.jpg",
     "/assets/banner-2.1ba698f1.jpg",
-    "/assets/product-1.d56484c8.jpg",
-    "/assets/product-2.e72cbe6d.jpg",
-    "/assets/product-3.398e69fe.jpg",
-    "/assets/product-4.dfe2bc25.jpg",
-    "/assets/product-5.95cdaf9f.jpg",
-    "/assets/product-6.de4478ea.jpg",
-    "/assets/product-7.484abf26.jpg",
-    "/assets/product-8.fa88cc3e.jpg",
-    "/assets/product-9.5d93f10b.jpg",
-    "/assets/product-10.7985de54.jpg",
     "/assets/banner-4.f76b5538.jpg",
-    "/assets/banner-5.9dda8293.png",
-    "/assets/product-11.64379736.jpg",
-    "/assets/product-12.97ab2162.jpg",
-    "/assets/product-13.e0fd076c.jpg",
-    "/assets/product-14.87912399.jpg",
-    "/assets/product-15.62ec7372.jpg",
-    "/assets/product-16.ba4d533b.jpg",
-    "/assets/product-17.c6f449e8.jpg",
-    "/assets/product-18.edd0ccfe.jpg",
-    "/assets/product-19.10f974b4.jpg",
-    "/assets/product-20.10f45280.jpg",
-    "/assets/2.cb66cf0f.png",
-    "/assets/post-1.603604fb.jpg",
-    "/assets/post-2.63efc324.jpg",
-    "/assets/post-3.38a1c60b.jpg",
-    "/assets/post-4.92f98f9b.jpg"
+    "/assets/banner-5.9dda8293.png"
   ],
   "src/assets/images/demos/demo-13/banners/banner-5.png": [
-    "/assets/Home.89dd7870.js",
-    "/assets/Home.60250371.css",
-    "/assets/1.39d58735.jpg",
-    "/assets/3.b8f56676.jpg",
-    "/assets/4.7f098d18.jpg",
-    "/assets/5.8f6dcbe1.jpg",
-    "/assets/6.3ce9bc04.jpg",
+    "/assets/Home.51e3f8a7.js",
+    "/assets/Home.cce71adf.css",
     "/assets/banner-1.bb1eb290.jpg",
     "/assets/banner-3.d7829625.jpg",
     "/assets/banner-2.1ba698f1.jpg",
-    "/assets/product-1.d56484c8.jpg",
-    "/assets/product-2.e72cbe6d.jpg",
-    "/assets/product-3.398e69fe.jpg",
-    "/assets/product-4.dfe2bc25.jpg",
-    "/assets/product-5.95cdaf9f.jpg",
-    "/assets/product-6.de4478ea.jpg",
-    "/assets/product-7.484abf26.jpg",
-    "/assets/product-8.fa88cc3e.jpg",
-    "/assets/product-9.5d93f10b.jpg",
-    "/assets/product-10.7985de54.jpg",
     "/assets/banner-4.f76b5538.jpg",
-    "/assets/banner-5.9dda8293.png",
-    "/assets/product-11.64379736.jpg",
-    "/assets/product-12.97ab2162.jpg",
-    "/assets/product-13.e0fd076c.jpg",
-    "/assets/product-14.87912399.jpg",
-    "/assets/product-15.62ec7372.jpg",
-    "/assets/product-16.ba4d533b.jpg",
-    "/assets/product-17.c6f449e8.jpg",
-    "/assets/product-18.edd0ccfe.jpg",
-    "/assets/product-19.10f974b4.jpg",
-    "/assets/product-20.10f45280.jpg",
-    "/assets/2.cb66cf0f.png",
-    "/assets/post-1.603604fb.jpg",
-    "/assets/post-2.63efc324.jpg",
-    "/assets/post-3.38a1c60b.jpg",
-    "/assets/post-4.92f98f9b.jpg"
-  ],
-  "src/assets/images/demos/demo-13/products/product-11.jpg": [
-    "/assets/Home.89dd7870.js",
-    "/assets/Home.60250371.css",
-    "/assets/1.39d58735.jpg",
-    "/assets/3.b8f56676.jpg",
-    "/assets/4.7f098d18.jpg",
-    "/assets/5.8f6dcbe1.jpg",
-    "/assets/6.3ce9bc04.jpg",
-    "/assets/banner-1.bb1eb290.jpg",
-    "/assets/banner-3.d7829625.jpg",
-    "/assets/banner-2.1ba698f1.jpg",
-    "/assets/product-1.d56484c8.jpg",
-    "/assets/product-2.e72cbe6d.jpg",
-    "/assets/product-3.398e69fe.jpg",
-    "/assets/product-4.dfe2bc25.jpg",
-    "/assets/product-5.95cdaf9f.jpg",
-    "/assets/product-6.de4478ea.jpg",
-    "/assets/product-7.484abf26.jpg",
-    "/assets/product-8.fa88cc3e.jpg",
-    "/assets/product-9.5d93f10b.jpg",
-    "/assets/product-10.7985de54.jpg",
-    "/assets/banner-4.f76b5538.jpg",
-    "/assets/banner-5.9dda8293.png",
-    "/assets/product-11.64379736.jpg",
-    "/assets/product-12.97ab2162.jpg",
-    "/assets/product-13.e0fd076c.jpg",
-    "/assets/product-14.87912399.jpg",
-    "/assets/product-15.62ec7372.jpg",
-    "/assets/product-16.ba4d533b.jpg",
-    "/assets/product-17.c6f449e8.jpg",
-    "/assets/product-18.edd0ccfe.jpg",
-    "/assets/product-19.10f974b4.jpg",
-    "/assets/product-20.10f45280.jpg",
-    "/assets/2.cb66cf0f.png",
-    "/assets/post-1.603604fb.jpg",
-    "/assets/post-2.63efc324.jpg",
-    "/assets/post-3.38a1c60b.jpg",
-    "/assets/post-4.92f98f9b.jpg"
-  ],
-  "src/assets/images/demos/demo-13/products/product-12.jpg": [
-    "/assets/Home.89dd7870.js",
-    "/assets/Home.60250371.css",
-    "/assets/1.39d58735.jpg",
-    "/assets/3.b8f56676.jpg",
-    "/assets/4.7f098d18.jpg",
-    "/assets/5.8f6dcbe1.jpg",
-    "/assets/6.3ce9bc04.jpg",
-    "/assets/banner-1.bb1eb290.jpg",
-    "/assets/banner-3.d7829625.jpg",
-    "/assets/banner-2.1ba698f1.jpg",
-    "/assets/product-1.d56484c8.jpg",
-    "/assets/product-2.e72cbe6d.jpg",
-    "/assets/product-3.398e69fe.jpg",
-    "/assets/product-4.dfe2bc25.jpg",
-    "/assets/product-5.95cdaf9f.jpg",
-    "/assets/product-6.de4478ea.jpg",
-    "/assets/product-7.484abf26.jpg",
-    "/assets/product-8.fa88cc3e.jpg",
-    "/assets/product-9.5d93f10b.jpg",
-    "/assets/product-10.7985de54.jpg",
-    "/assets/banner-4.f76b5538.jpg",
-    "/assets/banner-5.9dda8293.png",
-    "/assets/product-11.64379736.jpg",
-    "/assets/product-12.97ab2162.jpg",
-    "/assets/product-13.e0fd076c.jpg",
-    "/assets/product-14.87912399.jpg",
-    "/assets/product-15.62ec7372.jpg",
-    "/assets/product-16.ba4d533b.jpg",
-    "/assets/product-17.c6f449e8.jpg",
-    "/assets/product-18.edd0ccfe.jpg",
-    "/assets/product-19.10f974b4.jpg",
-    "/assets/product-20.10f45280.jpg",
-    "/assets/2.cb66cf0f.png",
-    "/assets/post-1.603604fb.jpg",
-    "/assets/post-2.63efc324.jpg",
-    "/assets/post-3.38a1c60b.jpg",
-    "/assets/post-4.92f98f9b.jpg"
-  ],
-  "src/assets/images/demos/demo-13/products/product-13.jpg": [
-    "/assets/Home.89dd7870.js",
-    "/assets/Home.60250371.css",
-    "/assets/1.39d58735.jpg",
-    "/assets/3.b8f56676.jpg",
-    "/assets/4.7f098d18.jpg",
-    "/assets/5.8f6dcbe1.jpg",
-    "/assets/6.3ce9bc04.jpg",
-    "/assets/banner-1.bb1eb290.jpg",
-    "/assets/banner-3.d7829625.jpg",
-    "/assets/banner-2.1ba698f1.jpg",
-    "/assets/product-1.d56484c8.jpg",
-    "/assets/product-2.e72cbe6d.jpg",
-    "/assets/product-3.398e69fe.jpg",
-    "/assets/product-4.dfe2bc25.jpg",
-    "/assets/product-5.95cdaf9f.jpg",
-    "/assets/product-6.de4478ea.jpg",
-    "/assets/product-7.484abf26.jpg",
-    "/assets/product-8.fa88cc3e.jpg",
-    "/assets/product-9.5d93f10b.jpg",
-    "/assets/product-10.7985de54.jpg",
-    "/assets/banner-4.f76b5538.jpg",
-    "/assets/banner-5.9dda8293.png",
-    "/assets/product-11.64379736.jpg",
-    "/assets/product-12.97ab2162.jpg",
-    "/assets/product-13.e0fd076c.jpg",
-    "/assets/product-14.87912399.jpg",
-    "/assets/product-15.62ec7372.jpg",
-    "/assets/product-16.ba4d533b.jpg",
-    "/assets/product-17.c6f449e8.jpg",
-    "/assets/product-18.edd0ccfe.jpg",
-    "/assets/product-19.10f974b4.jpg",
-    "/assets/product-20.10f45280.jpg",
-    "/assets/2.cb66cf0f.png",
-    "/assets/post-1.603604fb.jpg",
-    "/assets/post-2.63efc324.jpg",
-    "/assets/post-3.38a1c60b.jpg",
-    "/assets/post-4.92f98f9b.jpg"
-  ],
-  "src/assets/images/demos/demo-13/products/product-14.jpg": [
-    "/assets/Home.89dd7870.js",
-    "/assets/Home.60250371.css",
-    "/assets/1.39d58735.jpg",
-    "/assets/3.b8f56676.jpg",
-    "/assets/4.7f098d18.jpg",
-    "/assets/5.8f6dcbe1.jpg",
-    "/assets/6.3ce9bc04.jpg",
-    "/assets/banner-1.bb1eb290.jpg",
-    "/assets/banner-3.d7829625.jpg",
-    "/assets/banner-2.1ba698f1.jpg",
-    "/assets/product-1.d56484c8.jpg",
-    "/assets/product-2.e72cbe6d.jpg",
-    "/assets/product-3.398e69fe.jpg",
-    "/assets/product-4.dfe2bc25.jpg",
-    "/assets/product-5.95cdaf9f.jpg",
-    "/assets/product-6.de4478ea.jpg",
-    "/assets/product-7.484abf26.jpg",
-    "/assets/product-8.fa88cc3e.jpg",
-    "/assets/product-9.5d93f10b.jpg",
-    "/assets/product-10.7985de54.jpg",
-    "/assets/banner-4.f76b5538.jpg",
-    "/assets/banner-5.9dda8293.png",
-    "/assets/product-11.64379736.jpg",
-    "/assets/product-12.97ab2162.jpg",
-    "/assets/product-13.e0fd076c.jpg",
-    "/assets/product-14.87912399.jpg",
-    "/assets/product-15.62ec7372.jpg",
-    "/assets/product-16.ba4d533b.jpg",
-    "/assets/product-17.c6f449e8.jpg",
-    "/assets/product-18.edd0ccfe.jpg",
-    "/assets/product-19.10f974b4.jpg",
-    "/assets/product-20.10f45280.jpg",
-    "/assets/2.cb66cf0f.png",
-    "/assets/post-1.603604fb.jpg",
-    "/assets/post-2.63efc324.jpg",
-    "/assets/post-3.38a1c60b.jpg",
-    "/assets/post-4.92f98f9b.jpg"
-  ],
-  "src/assets/images/demos/demo-13/products/product-15.jpg": [
-    "/assets/Home.89dd7870.js",
-    "/assets/Home.60250371.css",
-    "/assets/1.39d58735.jpg",
-    "/assets/3.b8f56676.jpg",
-    "/assets/4.7f098d18.jpg",
-    "/assets/5.8f6dcbe1.jpg",
-    "/assets/6.3ce9bc04.jpg",
-    "/assets/banner-1.bb1eb290.jpg",
-    "/assets/banner-3.d7829625.jpg",
-    "/assets/banner-2.1ba698f1.jpg",
-    "/assets/product-1.d56484c8.jpg",
-    "/assets/product-2.e72cbe6d.jpg",
-    "/assets/product-3.398e69fe.jpg",
-    "/assets/product-4.dfe2bc25.jpg",
-    "/assets/product-5.95cdaf9f.jpg",
-    "/assets/product-6.de4478ea.jpg",
-    "/assets/product-7.484abf26.jpg",
-    "/assets/product-8.fa88cc3e.jpg",
-    "/assets/product-9.5d93f10b.jpg",
-    "/assets/product-10.7985de54.jpg",
-    "/assets/banner-4.f76b5538.jpg",
-    "/assets/banner-5.9dda8293.png",
-    "/assets/product-11.64379736.jpg",
-    "/assets/product-12.97ab2162.jpg",
-    "/assets/product-13.e0fd076c.jpg",
-    "/assets/product-14.87912399.jpg",
-    "/assets/product-15.62ec7372.jpg",
-    "/assets/product-16.ba4d533b.jpg",
-    "/assets/product-17.c6f449e8.jpg",
-    "/assets/product-18.edd0ccfe.jpg",
-    "/assets/product-19.10f974b4.jpg",
-    "/assets/product-20.10f45280.jpg",
-    "/assets/2.cb66cf0f.png",
-    "/assets/post-1.603604fb.jpg",
-    "/assets/post-2.63efc324.jpg",
-    "/assets/post-3.38a1c60b.jpg",
-    "/assets/post-4.92f98f9b.jpg"
-  ],
-  "src/assets/images/demos/demo-13/products/product-16.jpg": [
-    "/assets/Home.89dd7870.js",
-    "/assets/Home.60250371.css",
-    "/assets/1.39d58735.jpg",
-    "/assets/3.b8f56676.jpg",
-    "/assets/4.7f098d18.jpg",
-    "/assets/5.8f6dcbe1.jpg",
-    "/assets/6.3ce9bc04.jpg",
-    "/assets/banner-1.bb1eb290.jpg",
-    "/assets/banner-3.d7829625.jpg",
-    "/assets/banner-2.1ba698f1.jpg",
-    "/assets/product-1.d56484c8.jpg",
-    "/assets/product-2.e72cbe6d.jpg",
-    "/assets/product-3.398e69fe.jpg",
-    "/assets/product-4.dfe2bc25.jpg",
-    "/assets/product-5.95cdaf9f.jpg",
-    "/assets/product-6.de4478ea.jpg",
-    "/assets/product-7.484abf26.jpg",
-    "/assets/product-8.fa88cc3e.jpg",
-    "/assets/product-9.5d93f10b.jpg",
-    "/assets/product-10.7985de54.jpg",
-    "/assets/banner-4.f76b5538.jpg",
-    "/assets/banner-5.9dda8293.png",
-    "/assets/product-11.64379736.jpg",
-    "/assets/product-12.97ab2162.jpg",
-    "/assets/product-13.e0fd076c.jpg",
-    "/assets/product-14.87912399.jpg",
-    "/assets/product-15.62ec7372.jpg",
-    "/assets/product-16.ba4d533b.jpg",
-    "/assets/product-17.c6f449e8.jpg",
-    "/assets/product-18.edd0ccfe.jpg",
-    "/assets/product-19.10f974b4.jpg",
-    "/assets/product-20.10f45280.jpg",
-    "/assets/2.cb66cf0f.png",
-    "/assets/post-1.603604fb.jpg",
-    "/assets/post-2.63efc324.jpg",
-    "/assets/post-3.38a1c60b.jpg",
-    "/assets/post-4.92f98f9b.jpg"
-  ],
-  "src/assets/images/demos/demo-13/products/product-17.jpg": [
-    "/assets/Home.89dd7870.js",
-    "/assets/Home.60250371.css",
-    "/assets/1.39d58735.jpg",
-    "/assets/3.b8f56676.jpg",
-    "/assets/4.7f098d18.jpg",
-    "/assets/5.8f6dcbe1.jpg",
-    "/assets/6.3ce9bc04.jpg",
-    "/assets/banner-1.bb1eb290.jpg",
-    "/assets/banner-3.d7829625.jpg",
-    "/assets/banner-2.1ba698f1.jpg",
-    "/assets/product-1.d56484c8.jpg",
-    "/assets/product-2.e72cbe6d.jpg",
-    "/assets/product-3.398e69fe.jpg",
-    "/assets/product-4.dfe2bc25.jpg",
-    "/assets/product-5.95cdaf9f.jpg",
-    "/assets/product-6.de4478ea.jpg",
-    "/assets/product-7.484abf26.jpg",
-    "/assets/product-8.fa88cc3e.jpg",
-    "/assets/product-9.5d93f10b.jpg",
-    "/assets/product-10.7985de54.jpg",
-    "/assets/banner-4.f76b5538.jpg",
-    "/assets/banner-5.9dda8293.png",
-    "/assets/product-11.64379736.jpg",
-    "/assets/product-12.97ab2162.jpg",
-    "/assets/product-13.e0fd076c.jpg",
-    "/assets/product-14.87912399.jpg",
-    "/assets/product-15.62ec7372.jpg",
-    "/assets/product-16.ba4d533b.jpg",
-    "/assets/product-17.c6f449e8.jpg",
-    "/assets/product-18.edd0ccfe.jpg",
-    "/assets/product-19.10f974b4.jpg",
-    "/assets/product-20.10f45280.jpg",
-    "/assets/2.cb66cf0f.png",
-    "/assets/post-1.603604fb.jpg",
-    "/assets/post-2.63efc324.jpg",
-    "/assets/post-3.38a1c60b.jpg",
-    "/assets/post-4.92f98f9b.jpg"
-  ],
-  "src/assets/images/demos/demo-13/products/product-18.jpg": [
-    "/assets/Home.89dd7870.js",
-    "/assets/Home.60250371.css",
-    "/assets/1.39d58735.jpg",
-    "/assets/3.b8f56676.jpg",
-    "/assets/4.7f098d18.jpg",
-    "/assets/5.8f6dcbe1.jpg",
-    "/assets/6.3ce9bc04.jpg",
-    "/assets/banner-1.bb1eb290.jpg",
-    "/assets/banner-3.d7829625.jpg",
-    "/assets/banner-2.1ba698f1.jpg",
-    "/assets/product-1.d56484c8.jpg",
-    "/assets/product-2.e72cbe6d.jpg",
-    "/assets/product-3.398e69fe.jpg",
-    "/assets/product-4.dfe2bc25.jpg",
-    "/assets/product-5.95cdaf9f.jpg",
-    "/assets/product-6.de4478ea.jpg",
-    "/assets/product-7.484abf26.jpg",
-    "/assets/product-8.fa88cc3e.jpg",
-    "/assets/product-9.5d93f10b.jpg",
-    "/assets/product-10.7985de54.jpg",
-    "/assets/banner-4.f76b5538.jpg",
-    "/assets/banner-5.9dda8293.png",
-    "/assets/product-11.64379736.jpg",
-    "/assets/product-12.97ab2162.jpg",
-    "/assets/product-13.e0fd076c.jpg",
-    "/assets/product-14.87912399.jpg",
-    "/assets/product-15.62ec7372.jpg",
-    "/assets/product-16.ba4d533b.jpg",
-    "/assets/product-17.c6f449e8.jpg",
-    "/assets/product-18.edd0ccfe.jpg",
-    "/assets/product-19.10f974b4.jpg",
-    "/assets/product-20.10f45280.jpg",
-    "/assets/2.cb66cf0f.png",
-    "/assets/post-1.603604fb.jpg",
-    "/assets/post-2.63efc324.jpg",
-    "/assets/post-3.38a1c60b.jpg",
-    "/assets/post-4.92f98f9b.jpg"
-  ],
-  "src/assets/images/demos/demo-13/products/product-19.jpg": [
-    "/assets/Home.89dd7870.js",
-    "/assets/Home.60250371.css",
-    "/assets/1.39d58735.jpg",
-    "/assets/3.b8f56676.jpg",
-    "/assets/4.7f098d18.jpg",
-    "/assets/5.8f6dcbe1.jpg",
-    "/assets/6.3ce9bc04.jpg",
-    "/assets/banner-1.bb1eb290.jpg",
-    "/assets/banner-3.d7829625.jpg",
-    "/assets/banner-2.1ba698f1.jpg",
-    "/assets/product-1.d56484c8.jpg",
-    "/assets/product-2.e72cbe6d.jpg",
-    "/assets/product-3.398e69fe.jpg",
-    "/assets/product-4.dfe2bc25.jpg",
-    "/assets/product-5.95cdaf9f.jpg",
-    "/assets/product-6.de4478ea.jpg",
-    "/assets/product-7.484abf26.jpg",
-    "/assets/product-8.fa88cc3e.jpg",
-    "/assets/product-9.5d93f10b.jpg",
-    "/assets/product-10.7985de54.jpg",
-    "/assets/banner-4.f76b5538.jpg",
-    "/assets/banner-5.9dda8293.png",
-    "/assets/product-11.64379736.jpg",
-    "/assets/product-12.97ab2162.jpg",
-    "/assets/product-13.e0fd076c.jpg",
-    "/assets/product-14.87912399.jpg",
-    "/assets/product-15.62ec7372.jpg",
-    "/assets/product-16.ba4d533b.jpg",
-    "/assets/product-17.c6f449e8.jpg",
-    "/assets/product-18.edd0ccfe.jpg",
-    "/assets/product-19.10f974b4.jpg",
-    "/assets/product-20.10f45280.jpg",
-    "/assets/2.cb66cf0f.png",
-    "/assets/post-1.603604fb.jpg",
-    "/assets/post-2.63efc324.jpg",
-    "/assets/post-3.38a1c60b.jpg",
-    "/assets/post-4.92f98f9b.jpg"
-  ],
-  "src/assets/images/demos/demo-13/products/product-20.jpg": [
-    "/assets/Home.89dd7870.js",
-    "/assets/Home.60250371.css",
-    "/assets/1.39d58735.jpg",
-    "/assets/3.b8f56676.jpg",
-    "/assets/4.7f098d18.jpg",
-    "/assets/5.8f6dcbe1.jpg",
-    "/assets/6.3ce9bc04.jpg",
-    "/assets/banner-1.bb1eb290.jpg",
-    "/assets/banner-3.d7829625.jpg",
-    "/assets/banner-2.1ba698f1.jpg",
-    "/assets/product-1.d56484c8.jpg",
-    "/assets/product-2.e72cbe6d.jpg",
-    "/assets/product-3.398e69fe.jpg",
-    "/assets/product-4.dfe2bc25.jpg",
-    "/assets/product-5.95cdaf9f.jpg",
-    "/assets/product-6.de4478ea.jpg",
-    "/assets/product-7.484abf26.jpg",
-    "/assets/product-8.fa88cc3e.jpg",
-    "/assets/product-9.5d93f10b.jpg",
-    "/assets/product-10.7985de54.jpg",
-    "/assets/banner-4.f76b5538.jpg",
-    "/assets/banner-5.9dda8293.png",
-    "/assets/product-11.64379736.jpg",
-    "/assets/product-12.97ab2162.jpg",
-    "/assets/product-13.e0fd076c.jpg",
-    "/assets/product-14.87912399.jpg",
-    "/assets/product-15.62ec7372.jpg",
-    "/assets/product-16.ba4d533b.jpg",
-    "/assets/product-17.c6f449e8.jpg",
-    "/assets/product-18.edd0ccfe.jpg",
-    "/assets/product-19.10f974b4.jpg",
-    "/assets/product-20.10f45280.jpg",
-    "/assets/2.cb66cf0f.png",
-    "/assets/post-1.603604fb.jpg",
-    "/assets/post-2.63efc324.jpg",
-    "/assets/post-3.38a1c60b.jpg",
-    "/assets/post-4.92f98f9b.jpg"
-  ],
-  "src/assets/images/brands/1.png": [
-    "/assets/Home.89dd7870.js",
-    "/assets/Home.60250371.css",
-    "/assets/1.39d58735.jpg",
-    "/assets/3.b8f56676.jpg",
-    "/assets/4.7f098d18.jpg",
-    "/assets/5.8f6dcbe1.jpg",
-    "/assets/6.3ce9bc04.jpg",
-    "/assets/banner-1.bb1eb290.jpg",
-    "/assets/banner-3.d7829625.jpg",
-    "/assets/banner-2.1ba698f1.jpg",
-    "/assets/product-1.d56484c8.jpg",
-    "/assets/product-2.e72cbe6d.jpg",
-    "/assets/product-3.398e69fe.jpg",
-    "/assets/product-4.dfe2bc25.jpg",
-    "/assets/product-5.95cdaf9f.jpg",
-    "/assets/product-6.de4478ea.jpg",
-    "/assets/product-7.484abf26.jpg",
-    "/assets/product-8.fa88cc3e.jpg",
-    "/assets/product-9.5d93f10b.jpg",
-    "/assets/product-10.7985de54.jpg",
-    "/assets/banner-4.f76b5538.jpg",
-    "/assets/banner-5.9dda8293.png",
-    "/assets/product-11.64379736.jpg",
-    "/assets/product-12.97ab2162.jpg",
-    "/assets/product-13.e0fd076c.jpg",
-    "/assets/product-14.87912399.jpg",
-    "/assets/product-15.62ec7372.jpg",
-    "/assets/product-16.ba4d533b.jpg",
-    "/assets/product-17.c6f449e8.jpg",
-    "/assets/product-18.edd0ccfe.jpg",
-    "/assets/product-19.10f974b4.jpg",
-    "/assets/product-20.10f45280.jpg",
-    "/assets/2.cb66cf0f.png",
-    "/assets/post-1.603604fb.jpg",
-    "/assets/post-2.63efc324.jpg",
-    "/assets/post-3.38a1c60b.jpg",
-    "/assets/post-4.92f98f9b.jpg"
-  ],
-  "src/assets/images/brands/2.png": [
-    "/assets/Home.89dd7870.js",
-    "/assets/Home.60250371.css",
-    "/assets/1.39d58735.jpg",
-    "/assets/3.b8f56676.jpg",
-    "/assets/4.7f098d18.jpg",
-    "/assets/5.8f6dcbe1.jpg",
-    "/assets/6.3ce9bc04.jpg",
-    "/assets/banner-1.bb1eb290.jpg",
-    "/assets/banner-3.d7829625.jpg",
-    "/assets/banner-2.1ba698f1.jpg",
-    "/assets/product-1.d56484c8.jpg",
-    "/assets/product-2.e72cbe6d.jpg",
-    "/assets/product-3.398e69fe.jpg",
-    "/assets/product-4.dfe2bc25.jpg",
-    "/assets/product-5.95cdaf9f.jpg",
-    "/assets/product-6.de4478ea.jpg",
-    "/assets/product-7.484abf26.jpg",
-    "/assets/product-8.fa88cc3e.jpg",
-    "/assets/product-9.5d93f10b.jpg",
-    "/assets/product-10.7985de54.jpg",
-    "/assets/banner-4.f76b5538.jpg",
-    "/assets/banner-5.9dda8293.png",
-    "/assets/product-11.64379736.jpg",
-    "/assets/product-12.97ab2162.jpg",
-    "/assets/product-13.e0fd076c.jpg",
-    "/assets/product-14.87912399.jpg",
-    "/assets/product-15.62ec7372.jpg",
-    "/assets/product-16.ba4d533b.jpg",
-    "/assets/product-17.c6f449e8.jpg",
-    "/assets/product-18.edd0ccfe.jpg",
-    "/assets/product-19.10f974b4.jpg",
-    "/assets/product-20.10f45280.jpg",
-    "/assets/2.cb66cf0f.png",
-    "/assets/post-1.603604fb.jpg",
-    "/assets/post-2.63efc324.jpg",
-    "/assets/post-3.38a1c60b.jpg",
-    "/assets/post-4.92f98f9b.jpg"
-  ],
-  "src/assets/images/brands/3.png": [
-    "/assets/Home.89dd7870.js",
-    "/assets/Home.60250371.css",
-    "/assets/1.39d58735.jpg",
-    "/assets/3.b8f56676.jpg",
-    "/assets/4.7f098d18.jpg",
-    "/assets/5.8f6dcbe1.jpg",
-    "/assets/6.3ce9bc04.jpg",
-    "/assets/banner-1.bb1eb290.jpg",
-    "/assets/banner-3.d7829625.jpg",
-    "/assets/banner-2.1ba698f1.jpg",
-    "/assets/product-1.d56484c8.jpg",
-    "/assets/product-2.e72cbe6d.jpg",
-    "/assets/product-3.398e69fe.jpg",
-    "/assets/product-4.dfe2bc25.jpg",
-    "/assets/product-5.95cdaf9f.jpg",
-    "/assets/product-6.de4478ea.jpg",
-    "/assets/product-7.484abf26.jpg",
-    "/assets/product-8.fa88cc3e.jpg",
-    "/assets/product-9.5d93f10b.jpg",
-    "/assets/product-10.7985de54.jpg",
-    "/assets/banner-4.f76b5538.jpg",
-    "/assets/banner-5.9dda8293.png",
-    "/assets/product-11.64379736.jpg",
-    "/assets/product-12.97ab2162.jpg",
-    "/assets/product-13.e0fd076c.jpg",
-    "/assets/product-14.87912399.jpg",
-    "/assets/product-15.62ec7372.jpg",
-    "/assets/product-16.ba4d533b.jpg",
-    "/assets/product-17.c6f449e8.jpg",
-    "/assets/product-18.edd0ccfe.jpg",
-    "/assets/product-19.10f974b4.jpg",
-    "/assets/product-20.10f45280.jpg",
-    "/assets/2.cb66cf0f.png",
-    "/assets/post-1.603604fb.jpg",
-    "/assets/post-2.63efc324.jpg",
-    "/assets/post-3.38a1c60b.jpg",
-    "/assets/post-4.92f98f9b.jpg"
-  ],
-  "src/assets/images/brands/4.png": [
-    "/assets/Home.89dd7870.js",
-    "/assets/Home.60250371.css",
-    "/assets/1.39d58735.jpg",
-    "/assets/3.b8f56676.jpg",
-    "/assets/4.7f098d18.jpg",
-    "/assets/5.8f6dcbe1.jpg",
-    "/assets/6.3ce9bc04.jpg",
-    "/assets/banner-1.bb1eb290.jpg",
-    "/assets/banner-3.d7829625.jpg",
-    "/assets/banner-2.1ba698f1.jpg",
-    "/assets/product-1.d56484c8.jpg",
-    "/assets/product-2.e72cbe6d.jpg",
-    "/assets/product-3.398e69fe.jpg",
-    "/assets/product-4.dfe2bc25.jpg",
-    "/assets/product-5.95cdaf9f.jpg",
-    "/assets/product-6.de4478ea.jpg",
-    "/assets/product-7.484abf26.jpg",
-    "/assets/product-8.fa88cc3e.jpg",
-    "/assets/product-9.5d93f10b.jpg",
-    "/assets/product-10.7985de54.jpg",
-    "/assets/banner-4.f76b5538.jpg",
-    "/assets/banner-5.9dda8293.png",
-    "/assets/product-11.64379736.jpg",
-    "/assets/product-12.97ab2162.jpg",
-    "/assets/product-13.e0fd076c.jpg",
-    "/assets/product-14.87912399.jpg",
-    "/assets/product-15.62ec7372.jpg",
-    "/assets/product-16.ba4d533b.jpg",
-    "/assets/product-17.c6f449e8.jpg",
-    "/assets/product-18.edd0ccfe.jpg",
-    "/assets/product-19.10f974b4.jpg",
-    "/assets/product-20.10f45280.jpg",
-    "/assets/2.cb66cf0f.png",
-    "/assets/post-1.603604fb.jpg",
-    "/assets/post-2.63efc324.jpg",
-    "/assets/post-3.38a1c60b.jpg",
-    "/assets/post-4.92f98f9b.jpg"
-  ],
-  "src/assets/images/brands/5.png": [
-    "/assets/Home.89dd7870.js",
-    "/assets/Home.60250371.css",
-    "/assets/1.39d58735.jpg",
-    "/assets/3.b8f56676.jpg",
-    "/assets/4.7f098d18.jpg",
-    "/assets/5.8f6dcbe1.jpg",
-    "/assets/6.3ce9bc04.jpg",
-    "/assets/banner-1.bb1eb290.jpg",
-    "/assets/banner-3.d7829625.jpg",
-    "/assets/banner-2.1ba698f1.jpg",
-    "/assets/product-1.d56484c8.jpg",
-    "/assets/product-2.e72cbe6d.jpg",
-    "/assets/product-3.398e69fe.jpg",
-    "/assets/product-4.dfe2bc25.jpg",
-    "/assets/product-5.95cdaf9f.jpg",
-    "/assets/product-6.de4478ea.jpg",
-    "/assets/product-7.484abf26.jpg",
-    "/assets/product-8.fa88cc3e.jpg",
-    "/assets/product-9.5d93f10b.jpg",
-    "/assets/product-10.7985de54.jpg",
-    "/assets/banner-4.f76b5538.jpg",
-    "/assets/banner-5.9dda8293.png",
-    "/assets/product-11.64379736.jpg",
-    "/assets/product-12.97ab2162.jpg",
-    "/assets/product-13.e0fd076c.jpg",
-    "/assets/product-14.87912399.jpg",
-    "/assets/product-15.62ec7372.jpg",
-    "/assets/product-16.ba4d533b.jpg",
-    "/assets/product-17.c6f449e8.jpg",
-    "/assets/product-18.edd0ccfe.jpg",
-    "/assets/product-19.10f974b4.jpg",
-    "/assets/product-20.10f45280.jpg",
-    "/assets/2.cb66cf0f.png",
-    "/assets/post-1.603604fb.jpg",
-    "/assets/post-2.63efc324.jpg",
-    "/assets/post-3.38a1c60b.jpg",
-    "/assets/post-4.92f98f9b.jpg"
-  ],
-  "src/assets/images/brands/6.png": [
-    "/assets/Home.89dd7870.js",
-    "/assets/Home.60250371.css",
-    "/assets/1.39d58735.jpg",
-    "/assets/3.b8f56676.jpg",
-    "/assets/4.7f098d18.jpg",
-    "/assets/5.8f6dcbe1.jpg",
-    "/assets/6.3ce9bc04.jpg",
-    "/assets/banner-1.bb1eb290.jpg",
-    "/assets/banner-3.d7829625.jpg",
-    "/assets/banner-2.1ba698f1.jpg",
-    "/assets/product-1.d56484c8.jpg",
-    "/assets/product-2.e72cbe6d.jpg",
-    "/assets/product-3.398e69fe.jpg",
-    "/assets/product-4.dfe2bc25.jpg",
-    "/assets/product-5.95cdaf9f.jpg",
-    "/assets/product-6.de4478ea.jpg",
-    "/assets/product-7.484abf26.jpg",
-    "/assets/product-8.fa88cc3e.jpg",
-    "/assets/product-9.5d93f10b.jpg",
-    "/assets/product-10.7985de54.jpg",
-    "/assets/banner-4.f76b5538.jpg",
-    "/assets/banner-5.9dda8293.png",
-    "/assets/product-11.64379736.jpg",
-    "/assets/product-12.97ab2162.jpg",
-    "/assets/product-13.e0fd076c.jpg",
-    "/assets/product-14.87912399.jpg",
-    "/assets/product-15.62ec7372.jpg",
-    "/assets/product-16.ba4d533b.jpg",
-    "/assets/product-17.c6f449e8.jpg",
-    "/assets/product-18.edd0ccfe.jpg",
-    "/assets/product-19.10f974b4.jpg",
-    "/assets/product-20.10f45280.jpg",
-    "/assets/2.cb66cf0f.png",
-    "/assets/post-1.603604fb.jpg",
-    "/assets/post-2.63efc324.jpg",
-    "/assets/post-3.38a1c60b.jpg",
-    "/assets/post-4.92f98f9b.jpg"
-  ],
-  "src/assets/images/brands/7.png": [
-    "/assets/Home.89dd7870.js",
-    "/assets/Home.60250371.css",
-    "/assets/1.39d58735.jpg",
-    "/assets/3.b8f56676.jpg",
-    "/assets/4.7f098d18.jpg",
-    "/assets/5.8f6dcbe1.jpg",
-    "/assets/6.3ce9bc04.jpg",
-    "/assets/banner-1.bb1eb290.jpg",
-    "/assets/banner-3.d7829625.jpg",
-    "/assets/banner-2.1ba698f1.jpg",
-    "/assets/product-1.d56484c8.jpg",
-    "/assets/product-2.e72cbe6d.jpg",
-    "/assets/product-3.398e69fe.jpg",
-    "/assets/product-4.dfe2bc25.jpg",
-    "/assets/product-5.95cdaf9f.jpg",
-    "/assets/product-6.de4478ea.jpg",
-    "/assets/product-7.484abf26.jpg",
-    "/assets/product-8.fa88cc3e.jpg",
-    "/assets/product-9.5d93f10b.jpg",
-    "/assets/product-10.7985de54.jpg",
-    "/assets/banner-4.f76b5538.jpg",
-    "/assets/banner-5.9dda8293.png",
-    "/assets/product-11.64379736.jpg",
-    "/assets/product-12.97ab2162.jpg",
-    "/assets/product-13.e0fd076c.jpg",
-    "/assets/product-14.87912399.jpg",
-    "/assets/product-15.62ec7372.jpg",
-    "/assets/product-16.ba4d533b.jpg",
-    "/assets/product-17.c6f449e8.jpg",
-    "/assets/product-18.edd0ccfe.jpg",
-    "/assets/product-19.10f974b4.jpg",
-    "/assets/product-20.10f45280.jpg",
-    "/assets/2.cb66cf0f.png",
-    "/assets/post-1.603604fb.jpg",
-    "/assets/post-2.63efc324.jpg",
-    "/assets/post-3.38a1c60b.jpg",
-    "/assets/post-4.92f98f9b.jpg"
-  ],
-  "src/assets/images/demos/demo-13/blog/post-1.jpg": [
-    "/assets/Home.89dd7870.js",
-    "/assets/Home.60250371.css",
-    "/assets/1.39d58735.jpg",
-    "/assets/3.b8f56676.jpg",
-    "/assets/4.7f098d18.jpg",
-    "/assets/5.8f6dcbe1.jpg",
-    "/assets/6.3ce9bc04.jpg",
-    "/assets/banner-1.bb1eb290.jpg",
-    "/assets/banner-3.d7829625.jpg",
-    "/assets/banner-2.1ba698f1.jpg",
-    "/assets/product-1.d56484c8.jpg",
-    "/assets/product-2.e72cbe6d.jpg",
-    "/assets/product-3.398e69fe.jpg",
-    "/assets/product-4.dfe2bc25.jpg",
-    "/assets/product-5.95cdaf9f.jpg",
-    "/assets/product-6.de4478ea.jpg",
-    "/assets/product-7.484abf26.jpg",
-    "/assets/product-8.fa88cc3e.jpg",
-    "/assets/product-9.5d93f10b.jpg",
-    "/assets/product-10.7985de54.jpg",
-    "/assets/banner-4.f76b5538.jpg",
-    "/assets/banner-5.9dda8293.png",
-    "/assets/product-11.64379736.jpg",
-    "/assets/product-12.97ab2162.jpg",
-    "/assets/product-13.e0fd076c.jpg",
-    "/assets/product-14.87912399.jpg",
-    "/assets/product-15.62ec7372.jpg",
-    "/assets/product-16.ba4d533b.jpg",
-    "/assets/product-17.c6f449e8.jpg",
-    "/assets/product-18.edd0ccfe.jpg",
-    "/assets/product-19.10f974b4.jpg",
-    "/assets/product-20.10f45280.jpg",
-    "/assets/2.cb66cf0f.png",
-    "/assets/post-1.603604fb.jpg",
-    "/assets/post-2.63efc324.jpg",
-    "/assets/post-3.38a1c60b.jpg",
-    "/assets/post-4.92f98f9b.jpg"
-  ],
-  "src/assets/images/demos/demo-13/blog/post-2.jpg": [
-    "/assets/Home.89dd7870.js",
-    "/assets/Home.60250371.css",
-    "/assets/1.39d58735.jpg",
-    "/assets/3.b8f56676.jpg",
-    "/assets/4.7f098d18.jpg",
-    "/assets/5.8f6dcbe1.jpg",
-    "/assets/6.3ce9bc04.jpg",
-    "/assets/banner-1.bb1eb290.jpg",
-    "/assets/banner-3.d7829625.jpg",
-    "/assets/banner-2.1ba698f1.jpg",
-    "/assets/product-1.d56484c8.jpg",
-    "/assets/product-2.e72cbe6d.jpg",
-    "/assets/product-3.398e69fe.jpg",
-    "/assets/product-4.dfe2bc25.jpg",
-    "/assets/product-5.95cdaf9f.jpg",
-    "/assets/product-6.de4478ea.jpg",
-    "/assets/product-7.484abf26.jpg",
-    "/assets/product-8.fa88cc3e.jpg",
-    "/assets/product-9.5d93f10b.jpg",
-    "/assets/product-10.7985de54.jpg",
-    "/assets/banner-4.f76b5538.jpg",
-    "/assets/banner-5.9dda8293.png",
-    "/assets/product-11.64379736.jpg",
-    "/assets/product-12.97ab2162.jpg",
-    "/assets/product-13.e0fd076c.jpg",
-    "/assets/product-14.87912399.jpg",
-    "/assets/product-15.62ec7372.jpg",
-    "/assets/product-16.ba4d533b.jpg",
-    "/assets/product-17.c6f449e8.jpg",
-    "/assets/product-18.edd0ccfe.jpg",
-    "/assets/product-19.10f974b4.jpg",
-    "/assets/product-20.10f45280.jpg",
-    "/assets/2.cb66cf0f.png",
-    "/assets/post-1.603604fb.jpg",
-    "/assets/post-2.63efc324.jpg",
-    "/assets/post-3.38a1c60b.jpg",
-    "/assets/post-4.92f98f9b.jpg"
-  ],
-  "src/assets/images/demos/demo-13/blog/post-3.jpg": [
-    "/assets/Home.89dd7870.js",
-    "/assets/Home.60250371.css",
-    "/assets/1.39d58735.jpg",
-    "/assets/3.b8f56676.jpg",
-    "/assets/4.7f098d18.jpg",
-    "/assets/5.8f6dcbe1.jpg",
-    "/assets/6.3ce9bc04.jpg",
-    "/assets/banner-1.bb1eb290.jpg",
-    "/assets/banner-3.d7829625.jpg",
-    "/assets/banner-2.1ba698f1.jpg",
-    "/assets/product-1.d56484c8.jpg",
-    "/assets/product-2.e72cbe6d.jpg",
-    "/assets/product-3.398e69fe.jpg",
-    "/assets/product-4.dfe2bc25.jpg",
-    "/assets/product-5.95cdaf9f.jpg",
-    "/assets/product-6.de4478ea.jpg",
-    "/assets/product-7.484abf26.jpg",
-    "/assets/product-8.fa88cc3e.jpg",
-    "/assets/product-9.5d93f10b.jpg",
-    "/assets/product-10.7985de54.jpg",
-    "/assets/banner-4.f76b5538.jpg",
-    "/assets/banner-5.9dda8293.png",
-    "/assets/product-11.64379736.jpg",
-    "/assets/product-12.97ab2162.jpg",
-    "/assets/product-13.e0fd076c.jpg",
-    "/assets/product-14.87912399.jpg",
-    "/assets/product-15.62ec7372.jpg",
-    "/assets/product-16.ba4d533b.jpg",
-    "/assets/product-17.c6f449e8.jpg",
-    "/assets/product-18.edd0ccfe.jpg",
-    "/assets/product-19.10f974b4.jpg",
-    "/assets/product-20.10f45280.jpg",
-    "/assets/2.cb66cf0f.png",
-    "/assets/post-1.603604fb.jpg",
-    "/assets/post-2.63efc324.jpg",
-    "/assets/post-3.38a1c60b.jpg",
-    "/assets/post-4.92f98f9b.jpg"
-  ],
-  "src/assets/images/demos/demo-13/blog/post-4.jpg": [
-    "/assets/Home.89dd7870.js",
-    "/assets/Home.60250371.css",
-    "/assets/1.39d58735.jpg",
-    "/assets/3.b8f56676.jpg",
-    "/assets/4.7f098d18.jpg",
-    "/assets/5.8f6dcbe1.jpg",
-    "/assets/6.3ce9bc04.jpg",
-    "/assets/banner-1.bb1eb290.jpg",
-    "/assets/banner-3.d7829625.jpg",
-    "/assets/banner-2.1ba698f1.jpg",
-    "/assets/product-1.d56484c8.jpg",
-    "/assets/product-2.e72cbe6d.jpg",
-    "/assets/product-3.398e69fe.jpg",
-    "/assets/product-4.dfe2bc25.jpg",
-    "/assets/product-5.95cdaf9f.jpg",
-    "/assets/product-6.de4478ea.jpg",
-    "/assets/product-7.484abf26.jpg",
-    "/assets/product-8.fa88cc3e.jpg",
-    "/assets/product-9.5d93f10b.jpg",
-    "/assets/product-10.7985de54.jpg",
-    "/assets/banner-4.f76b5538.jpg",
-    "/assets/banner-5.9dda8293.png",
-    "/assets/product-11.64379736.jpg",
-    "/assets/product-12.97ab2162.jpg",
-    "/assets/product-13.e0fd076c.jpg",
-    "/assets/product-14.87912399.jpg",
-    "/assets/product-15.62ec7372.jpg",
-    "/assets/product-16.ba4d533b.jpg",
-    "/assets/product-17.c6f449e8.jpg",
-    "/assets/product-18.edd0ccfe.jpg",
-    "/assets/product-19.10f974b4.jpg",
-    "/assets/product-20.10f45280.jpg",
-    "/assets/2.cb66cf0f.png",
-    "/assets/post-1.603604fb.jpg",
-    "/assets/post-2.63efc324.jpg",
-    "/assets/post-3.38a1c60b.jpg",
-    "/assets/post-4.92f98f9b.jpg"
+    "/assets/banner-5.9dda8293.png"
   ],
   "src/pages/Home.vue?vue&type=style&index=0&scoped=true&lang.css": [
-    "/assets/Home.89dd7870.js",
-    "/assets/Home.60250371.css",
-    "/assets/1.39d58735.jpg",
-    "/assets/3.b8f56676.jpg",
-    "/assets/4.7f098d18.jpg",
-    "/assets/5.8f6dcbe1.jpg",
-    "/assets/6.3ce9bc04.jpg",
+    "/assets/Home.51e3f8a7.js",
+    "/assets/Home.cce71adf.css",
     "/assets/banner-1.bb1eb290.jpg",
     "/assets/banner-3.d7829625.jpg",
     "/assets/banner-2.1ba698f1.jpg",
-    "/assets/product-1.d56484c8.jpg",
-    "/assets/product-2.e72cbe6d.jpg",
-    "/assets/product-3.398e69fe.jpg",
-    "/assets/product-4.dfe2bc25.jpg",
-    "/assets/product-5.95cdaf9f.jpg",
-    "/assets/product-6.de4478ea.jpg",
-    "/assets/product-7.484abf26.jpg",
-    "/assets/product-8.fa88cc3e.jpg",
-    "/assets/product-9.5d93f10b.jpg",
-    "/assets/product-10.7985de54.jpg",
     "/assets/banner-4.f76b5538.jpg",
-    "/assets/banner-5.9dda8293.png",
-    "/assets/product-11.64379736.jpg",
-    "/assets/product-12.97ab2162.jpg",
-    "/assets/product-13.e0fd076c.jpg",
-    "/assets/product-14.87912399.jpg",
-    "/assets/product-15.62ec7372.jpg",
-    "/assets/product-16.ba4d533b.jpg",
-    "/assets/product-17.c6f449e8.jpg",
-    "/assets/product-18.edd0ccfe.jpg",
-    "/assets/product-19.10f974b4.jpg",
-    "/assets/product-20.10f45280.jpg",
-    "/assets/2.cb66cf0f.png",
-    "/assets/post-1.603604fb.jpg",
-    "/assets/post-2.63efc324.jpg",
-    "/assets/post-3.38a1c60b.jpg",
-    "/assets/post-4.92f98f9b.jpg"
+    "/assets/banner-5.9dda8293.png"
   ],
   "src/pages/Home.vue": [
-    "/assets/Home.89dd7870.js",
-    "/assets/Home.60250371.css",
-    "/assets/1.39d58735.jpg",
-    "/assets/3.b8f56676.jpg",
-    "/assets/4.7f098d18.jpg",
-    "/assets/5.8f6dcbe1.jpg",
-    "/assets/6.3ce9bc04.jpg",
+    "/assets/Home.51e3f8a7.js",
+    "/assets/Home.cce71adf.css",
     "/assets/banner-1.bb1eb290.jpg",
     "/assets/banner-3.d7829625.jpg",
     "/assets/banner-2.1ba698f1.jpg",
-    "/assets/product-1.d56484c8.jpg",
-    "/assets/product-2.e72cbe6d.jpg",
-    "/assets/product-3.398e69fe.jpg",
-    "/assets/product-4.dfe2bc25.jpg",
-    "/assets/product-5.95cdaf9f.jpg",
-    "/assets/product-6.de4478ea.jpg",
-    "/assets/product-7.484abf26.jpg",
-    "/assets/product-8.fa88cc3e.jpg",
-    "/assets/product-9.5d93f10b.jpg",
-    "/assets/product-10.7985de54.jpg",
     "/assets/banner-4.f76b5538.jpg",
-    "/assets/banner-5.9dda8293.png",
-    "/assets/product-11.64379736.jpg",
-    "/assets/product-12.97ab2162.jpg",
-    "/assets/product-13.e0fd076c.jpg",
-    "/assets/product-14.87912399.jpg",
-    "/assets/product-15.62ec7372.jpg",
-    "/assets/product-16.ba4d533b.jpg",
-    "/assets/product-17.c6f449e8.jpg",
-    "/assets/product-18.edd0ccfe.jpg",
-    "/assets/product-19.10f974b4.jpg",
-    "/assets/product-20.10f45280.jpg",
-    "/assets/2.cb66cf0f.png",
-    "/assets/post-1.603604fb.jpg",
-    "/assets/post-2.63efc324.jpg",
-    "/assets/post-3.38a1c60b.jpg",
-    "/assets/post-4.92f98f9b.jpg"
+    "/assets/banner-5.9dda8293.png"
   ],
   "node_modules/vue3-carousel/dist/carousel.css": [
-    "/assets/LargeCarousel.07eea02c.js",
+    "/assets/LargeCarousel.24931519.js",
     "/assets/LargeCarousel.64c6af7a.css"
   ],
   "node_modules/vue3-carousel/dist/carousel.es.js": [
-    "/assets/LargeCarousel.07eea02c.js",
+    "/assets/LargeCarousel.24931519.js",
     "/assets/LargeCarousel.64c6af7a.css"
   ],
   "src/components/partials/LargeCarousel.vue?vue&type=style&index=0&lang.css": [
-    "/assets/LargeCarousel.07eea02c.js",
+    "/assets/LargeCarousel.24931519.js",
     "/assets/LargeCarousel.64c6af7a.css"
   ],
   "src/components/partials/LargeCarousel.vue": [
-    "/assets/LargeCarousel.07eea02c.js",
+    "/assets/LargeCarousel.24931519.js",
     "/assets/LargeCarousel.64c6af7a.css"
   ],
+  "src/components/partials/Product.vue?vue&type=style&index=0&scoped=true&lang.css": [
+    "/assets/Product.5b1a6fd9.js",
+    "/assets/Product.21ab4837.css"
+  ],
+  "src/components/partials/Product.vue": [
+    "/assets/Product.5b1a6fd9.js",
+    "/assets/Product.21ab4837.css"
+  ],
+  "src/components/partials/Category.vue": [
+    "/assets/Category.280ba76b.js"
+  ],
   "src/pages/About.vue?vue&type=style&index=0&scoped=true&lang.css": [
-    "/assets/About.d36236d2.js",
+    "/assets/About.f5f9d0aa.js",
     "/assets/About.6f70a21c.css"
   ],
   "src/pages/About.vue": [
-    "/assets/About.d36236d2.js",
+    "/assets/About.f5f9d0aa.js",
     "/assets/About.6f70a21c.css"
   ],
+  "src/pages/auth/Google.vue": [
+    "/assets/Google.0fd12d21.js"
+  ],
+  "src/components/partials/Modal.vue?vue&type=style&index=0&scoped=true&lang.css": [
+    "/assets/Modal.0dc946f6.js",
+    "/assets/Modal.b476e9e2.css"
+  ],
+  "src/components/partials/Modal.vue": [
+    "/assets/Modal.0dc946f6.js",
+    "/assets/Modal.b476e9e2.css"
+  ],
+  "src/pages/Search.vue": [
+    "/assets/Search.41d68878.js"
+  ],
+  "src/components/partials/StoreItem.vue": [
+    "/assets/StoreItem.3b622ebf.js"
+  ],
+  "src/pages/cart/Index.vue": [
+    "/assets/Index.c1c1352d.js"
+  ],
+  "src/assets/images/payments-summary.png": [
+    "/assets/Checkout.7dc13124.js",
+    "/assets/payments-summary.dbd3a349.png"
+  ],
+  "src/pages/cart/Checkout.vue": [
+    "/assets/Checkout.7dc13124.js",
+    "/assets/payments-summary.dbd3a349.png"
+  ],
+  "src/pages/cart/Wishlist.vue": [
+    "/assets/Wishlist.b68fbe0b.js"
+  ],
   "src/pages/products/Show.vue": [
-    "/assets/Show.8b931328.js"
+    "/assets/Show.23203d13.js"
   ],
   "src/pages/categories/Index.vue": [
-    "/assets/Index.82d213f1.js"
+    "/assets/Index.65eb8ce5.js"
   ],
   "src/pages/categories/Show.vue": [
-    "/assets/Show.73b1effe.js"
+    "/assets/Show.2b458bdf.js"
+  ],
+  "src/components/partials/filter/StoreCategoryFilter.vue": [
+    "/assets/StoreCategoryFilter.0c6958d0.js"
+  ],
+  "src/components/partials/Pagination.vue": [
+    "/assets/Pagination.a18f6f1e.js"
+  ],
+  "src/components/stores/StoreCategoryTree.vue?vue&type=style&index=0&scoped=true&lang.css": [
+    "/assets/StoreCategoryTree.170594b3.js",
+    "/assets/StoreCategoryTree.469bfa67.css"
+  ],
+  "src/components/stores/StoreCategoryTree.vue": [
+    "/assets/StoreCategoryTree.170594b3.js",
+    "/assets/StoreCategoryTree.469bfa67.css"
   ],
   "src/pages/stores/Index.vue": [
-    "/assets/Index.98b262bb.js"
+    "/assets/Index.ce2363ec.js"
   ],
   "src/pages/stores/Create.vue": [
-    "/assets/Create.34d8a318.js"
+    "/assets/Create.7a046336.js"
   ],
   "src/components/partials/Editor.vue": [
-    "/assets/FileSelect.135b6d93.js",
-    "/assets/FileSelect.e2e13ff5.css"
+    "/assets/Editor.b686259c.js"
   ],
   "node_modules/leaflet/dist/leaflet.css": [
-    "/assets/FileSelect.135b6d93.js",
+    "/assets/FileSelect.0b66f328.js",
     "/assets/FileSelect.e2e13ff5.css"
   ],
   "src/components/partials/AddressSelect.vue": [
-    "/assets/FileSelect.135b6d93.js",
+    "/assets/FileSelect.0b66f328.js",
     "/assets/FileSelect.e2e13ff5.css"
   ],
   "node_modules/viewerjs/dist/viewer.esm.js": [
-    "/assets/FileSelect.135b6d93.js",
+    "/assets/FileSelect.0b66f328.js",
     "/assets/FileSelect.e2e13ff5.css"
   ],
   "node_modules/viewerjs/dist/viewer.min.css": [
-    "/assets/FileSelect.135b6d93.js",
+    "/assets/FileSelect.0b66f328.js",
     "/assets/FileSelect.e2e13ff5.css"
   ],
   "src/components/partials/FileSelect.vue": [
-    "/assets/FileSelect.135b6d93.js",
+    "/assets/FileSelect.0b66f328.js",
     "/assets/FileSelect.e2e13ff5.css"
   ],
+  "src/components/stores/SocialMedia.vue": [
+    "/assets/Store.bc287f64.js",
+    "/assets/Store.302bf7d3.css"
+  ],
   "src/components/layouts/Store.vue?vue&type=style&index=0&scoped=true&lang.css": [
-    "/assets/Store.f5cbd176.js",
-    "/assets/Store.fc8ce168.css"
+    "/assets/Store.bc287f64.js",
+    "/assets/Store.302bf7d3.css"
   ],
   "src/components/layouts/Store.vue": [
-    "/assets/Store.f5cbd176.js",
-    "/assets/Store.fc8ce168.css"
+    "/assets/Store.bc287f64.js",
+    "/assets/Store.302bf7d3.css"
   ],
   "src/assets/images/demos/demo-13/banners/banner-6.jpg": [
-    "/assets/Show.f3d2a492.js",
+    "/assets/Show.9a7e1f0f.js",
     "/assets/banner-6.0000ea95.jpg"
   ],
   "src/components/stores/StoreCategories.vue": [
-    "/assets/Show.f3d2a492.js",
-    "/assets/banner-6.0000ea95.jpg"
-  ],
-  "src/components/partials/filter/Color.vue": [
-    "/assets/Show.f3d2a492.js",
-    "/assets/banner-6.0000ea95.jpg"
-  ],
-  "src/components/partials/filter/CustomerRating.vue": [
-    "/assets/Show.f3d2a492.js",
-    "/assets/banner-6.0000ea95.jpg"
-  ],
-  "src/components/partials/filter/Price.vue": [
-    "/assets/Show.f3d2a492.js",
-    "/assets/banner-6.0000ea95.jpg"
-  ],
-  "src/components/partials/filter/Brand.vue": [
-    "/assets/Show.f3d2a492.js",
+    "/assets/Show.9a7e1f0f.js",
     "/assets/banner-6.0000ea95.jpg"
   ],
   "src/pages/stores/Show.vue": [
-    "/assets/Show.f3d2a492.js",
+    "/assets/Show.9a7e1f0f.js",
     "/assets/banner-6.0000ea95.jpg"
   ],
-  "src/components/stores/StoreCategoryTree.vue?vue&type=style&index=0&scoped=true&lang.css": [
-    "/assets/Product.961173d2.js",
-    "/assets/Product.a4c45f47.css"
+  "src/components/stores/Product.vue?vue&type=style&index=0&scoped=true&lang.css": [
+    "/assets/Product.7e68d9ba.js",
+    "/assets/Product.c5695de8.css"
   ],
-  "src/components/stores/StoreCategoryTree.vue": [
-    "/assets/Product.961173d2.js",
-    "/assets/Product.a4c45f47.css"
-  ],
-  "src/components/partials/Product.vue?vue&type=style&index=0&scoped=true&lang.css": [
-    "/assets/Product.961173d2.js",
-    "/assets/Product.a4c45f47.css"
-  ],
-  "src/components/partials/Product.vue": [
-    "/assets/Product.961173d2.js",
-    "/assets/Product.a4c45f47.css"
+  "src/components/stores/Product.vue": [
+    "/assets/Product.7e68d9ba.js",
+    "/assets/Product.c5695de8.css"
   ],
   "src/pages/stores/Edit.vue": [
-    "/assets/Edit.1f3684d4.js"
-  ],
-  "src/components/partials/filter/StoreCategoryFilter.vue": [
-    "/assets/Show.3ee00a6c.js"
+    "/assets/Edit.4273c1f6.js"
   ],
   "src/pages/stores/categories/Show.vue": [
-    "/assets/Show.3ee00a6c.js"
-  ],
-  "src/components/stores/Store.vue?vue&type=style&index=0&scoped=true&lang.css": [
-    "/assets/Pagination.bdb6d2a5.js",
-    "/assets/Pagination.d0622756.css"
-  ],
-  "src/components/stores/Store.vue": [
-    "/assets/Pagination.bdb6d2a5.js",
-    "/assets/Pagination.d0622756.css"
-  ],
-  "src/components/partials/Pagination.vue": [
-    "/assets/Pagination.bdb6d2a5.js",
-    "/assets/Pagination.d0622756.css"
-  ],
-  "src/assets/images/products/single/sidebar/1.jpg": [
-    "/assets/Show.f0577282.js",
-    "/assets/1.0e62db6f.jpg",
-    "/assets/2.682a4a8d.jpg",
-    "/assets/3.077f04b8.jpg",
-    "/assets/banner.13078450.jpg"
-  ],
-  "src/assets/images/products/single/sidebar/2.jpg": [
-    "/assets/Show.f0577282.js",
-    "/assets/1.0e62db6f.jpg",
-    "/assets/2.682a4a8d.jpg",
-    "/assets/3.077f04b8.jpg",
-    "/assets/banner.13078450.jpg"
-  ],
-  "src/assets/images/products/single/sidebar/3.jpg": [
-    "/assets/Show.f0577282.js",
-    "/assets/1.0e62db6f.jpg",
-    "/assets/2.682a4a8d.jpg",
-    "/assets/3.077f04b8.jpg",
-    "/assets/banner.13078450.jpg"
-  ],
-  "src/assets/images/products/single/sidebar/4.jpg": [
-    "/assets/Show.f0577282.js",
-    "/assets/1.0e62db6f.jpg",
-    "/assets/2.682a4a8d.jpg",
-    "/assets/3.077f04b8.jpg",
-    "/assets/banner.13078450.jpg"
+    "/assets/Show.3d855cb2.js"
   ],
   "src/assets/images/blog/sidebar/banner.jpg": [
-    "/assets/Show.f0577282.js",
-    "/assets/1.0e62db6f.jpg",
-    "/assets/2.682a4a8d.jpg",
-    "/assets/3.077f04b8.jpg",
+    "/assets/Show.7eab612e.js",
+    "/assets/Show.aa28abc2.css",
+    "/assets/banner.13078450.jpg"
+  ],
+  "src/components/stores/Store.vue?vue&type=style&index=0&scoped=true&lang.css": [
+    "/assets/Show.7eab612e.js",
+    "/assets/Show.aa28abc2.css",
     "/assets/banner.13078450.jpg"
   ],
   "src/components/partials/ImgZoom.vue": [
-    "/assets/Show.f0577282.js",
-    "/assets/1.0e62db6f.jpg",
-    "/assets/2.682a4a8d.jpg",
-    "/assets/3.077f04b8.jpg",
+    "/assets/Show.7eab612e.js",
+    "/assets/Show.aa28abc2.css",
     "/assets/banner.13078450.jpg"
   ],
   "src/pages/stores/products/Show.vue": [
-    "/assets/Show.f0577282.js",
-    "/assets/1.0e62db6f.jpg",
-    "/assets/2.682a4a8d.jpg",
-    "/assets/3.077f04b8.jpg",
+    "/assets/Show.7eab612e.js",
+    "/assets/Show.aa28abc2.css",
     "/assets/banner.13078450.jpg"
   ],
-  "src/components/partials/Modal.vue?vue&type=style&index=0&scoped=true&lang.css": [
-    "/assets/Modal.5de548d1.js",
-    "/assets/Modal.7c926c16.css"
+  "src/components/partials/VSelect.vue": [
+    "/assets/VSelect.8f5ec4f0.js"
   ],
-  "src/components/partials/Modal.vue": [
-    "/assets/Modal.5de548d1.js",
-    "/assets/Modal.7c926c16.css"
+  "\u0000/home/bakyt/Desktop/megazone-frontend/node_modules/vue3-select/dist/vue-select.js?commonjs-module": [
+    "/assets/vue-select.e4d40a55.js"
+  ],
+  "\u0000/home/bakyt/Desktop/megazone-frontend/node_modules/vue/dist/vue.runtime.esm-bundler.js?commonjs-proxy": [
+    "/assets/vue-select.e4d40a55.js"
+  ],
+  "node_modules/vue3-select/dist/vue-select.js": [
+    "/assets/vue-select.e4d40a55.js"
   ],
   "node_modules/@pqina/pintura/pintura.js": [
-    "/assets/Create.f587f191.js",
-    "/assets/Create.f5e66f34.css"
+    "/assets/Create.4b6d98d0.js",
+    "/assets/Create.c1c1fdf1.css"
   ],
   "node_modules/@pqina/vue-pintura/PinturaEditor.js": [
-    "/assets/Create.f587f191.js",
-    "/assets/Create.f5e66f34.css"
+    "/assets/Create.4b6d98d0.js",
+    "/assets/Create.c1c1fdf1.css"
   ],
   "node_modules/@pqina/pintura/pintura.css": [
-    "/assets/Create.f587f191.js",
-    "/assets/Create.f5e66f34.css"
-  ],
-  "src/components/partials/ImageEditor.vue?vue&type=style&index=0&lang.css": [
-    "/assets/Create.f587f191.js",
-    "/assets/Create.f5e66f34.css"
+    "/assets/Create.4b6d98d0.js",
+    "/assets/Create.c1c1fdf1.css"
   ],
   "src/components/partials/ImageEditorModal.vue?vue&type=style&index=0&lang.css": [
-    "/assets/Create.f587f191.js",
-    "/assets/Create.f5e66f34.css"
+    "/assets/Create.4b6d98d0.js",
+    "/assets/Create.c1c1fdf1.css"
   ],
   "src/components/partials/ImageEditorModal.vue": [
-    "/assets/Create.f587f191.js",
-    "/assets/Create.f5e66f34.css"
+    "/assets/Create.4b6d98d0.js",
+    "/assets/Create.c1c1fdf1.css"
   ],
   "src/components/partials/store-category-select/StoreCategorySelectModal.vue": [
-    "/assets/Create.f587f191.js",
-    "/assets/Create.f5e66f34.css"
+    "/assets/Create.4b6d98d0.js",
+    "/assets/Create.c1c1fdf1.css"
   ],
   "src/components/partials/store-category-select/StoreCategorySelect.vue": [
-    "/assets/Create.f587f191.js",
-    "/assets/Create.f5e66f34.css"
+    "/assets/Create.4b6d98d0.js",
+    "/assets/Create.c1c1fdf1.css"
+  ],
+  "src/components/partials/Field.vue": [
+    "/assets/Create.4b6d98d0.js",
+    "/assets/Create.c1c1fdf1.css"
+  ],
+  "src/components/partials/BrandSelect.vue": [
+    "/assets/Create.4b6d98d0.js",
+    "/assets/Create.c1c1fdf1.css"
   ],
   "src/pages/stores/products/Create.vue?vue&type=style&index=0&scoped=true&lang.css": [
-    "/assets/Create.f587f191.js",
-    "/assets/Create.f5e66f34.css"
+    "/assets/Create.4b6d98d0.js",
+    "/assets/Create.c1c1fdf1.css"
   ],
   "src/pages/stores/products/Create.vue": [
-    "/assets/Create.f587f191.js",
-    "/assets/Create.f5e66f34.css"
+    "/assets/Create.4b6d98d0.js",
+    "/assets/Create.c1c1fdf1.css"
   ],
   "src/components/partials/category-select/CategoriesTree.vue?vue&type=style&index=0&scoped=true&lang.css": [
-    "/assets/CategoriesTree.db020ee8.js",
+    "/assets/CategoriesTree.1a482ba0.js",
     "/assets/CategoriesTree.6095f8d4.css"
   ],
   "src/components/partials/category-select/CategoriesTree.vue": [
-    "/assets/CategoriesTree.db020ee8.js",
+    "/assets/CategoriesTree.1a482ba0.js",
     "/assets/CategoriesTree.6095f8d4.css"
   ],
   "src/pages/stores/settings/Index.vue": [
-    "/assets/Index.88944c46.js"
+    "/assets/Index.71583c3f.js"
   ],
   "src/pages/stores/settings/categories/Show.vue": [
-    "/assets/Show.fd3959d8.js"
-  ],
-  "src/components/partials/category-select/CategorySelectModal.vue": [
-    "/assets/Index.f6355842.js",
-    "/assets/Index.f2a1b874.css"
-  ],
-  "src/components/partials/category-select/CategorySelect.vue": [
-    "/assets/Index.f6355842.js",
-    "/assets/Index.f2a1b874.css"
+    "/assets/Show.67938f83.js"
   ],
   "src/components/stores/settings/StoreCategoryTree.vue?vue&type=style&index=0&scoped=true&lang.css": [
-    "/assets/Index.f6355842.js",
+    "/assets/Index.de80d58e.js",
     "/assets/Index.f2a1b874.css"
   ],
   "src/components/stores/settings/StoreCategoryTree.vue": [
-    "/assets/Index.f6355842.js",
+    "/assets/Index.de80d58e.js",
     "/assets/Index.f2a1b874.css"
   ],
-  "\u0000/home/bakyt/Desktop/megazone-frontend/node_modules/vue3-select/dist/vue-select.js?commonjs-module": [
-    "/assets/Index.f6355842.js",
+  "src/components/partials/category-select/CategorySelectModal.vue": [
+    "/assets/Index.de80d58e.js",
     "/assets/Index.f2a1b874.css"
   ],
-  "\u0000/home/bakyt/Desktop/megazone-frontend/node_modules/vue/dist/vue.runtime.esm-bundler.js?commonjs-proxy": [
-    "/assets/Index.f6355842.js",
-    "/assets/Index.f2a1b874.css"
-  ],
-  "node_modules/vue3-select/dist/vue-select.js": [
-    "/assets/Index.f6355842.js",
+  "src/components/partials/category-select/CategorySelect.vue": [
+    "/assets/Index.de80d58e.js",
     "/assets/Index.f2a1b874.css"
   ],
   "src/components/stores/settings/SizeSelect.vue?vue&type=style&index=0&scoped=true&lang.css": [
-    "/assets/Index.f6355842.js",
+    "/assets/Index.de80d58e.js",
     "/assets/Index.f2a1b874.css"
   ],
   "src/components/stores/settings/SizeSelect.vue": [
-    "/assets/Index.f6355842.js",
+    "/assets/Index.de80d58e.js",
     "/assets/Index.f2a1b874.css"
   ],
   "src/components/stores/settings/StoreCategoryModal.vue?vue&type=style&index=0&scoped=true&lang.css": [
-    "/assets/Index.f6355842.js",
+    "/assets/Index.de80d58e.js",
     "/assets/Index.f2a1b874.css"
   ],
   "src/components/stores/settings/StoreCategoryModal.vue": [
-    "/assets/Index.f6355842.js",
+    "/assets/Index.de80d58e.js",
     "/assets/Index.f2a1b874.css"
   ],
   "src/components/stores/settings/FieldsModal.vue": [
-    "/assets/Index.f6355842.js",
+    "/assets/Index.de80d58e.js",
     "/assets/Index.f2a1b874.css"
   ],
   "src/components/stores/settings/StoreCategories.vue": [
-    "/assets/Index.f6355842.js",
+    "/assets/Index.de80d58e.js",
     "/assets/Index.f2a1b874.css"
   ],
   "src/pages/stores/settings/categories/Index.vue": [
-    "/assets/Index.f6355842.js",
+    "/assets/Index.de80d58e.js",
     "/assets/Index.f2a1b874.css"
   ],
   "src/assets/images/demos/demo-13/menu/banner-1.jpg": [
-    "/assets/CategoriesMenu.7cb30897.js",
-    "/assets/CategoriesMenu.f63ebadd.css",
+    "/assets/CategoriesMenu.814f43dc.js",
+    "/assets/CategoriesMenu.9251e65e.css",
     "/assets/banner-1.e6174445.jpg"
   ],
   "src/components/header/CategoriesMenu.vue?vue&type=style&index=0&scoped=true&lang.css": [
-    "/assets/CategoriesMenu.7cb30897.js",
-    "/assets/CategoriesMenu.f63ebadd.css",
+    "/assets/CategoriesMenu.814f43dc.js",
+    "/assets/CategoriesMenu.9251e65e.css",
     "/assets/banner-1.e6174445.jpg"
   ],
   "src/components/header/CategoriesMenu.vue": [
-    "/assets/CategoriesMenu.7cb30897.js",
-    "/assets/CategoriesMenu.f63ebadd.css",
+    "/assets/CategoriesMenu.814f43dc.js",
+    "/assets/CategoriesMenu.9251e65e.css",
     "/assets/banner-1.e6174445.jpg"
   ],
   "src/components/header/Search.vue": [
-    "/assets/Search.80a1c4f1.js"
-  ],
-  "src/assets/images/products/cart/product-1.jpg": [
-    "/assets/Cart.31032ec1.js"
-  ],
-  "src/assets/images/products/cart/product-2.jpg": [
-    "/assets/Cart.31032ec1.js"
+    "/assets/Search.ada2a503.js"
   ],
   "src/components/header/Cart.vue": [
-    "/assets/Cart.31032ec1.js"
+    "/assets/Cart.5814d8ce.js"
   ],
   "src/components/header/Compare.vue": [
-    "/assets/Compare.b0cb09ad.js"
-  ],
-  "src/assets/images/menu/banner-1.jpg": [
-    "/assets/Stores.7a2e7b57.js",
-    "/assets/banner-1.29cfc9bc.jpg"
+    "/assets/Compare.e50c2f92.js"
   ],
   "src/components/header/menu/Stores.vue": [
-    "/assets/Stores.7a2e7b57.js",
-    "/assets/banner-1.29cfc9bc.jpg"
+    "/assets/Stores.a74c98be.js"
   ],
   "src/components/header/Auth.vue": [
-    "/assets/Auth.99cd585f.js"
+    "/assets/Auth.643b7893.js"
   ],
   "\u0000/home/bakyt/Desktop/megazone-frontend/node_modules/leaflet/dist/leaflet-src.js?commonjs-module": [
-    "/assets/leaflet-src.159a9cfe.js"
+    "/assets/leaflet-src.1f5dc125.js"
   ],
   "node_modules/leaflet/dist/leaflet-src.js": [
-    "/assets/leaflet-src.159a9cfe.js"
+    "/assets/leaflet-src.1f5dc125.js"
   ]
 }

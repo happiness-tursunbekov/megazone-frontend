@@ -166,7 +166,7 @@
                     <h2 class="card-title">
                       <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-5" aria-expanded="false" aria-controls="collapse-5">
                         Credit Card (Stripe)
-                        <img src="assets/images/payments-summary.png" alt="payments cards">
+                        <img src="../../assets/images/payments-summary.png" alt="payments cards">
                       </a>
                     </h2>
                   </div><!-- End .card-header -->
