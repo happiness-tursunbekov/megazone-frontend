@@ -1,5 +1,5 @@
 <template>
-  <div v-if="title && !isStore" class="page-header text-center" style="background-image: url('/src/assets/images/page-header-bg.jpg')">
+  <div v-if="title && !isStore" class="page-header text-center" :style="{ backgroundImage: 'url(http://localhost:8000/storage/default-images/page-header-bg.jpg)'}">
     <div class="container-fluid">
       <h1 class="page-title">{{ title }}</h1>
     </div><!-- End .container-fluid -->
